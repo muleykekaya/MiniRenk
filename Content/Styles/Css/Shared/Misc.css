@@ -1,0 +1,56 @@
+[data-expand] {
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  -moz-transition: height 0.4s ease-in-out, opacity 0.3s;
+  -o-transition: height 0.4s ease-in-out, opacity 0.3s;
+  -webkit-transition: height 0.4s ease-in-out, opacity 0.3s;
+  transition: height 0.4s ease-in-out, opacity 0.3s;
+}
+[data-expand].on {
+  opacity: 1;
+  -moz-transition: height 0.4s ease-in-out, opacity 1s;
+  -o-transition: height 0.4s ease-in-out, opacity 1s;
+  -webkit-transition: height 0.4s ease-in-out, opacity 1s;
+  transition: height 0.4s ease-in-out, opacity 1s;
+}
+[data-expand].init-on {
+  opacity: 1;
+  height: auto;
+}
+
+#contentContainer #expandedContentContainer {
+  display: none;
+}
+#contentContainer #shrinkContentBtn {
+  display: none;
+}
+#contentContainer.on #expandedContentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contentContainer.on #shrinkContentBtn {
+  display: block;
+}
+#contentContainer.on #expandContentBtn {
+  display: none;
+}
+
+.carousel__button.fancybox__button--thumbs, .carousel__button.fancybox__button--fullscreen, .carousel__button.fancybox__button--slideshow, .carousel__button.fancybox__button--zoom {
+  display: none;
+}
+
+@keyframes scaleAnim {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*# sourceMappingURL=Misc.css.map */

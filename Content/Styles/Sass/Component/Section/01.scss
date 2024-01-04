@@ -1,0 +1,61 @@
+﻿@import "../../Base/Global.scss";
+/* Common xs1, xs2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .section-01 {
+        .c-wrapper {}
+    }
+}
+
+/* Common sm, md, lg */
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+    .section-01 {
+
+        .c-wrapper {
+            display: flex;
+            width: 100%;
+            margin-left: calc((100% - #{$c-wrapper-md-width + "px"}) / 2);
+           
+
+            .container-01 {
+                width: 616px;
+                padding-right: 120px;
+
+                .item {
+                    color: #0068C7;
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+
+                .item-01 {
+                    color: #000;
+                    font-size: 64px;
+                    font-weight: 600;
+                }
+
+                .item-02 {
+                    color: #1A4359;
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding-right: 114px;
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                }
+                
+            }
+
+            .container-02 {
+               flex: 1;
+
+               .item-03{
+                width: 100%;
+                height: 705px;
+                object-fit: cover;
+                
+
+               }
+
+    
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+@import "Global.scss";
+//
+//
+//
+//
+
+//
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+
+}
+ 
+/* LG */
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+    
+}

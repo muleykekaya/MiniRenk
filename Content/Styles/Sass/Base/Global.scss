@@ -1,0 +1,118 @@
+
+$mq-xs1: 0;
+$mq-xs2: 420;
+$mq-sm1: 768;
+$mq-sm2: 1024;
+$mq-md: 1380;
+$mq-lg: 1680;
+$mq-xl: 1920;
+//
+//
+// device pixel ratio ranges
+//
+$px-ratio-zoom110-min: 1.01;
+$px-ratio-zoom110-max: 1.10;
+$px-ratio-zoom125-min: 1.11;
+$px-ratio-zoom125-max: 1.49;
+$px-ratio-zoom150-min: 1.50;
+$px-ratio-zoom150-max: 1.99;
+//
+//
+// zoom level values
+//
+$zoom-md-110: 0.95;
+$zoom-md-125: 0.9;
+$zoom-md-150: 0.8;
+//
+//
+// view height values based on zoom levels
+//
+$vH-md-110: #{(100 / $zoom-md-110) + "vh"};
+$vH-md-125: #{(100 / $zoom-md-125) + "vh"};
+$vH-md-150: #{(100 / $zoom-md-150) + "vh"};
+
+$zoom-sm: 0.57;
+
+$vH-100-sm-zoom: #{(100 / $zoom-sm) + "vh"};
+$vw-100-sm-zoom: #{(100 / $zoom-sm) + "vw"};
+$vw-50-sm-zoom: #{(50 / $zoom-sm) + "vw"};
+
+//
+//
+//
+//
+// c-wrapper width values:
+//
+$c-wrapper-xs1-width: calc(100% - 40px);
+$c-wrapper-xs2-width: calc(100% - 40px);
+$c-wrapper-sm1-width: 1280;
+$c-wrapper-sm2-width: 1280;
+$c-wrapper-md-width: 1360;
+$c-wrapper-lg-width: 1360;
+$c-wrapper-xl-width: 1360;
+
+
+@mixin dynamicTransform($transform...) {
+    -webkit-transform: $transform;
+    -moz-transform: $transform;
+    -ms-transform: $transform;
+    -o-transform: $transform;
+    transform: $transform;
+}
+
+@mixin dynamicTransition($transition...) {
+    -moz-transition: $transition;
+    -o-transition: $transition;
+    -webkit-transition: $transition;
+    transition: $transition;
+}
+
+@mixin transform-X-animation($duration, $amount) {
+    @include dynamicTransition(transform $duration);
+
+    &:hover {
+        @include dynamicTransform(TranslateX($amount));
+    }
+}
+//
+//
+// Replace letters
+@function str-replace($string, $search, $replace: '') {
+    $index: str-index($string, $search);
+
+    @if $index {
+        @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+    }
+
+    @return $string;
+}
+//
+//
+// Encode symbols
+@function url-encode($string) {
+    $map: ( "%": "%25", "<": "%3C", ">": "%3E", " ": "%20", "!": "%21", "*": "%2A", "'": "%27", '"': "%22", "(": "%28", ")": "%29", ";": "%3B", ":": "%3A", "@": "%40", "&": "%26", "=": "%3D", "+": "%2B", "$": "%24", ",": "%2C", "/": "%2F", "?": "%3F", "#": "%23", "[": "%5B", "]": "%5D" );
+
+    $new: $string;
+
+    @each $search, $replace in $map {
+        $new: str-replace($new, $search, $replace);
+    }
+
+    @return $new;
+}
+//
+//
+// Format the SVG as a URL
+@function svg-background-image($string) {
+    @return url('data:image/svg+xml,#{url-encode($string)}');
+}
+//
+//
+// Calculate displayed component width.
+@function calc-el-width($column, $gutter) {
+    @return ($c-wrapper-lg-width - (($column - 1) * $gutter)) / $column;
+}
+
+@function calc-wrapper-space() {
+    @return calc((100% - #{$mq-md + "px"}) / 2);
+}

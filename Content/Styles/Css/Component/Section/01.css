@@ -1,0 +1,41 @@
+/* Common xs1, xs2 */
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .section-01 .c-wrapper {
+    display: flex;
+    width: 100%;
+    margin-left: calc((100% - 1360px) / 2);
+  }
+  .section-01 .c-wrapper .container-01 {
+    width: 616px;
+    padding-right: 120px;
+  }
+  .section-01 .c-wrapper .container-01 .item {
+    color: #0068C7;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .section-01 .c-wrapper .container-01 .item-01 {
+    color: #000;
+    font-size: 64px;
+    font-weight: 600;
+  }
+  .section-01 .c-wrapper .container-01 .item-02 {
+    color: #1A4359;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 114px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .section-01 .c-wrapper .container-02 {
+    flex: 1;
+  }
+  .section-01 .c-wrapper .container-02 .item-03 {
+    width: 100%;
+    height: 705px;
+    object-fit: cover;
+  }
+}
+
+/*# sourceMappingURL=01.css.map */

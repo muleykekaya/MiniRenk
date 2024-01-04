@@ -1,0 +1,21 @@
+﻿@import "../../Base/Global.scss";
+
+/* Common xs1, xs2 */
+ @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {}
+
+ /* Common sm, md, lg */
+ @media all and (min-width: #{$mq-sm1 + "px"}) {
+
+     .btn-01 {
+         border-radius: 10px;
+         background: #0066C1;
+         display: inline-flex;
+         padding: 18px 47.28px 19px 47px;
+         justify-content: center;
+         align-items: center;
+         color: #FFF;
+         font-size: 18px;
+         font-weight: 600;
+
+     }
+ }

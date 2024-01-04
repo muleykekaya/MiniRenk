@@ -1,0 +1,61 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .parenterror input[type=text].error {
+    color: #A32F2A !important;
+    border: 2px solid #A32F2A !important;
+  }
+  .parenterror input[type=text].error::placeholder {
+    color: #A32F2A !important;
+  }
+  .parenterror #email.error {
+    font-weight: 500 !important;
+    color: #A32F2A !important;
+    line-height: 15px !important;
+    font-size: 12px !important;
+  }
+  .parenterror #chk-box-confirm ~ .chk-label-01 {
+    border: 2px solid #941313;
+  }
+  .parenterror #chk-box-confirm ~ .chk-label-01 {
+    color: #941313;
+  }
+  .parenterror #chk-box-confirm-error {
+    display: none !important;
+  }
+  .parenterror #email-error, .parenterror #radio-error {
+    display: none !important;
+  }
+}
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .parenterror input[type=text].error {
+    color: #A32F2A !important;
+    border: 2px solid #A32F2A !important;
+  }
+  .parenterror input[type=text].error::placeholder {
+    color: #A32F2A !important;
+  }
+  .parenterror #email-error.error {
+    position: absolute;
+    right: 0;
+    font-weight: 500 !important;
+    color: #A32F2A !important;
+    line-height: 15px !important;
+    font-size: 12px !important;
+    top: 6px;
+  }
+  .parenterror #chk-box-confirm ~ .chk-label-01 {
+    border: 2px solid #941313;
+  }
+  .parenterror #chk-box-confirm ~ .chk-label-01 {
+    color: #941313;
+  }
+  .parenterror #chk-box-confirm-error {
+    display: none !important;
+  }
+  .parenterror #email-error, .parenterror #radio-error {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=Validation.css.map */

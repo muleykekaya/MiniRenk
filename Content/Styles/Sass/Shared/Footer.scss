@@ -1,0 +1,16 @@
+@import "../Base/Global.scss";
+
+.comp-footer-01 {
+  
+}
+
+
+/* Common xs1, xs2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .comp-footer-01 {
+     
+    }
+}
+/* Common sm, md, lg */
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+}

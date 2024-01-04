@@ -1,0 +1,231 @@
+﻿//
+// Checkbox mixins
+//
+@mixin chk-default($displayvalue: '') {
+    > label {
+        cursor: pointer;
+        display: flex;
+        flex-wrap: wrap;
+       
+
+        @if not ($displayvalue == '') {
+            display: #{$displayvalue};
+        }
+
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            background-color: transparent;
+        }
+    }
+
+    [type=checkbox]:checked ~ label::before,
+    [type=radio]:checked ~ label::before {
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+}
+
+@mixin chk-label-before($width, $height, $border, $radius, $padding) {
+    > :nth-child(2) {
+        min-width: $width;
+        min-height: $height;
+        padding: $padding;
+
+        &::before {
+            width: $width;
+            height: $height;
+            border: #{$border};
+            border-radius: $radius;
+            transition: background-color 0.2s, border 0.2s;
+        }
+    }
+}
+
+@mixin chk-checked-label-before($border, $bg-size, $bg-img, $bg-color: '') {
+    [type=checkbox]:checked ~ label::before,
+    [type=radio]:checked ~ label::before {
+        border: $border !important;
+        background-size: $bg-size;
+        background-image: svg-background-image($bg-img);
+
+        @if not ($bg-color == '') {
+            background-color: $bg-color;
+        }
+    }
+}
+
+@mixin chk-hover-label-before($border, $bg-size: '', $bg-img: '', $bg-color: '', $color: '') {
+    &:hover {
+        & > label {
+            @if not ($color == '') {
+                color: $color;
+            }
+
+            &::before {
+                @if not ($border == '') {
+                    border: #{$border};
+                }
+
+                @if not ($bg-size == '') {
+                    background-size: $bg-size;
+                }
+
+                @if not ($bg-img == '') {
+                    background-image: $bg-img;
+                }
+
+                @if not ($bg-color == '') {
+                    background-color: $bg-color;
+                }
+            }
+        }
+    }
+}
+
+@mixin chk-focus-label-before($border, $bg-size: '', $bg-img: '', $bg-color: '', $color: '') {
+    [type=checkbox]:focus ~ label,
+    [type=radio]:focus ~ label {
+        @if not ($color == '') {
+            color: $color;
+        }
+
+        &::before {
+            @if not ($border == '') {
+                border: #{$border};
+            }
+
+            @if not ($bg-size == '') {
+                background-size: $bg-size;
+            }
+
+            @if not ($bg-img == '') {
+                background-image: $bg-img;
+            }
+
+            @if not ($bg-color == '') {
+                background-color: $bg-color;
+            }
+        }
+    }
+}
+
+@mixin chk-disabled-label-before($border, $bg-size: '', $bg-img: '', $bg-color: '', $color: '') {
+    [type=checkbox]:disabled ~ label,
+    [type=radio]:disabled ~ label {
+        cursor: not-allowed;
+
+        @if not ($color == '') {
+            color: $color;
+        }
+
+        &::before {
+            @if not ($border == '') {
+                border: #{$border};
+            }
+
+            @if not ($bg-size == '') {
+                background-size: $bg-size;
+            }
+
+            @if not ($bg-img == '') {
+                background-image: $bg-img;
+            }
+
+            @if not ($bg-color == '') {
+                background-color: $bg-color;
+            }
+        }
+    }
+}
+
+@mixin chk-error-label-before($border, $bg-size: '', $bg-img: '', $bg-color: '', $color: '') {
+    [type=checkbox].error,
+    [type=radio].error {
+        & ~ label {
+            @if not ($color == '') {
+                color: $color;
+            }
+
+            &::before {
+                @if not ($border == '') {
+                    border: #{$border};
+                }
+
+                @if not ($bg-size == '') {
+                    background-size: $bg-size;
+                }
+
+                @if not ($bg-img == '') {
+                    background-image: $bg-img;
+                }
+
+                @if not ($bg-color == '') {
+                    background-color: $bg-color;
+                }
+            }
+        }
+    }
+}
+//
+// End: Checkbox mixins
+//
+
+@mixin dynamicTransform($transform...) {
+    -webkit-transform: $transform;
+    -moz-transform: $transform;
+    -ms-transform: $transform;
+    -o-transform: $transform;
+    transform: $transform;
+}
+
+@mixin dynamicTransition($transition...) {
+    -moz-transition: $transition;
+    -o-transition: $transition;
+    -webkit-transition: $transition;
+    transition: $transition;
+}
+
+@mixin transform-X-animation($duration, $amount) {
+    @include dynamicTransition(transform $duration);
+
+    &:hover {
+        @include dynamicTransform(TranslateX($amount));
+    }
+}
+
+//
+//
+// Replace letters
+@function str-replace($string, $search, $replace: '') {
+    $index: str-index($string, $search);
+
+    @if $index {
+        @return str-slice($string, 1, $index - 1)+$replace+str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+    }
+
+    @return $string;
+}
+
+//
+//
+// Encode symbols
+@function url-encode($string) {
+    $map: ( "%": "%25", "<": "%3C", ">": "%3E", " ": "%20", "!": "%21", "*": "%2A", "'": "%27", '"': "%22", "(": "%28", ")": "%29", ";": "%3B", ":": "%3A", "@": "%40", "&": "%26", "=": "%3D", "+": "%2B", "$": "%24", ",": "%2C", "/": "%2F", "?": "%3F", "#": "%23", "[": "%5B", "]": "%5D");
+    $new: $string;
+
+    @each $search, $replace in $map {
+        $new: str-replace($new, $search, $replace);
+    }
+
+    @return $new;
+}
+
+//
+//
+// Format the SVG as a URL
+@function svg-background-image($string) {
+    @return url('data:image/svg+xml,#{url-encode($string)}');
+}

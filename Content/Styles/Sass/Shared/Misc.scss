@@ -1,0 +1,67 @@
+@import "../Base/Global.scss";
+ 
+[data-expand] {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    @include dynamicTransition(height 0.4s ease-in-out, opacity 0.3s);
+
+    &.on {
+        opacity: 1;
+        @include dynamicTransition(height 0.4s ease-in-out, opacity 1s);
+    }
+
+    &.init-on {
+        opacity: 1;
+        height: auto;
+    }
+}
+ 
+#contentContainer {
+    #expandedContentContainer {
+        display: none;
+    }
+
+    #shrinkContentBtn {
+        display: none;
+    }
+
+    &.on {
+        #expandedContentContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #shrinkContentBtn {
+            display: block;
+        }
+
+        #expandContentBtn {
+            display: none;
+        }
+    }
+}
+ 
+
+.carousel__button {
+    &.fancybox__button--thumbs, &.fancybox__button--fullscreen, &.fancybox__button--slideshow, &.fancybox__button--zoom {
+        display: none;
+    }
+}
+
+
+@keyframes scaleAnim {
+    0% {
+        transform: scale(1);
+    }
+
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
