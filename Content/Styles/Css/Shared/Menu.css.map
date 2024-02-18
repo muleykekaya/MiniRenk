@@ -1,1 +1,7 @@
-{"version":3,"sourceRoot":"","sources":["../../Sass/Shared/Menu.scss"],"names":[],"mappings":"AAIA;AAKA","file":"Menu.css"}
+{
+"version": 3,
+"mappings": "AAIA,qBAAqB;AAKrB,uBAAuB",
+"sources": ["../../Sass/Shared/Menu.scss"],
+"names": [],
+"file": "Menu.css"
+}

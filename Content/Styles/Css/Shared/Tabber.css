@@ -4,39 +4,33 @@
     display: flex;
     flex-direction: row;
     overflow-x: auto;
-    padding: 0 28px;
-  }
-  .tabber-container .tabber-header .tab-head-item {
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-  }
+    padding: 0 28px; }
+    .tabber-container .tabber-header .tab-head-item {
+      display: flex;
+      align-items: center;
+      white-space: nowrap; }
   .tabber-container .tabber-body {
     display: flex;
     flex-direction: column;
-    transition: height 0.5s;
-  }
-  .tabber-container .tabber-body .tab-content-item {
-    position: absolute;
-    z-index: 0;
-    top: -10000px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    visibility: hidden;
-    opacity: 0;
-    overflow: hidden;
-    transition: visibility 0s 0.2s, position 0s 0.2s, opacity 0.2s;
-  }
-  .tabber-container .tabber-body .tab-content-item.on {
-    position: relative;
-    z-index: 1;
-    top: auto;
-    visibility: visible;
-    opacity: 1;
-    transition: visibility 0s 0s, position 0s 0s, opacity 0.2s;
-  }
-}
+    transition: height 0.5s; }
+    .tabber-container .tabber-body .tab-content-item {
+      position: absolute;
+      z-index: 0;
+      top: -10000px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      visibility: hidden;
+      opacity: 0;
+      overflow: hidden;
+      transition: visibility 0s 0.2s, position 0s 0.2s, opacity 0.2s; }
+      .tabber-container .tabber-body .tab-content-item.on {
+        position: relative;
+        z-index: 1;
+        top: auto;
+        visibility: visible;
+        opacity: 1;
+        transition: visibility 0s 0s, position 0s 0s, opacity 0.2s; } }
 /* XS1 */
 /* XS2 */
 /* Common SM1 and SM2 */
@@ -44,39 +38,33 @@
   .tabber-container .tabber-header {
     display: flex;
     flex-direction: row;
-    overflow-x: auto;
-  }
-  .tabber-container .tabber-header .tab-head-item {
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-  }
+    overflow-x: auto; }
+    .tabber-container .tabber-header .tab-head-item {
+      display: flex;
+      align-items: center;
+      white-space: nowrap; }
   .tabber-container .tabber-body {
     display: flex;
     flex-direction: column;
-    transition: height 0.5s;
-  }
-  .tabber-container .tabber-body .tab-content-item {
-    position: absolute;
-    z-index: 0;
-    top: -10000px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    visibility: hidden;
-    opacity: 0;
-    overflow: hidden;
-    transition: visibility 0s 0.2s, position 0s 0.2s, opacity 0.2s;
-  }
-  .tabber-container .tabber-body .tab-content-item.on {
-    position: relative;
-    z-index: 1;
-    top: auto;
-    visibility: visible;
-    opacity: 1;
-    transition: visibility 0s 0s, position 0s 0s, opacity 0.2s;
-  }
-}
+    transition: height 0.5s; }
+    .tabber-container .tabber-body .tab-content-item {
+      position: absolute;
+      z-index: 0;
+      top: -10000px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      visibility: hidden;
+      opacity: 0;
+      overflow: hidden;
+      transition: visibility 0s 0.2s, position 0s 0.2s, opacity 0.2s; }
+      .tabber-container .tabber-body .tab-content-item.on {
+        position: relative;
+        z-index: 1;
+        top: auto;
+        visibility: visible;
+        opacity: 1;
+        transition: visibility 0s 0s, position 0s 0s, opacity 0.2s; } }
 /* SM1 */
 /* SM2 */
 /* Common MD and LG */
@@ -84,39 +72,33 @@
   .tabber-container .tabber-header {
     display: flex;
     flex-direction: row;
-    overflow-x: auto;
-  }
-  .tabber-container .tabber-header .tab-head-item {
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-  }
+    overflow-x: auto; }
+    .tabber-container .tabber-header .tab-head-item {
+      display: flex;
+      align-items: center;
+      white-space: nowrap; }
   .tabber-container .tabber-body {
     display: flex;
     flex-direction: column;
-    transition: height 0.5s;
-  }
-  .tabber-container .tabber-body .tab-content-item {
-    position: absolute;
-    z-index: 0;
-    top: -10000px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    visibility: hidden;
-    opacity: 0;
-    overflow: hidden;
-    transition: visibility 0s 0.2s, position 0s 0.2s, opacity 0.2s;
-  }
-  .tabber-container .tabber-body .tab-content-item.on {
-    position: relative;
-    z-index: 1;
-    top: auto;
-    visibility: visible;
-    opacity: 1;
-    transition: visibility 0s 0s, position 0s 0s, opacity 0.2s;
-  }
-}
+    transition: height 0.5s; }
+    .tabber-container .tabber-body .tab-content-item {
+      position: absolute;
+      z-index: 0;
+      top: -10000px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      visibility: hidden;
+      opacity: 0;
+      overflow: hidden;
+      transition: visibility 0s 0.2s, position 0s 0.2s, opacity 0.2s; }
+      .tabber-container .tabber-body .tab-content-item.on {
+        position: relative;
+        z-index: 1;
+        top: auto;
+        visibility: visible;
+        opacity: 1;
+        transition: visibility 0s 0s, position 0s 0s, opacity 0.2s; } }
 /* MD */
 /* LG */
 

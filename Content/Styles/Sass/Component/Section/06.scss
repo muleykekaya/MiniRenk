@@ -1,0 +1,47 @@
+﻿@import "../../Base/Global.scss";
+/* Common xs1, xs2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {}
+
+/* Common sm, md, lg */
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+    .section-06 {
+        padding: 120px 0;
+        background-color: #F5F5F3;
+
+        .c-wrapper {
+
+            .c-container-01 {
+                .c-item-01-A {
+
+                    height: 58px;
+                    color: #0066C1;
+                    font-size: 54px;
+                    font-weight: 500;
+                    line-height: 5px;
+                    text-align: center;
+                 
+                }
+
+                .c-item-01-B {
+
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    text-align: center;
+                    color: #1A4359;
+                    width: 760px;
+
+                }
+
+                .c-item-01-C {
+
+                    display: flex;
+                    width: 100%;
+
+                }
+            }
+
+        }
+    }
+
+}

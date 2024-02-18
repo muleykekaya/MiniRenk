@@ -1,1 +1,7 @@
-{"version":3,"sourceRoot":"","sources":["../../Sass/Shared/Footer.scss"],"names":[],"mappings":"AAOA;AAMA","file":"Footer.css"}
+{
+"version": 3,
+"mappings": "AAOA,qBAAqB;AAMrB,uBAAuB",
+"sources": ["../../Sass/Shared/Footer.scss"],
+"names": [],
+"file": "Footer.css"
+}

@@ -1,0 +1,73 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .section-07 {
+    padding: 104px 0; }
+    .section-07 .c-wrapper .c-container-01 .c-item {
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 50px;
+      text-align: center;
+      color: #0066C1; }
+    .section-07 .c-wrapper .c-container-02 {
+      display: grid;
+      grid-template-columns: auto auto;
+      margin-top: 44px; }
+      .section-07 .c-wrapper .c-container-02 .c-container-02-A {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        .section-07 .c-wrapper .c-container-02 .c-container-02-A .img-container {
+          height: 124px;
+          display: flex;
+          justify-content: center;
+          align-items: end;
+          margin-bottom: 16px; }
+        .section-07 .c-wrapper .c-container-02 .c-container-02-A .c-item-01 {
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 20px;
+          text-align: center;
+          height: 64px; } }
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .section-07 {
+    padding-top: 160px; }
+    .section-07 .c-wrapper {
+      width: 1140px; }
+      .section-07 .c-wrapper .c-container-01 .c-item {
+        font-size: 52px;
+        font-weight: 500;
+        line-height: 58px;
+        text-align: center;
+        color: #0066C1; }
+      .section-07 .c-wrapper .c-container-02 {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin: 124px 0 170px 0; }
+        .section-07 .c-wrapper .c-container-02 .c-container-02-A {
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          .section-07 .c-wrapper .c-container-02 .c-container-02-A .img-container {
+            height: 174px;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            margin-bottom: 16px; }
+          .section-07 .c-wrapper .c-container-02 .c-container-02-A .c-item-01 {
+            text-align: center;
+            color: #000000;
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            height: 40px; }
+            .section-07 .c-wrapper .c-container-02 .c-container-02-A .c-item-01 br {
+              display: none; }
+            .section-07 .c-wrapper .c-container-02 .c-container-02-A .c-item-01.w1 {
+              width: 170px; }
+            .section-07 .c-wrapper .c-container-02 .c-container-02-A .c-item-01.w2 {
+              width: 252px; } }
+
+/*# sourceMappingURL=07.css.map */

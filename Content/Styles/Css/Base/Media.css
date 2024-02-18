@@ -1,58 +1,38 @@
 #mq-info {
-  height: 0px !important;
-}
+  height: 0px !important; }
 
 #mq-values {
-  height: 0px !important;
-}
-#mq-values #mq-xs1 {
-  width: 0px;
-}
-#mq-values #mq-xs2 {
-  width: 420px;
-}
-#mq-values #mq-sm1 {
-  width: 768px;
-}
-#mq-values #mq-sm2 {
-  width: 1024px;
-}
-#mq-values #mq-md {
-  width: 1380px;
-}
-#mq-values #mq-lg {
-  width: 1680px;
-}
+  height: 0px !important; }
+  #mq-values #mq-xs1 {
+    width: 0px; }
+  #mq-values #mq-xs2 {
+    width: 420px; }
+  #mq-values #mq-sm1 {
+    width: 768px; }
+  #mq-values #mq-sm2 {
+    width: 1024px; }
+  #mq-values #mq-md {
+    width: 1380px; }
+  #mq-values #mq-lg {
+    width: 1680px; }
 
 @media all and (max-width: 419px) {
   #mq-info {
-    width: 0px;
-  }
-}
+    width: 0px; } }
 @media all and (min-width: 420px) and (max-width: 767px) {
   #mq-info {
-    width: 420px;
-  }
-}
+    width: 420px; } }
 @media all and (min-width: 768px) and (max-width: 1023px) {
   #mq-info {
-    width: 768px;
-  }
-}
+    width: 768px; } }
 @media all and (min-width: 1024px) and (max-width: 1379px) {
   #mq-info {
-    width: 1024px;
-  }
-}
+    width: 1024px; } }
 @media all and (min-width: 1380px) and (max-width: 1679px) {
   #mq-info {
-    width: 1380px;
-  }
-}
+    width: 1380px; } }
 @media all and (min-width: 1680px) {
   #mq-info {
-    width: 1680px;
-  }
-}
+    width: 1680px; } }
 
 /*# sourceMappingURL=Media.css.map */

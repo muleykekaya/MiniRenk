@@ -1,17 +1,70 @@
 /* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .btn-01 {
+    border-radius: 10px;
+    background: #0066C1;
+    display: inline-flex;
+    padding: 18px 48px 20px 48px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600; }
+
+  .btn-02 {
+    display: inline-flex;
+    padding: 18px 48px 20px 48px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    background: #000; }
+
+  .btn-03 {
+    display: inline-flex;
+    padding: 18px 48px 20px 48px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    background: #0066C1; } }
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .btn-01 {
     border-radius: 10px;
     background: #0066C1;
     display: inline-flex;
-    padding: 18px 47.28px 19px 47px;
+    padding: 18px 48px 20px 48px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600; }
+
+  .btn-02 {
+    display: inline-flex;
+    padding: 18px 48px 20px 48px;
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
     color: #FFF;
     font-size: 18px;
     font-weight: 600;
-  }
-}
+    background: #000; }
+
+  .btn-03 {
+    display: inline-flex;
+    padding: 18px 48px 20px 48px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    background: #0066C1; } }
 
 /*# sourceMappingURL=01.css.map */

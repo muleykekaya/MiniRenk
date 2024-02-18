@@ -1,1 +1,7 @@
-{"version":3,"sourceRoot":"","sources":["../../Sass/Base/Display.scss"],"names":[],"mappings":"AAOA;AAKA","file":"Display.css"}
+{
+"version": 3,
+"mappings": "AAOA,wBAAwB;AAKxB,QAAQ",
+"sources": ["../../Sass/Base/Display.scss"],
+"names": [],
+"file": "Display.css"
+}

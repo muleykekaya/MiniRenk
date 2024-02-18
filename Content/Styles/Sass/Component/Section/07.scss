@@ -1,0 +1,125 @@
+﻿@import "../../Base/Global.scss";
+/* Common xs1, xs2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .section-07 {
+        padding: 104px 0;
+
+        .c-wrapper {
+            .c-container-01 {
+                .c-item {
+                    font-size: 40px;
+                    font-weight: 500;
+                    line-height: 50px;
+                    text-align: center;
+                    color: #0066C1;
+
+
+                }
+            }
+
+            .c-container-02 {
+                display: grid;
+                grid-template-columns: auto auto;
+                margin-top: 44px;
+
+                .c-container-02-A {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+
+                    .img-container {
+                        height: 124px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: end;
+                        margin-bottom: 16px;
+                    }
+
+
+
+                    .c-item-01 {
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 20px;
+                        text-align: center;
+                        height: 64px;
+
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Common sm, md, lg */
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+    .section-07 {
+        padding-top: 160px;
+
+        .c-wrapper {
+            width: 1140px;
+            .c-container-01 {
+                .c-item {
+                    font-size: 52px;
+                    font-weight: 500;
+                    line-height: 58px;
+                    text-align: center;
+                    color: #0066C1;
+
+                }
+            }
+
+            .c-container-02 {
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                
+                
+                margin: 124px 0 170px 0;
+
+                .c-container-02-A {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .img-container {
+                        height: 174px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: end;
+                        margin-bottom: 16px;
+                        
+                    }
+
+                    .c.item {}
+
+                    .c-item-01 {
+                        text-align: center;
+                        color: #000000;
+                        margin-top: 10px;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 20px;
+                        height: 40px;
+
+                        br {
+                            display: none;
+                        }
+
+                        &.w1 {
+                            width: 170px;
+                        }
+
+                        &.w2 {
+                            width: 252px;
+                        }
+
+                    }
+
+                }
+            }
+        }
+    }
+}
