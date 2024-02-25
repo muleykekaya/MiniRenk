@@ -55,7 +55,7 @@
           flex-direction: column;
           align-items: center;
           gap: 16px;
-          padding: 90px 40px 56px 40px; }
+          padding: 44px 0 52px 0; }
           .section-03 .c-wrapper .c-container-02 .c-container-02-A .c-item .c-item-01 .c-item-01-B {
             font-family: Roboto;
             font-size: 16px;
@@ -78,19 +78,17 @@
         margin: 0 0 95px 0px; }
         .section-03 .c-wrapper .c-container-01 .c-item-01 {
           color: #FFF;
-          font-size: 20px;
+          font-size: 16px;
           font-style: normal;
           font-weight: 500;
-          line-height: 30px;
-          border-radius: 10px;
+          line-height: 24px;
+          border-radius: 8px;
           background: #0066C1;
-          display: inline-flex;
-          padding: 6px 20px 4px 20px;
-          justify-content: flex-end;
-          align-items: center; }
+          padding: 4px 16px;
+          width: fit-content;
+          display: inline-flex; }
         .section-03 .c-wrapper .c-container-01 .c-item-02 {
-          color: #0066C1;
-          margin: 28px 18px; }
+          margin: 28px 0 18px 0; }
         .section-03 .c-wrapper .c-container-01 .c-item-03 {
           color: #1A4359;
           font-size: 20px;
@@ -115,7 +113,7 @@
             background: rgba(133, 34, 215, 0.15); }
           .section-03 .c-wrapper .c-container-02 .c-container-02-A .c-item .c-item-01 {
             flex: 1;
-            padding: 48px 120px 56px 56px; }
+            padding: 46px 120px 56px 56px; }
             .section-03 .c-wrapper .c-container-02 .c-container-02-A .c-item .c-item-01 .c-item-01-B {
               margin: 16px 0 24px 0;
               height: 96px;

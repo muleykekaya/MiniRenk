@@ -1,7 +1,5 @@
 ﻿// Base Events
 
-
-
 Feux.Base = {
     Props: {
         Device: {

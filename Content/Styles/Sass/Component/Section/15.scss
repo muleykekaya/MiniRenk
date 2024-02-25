@@ -1,0 +1,422 @@
+﻿@import "../../Base/Global.scss";
+/* Common xs1, xs2 */
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .section-15 {
+        padding: 66px 0 84px 0;
+
+        .c-wrapper {
+
+            .c-container-01 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 34px;
+
+                .c-item-01 {
+                    color: #FFF;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 32px;
+                    border-radius: 8px;
+                    background: #0066C1;
+                    padding: 4px 16px;
+                    width: fit-content;
+                    display: inline-flex;
+                }
+
+                .c-item-02 {
+                    font-size: 36px;
+                    font-weight: 500;
+                    line-height: 44px;
+                    text-align: center;
+                    color: #0066C1;
+                 
+
+
+                }
+
+                .c-item-03 {
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #1A4359;
+
+                }
+            }
+
+            .c-container-02 {
+                display: flex;
+              flex-direction: column;
+                gap: 28px;
+                margin: 66px 0 28px 0;
+
+
+                .c-unit-01 {
+                    height: 354px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    &::after {
+
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        left: 0;
+                        background: #0066C1;
+                        opacity: 0.5;
+                        z-index: 2;
+                    }
+
+                    &.bc1 {
+                        &::after {
+                            background: #F09000;
+
+                        }
+                    }
+
+                    &.bc2 {
+                        &::after {
+                            background: #952BAF;
+
+
+                        }
+                    }
+
+                    &.bc3 {
+                        &::after {
+                            background: #0C826A;
+
+
+                        }
+                    }
+
+                    &.bc4 {
+                        &::after {
+                            background: #B72931;
+
+
+                        }
+                    }
+
+                    &.bc5 {
+                        &::after {
+                            background: #3F92CE;
+
+                        }
+                    }
+
+                    &.bc6 {
+                        &::after {
+                            background: #78C100;
+
+
+                        }
+                    }
+
+                    &.bc7 {
+                        &::after {
+                            background: #3E00F0C4;
+
+
+                        }
+                    }
+
+                    &.bc8 {
+                        &::after {
+                            background: #176E5C;
+                        }
+                    }
+
+
+
+                    .c-item-01 {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                        z-index: 1;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+
+                    }
+
+                    .c-item-02 {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        z-index: 3;
+
+                        .c-item-02-A {}
+
+                        .c-item-02-B {
+                            font-size: 30px;
+                            font-weight: 300;
+                            line-height: 28px;
+                            text-align: center;
+                            color: #FFF;
+                            margin-top: 16px;
+
+
+                        }
+
+                        .c-item-02-C {
+                            font-size: 30px;
+                            font-weight: 500;
+                            line-height: 28px;
+                            text-align: center;
+                            color: #FFF;
+
+                        }
+
+                        .c-item-02-D {
+                            position: absolute;
+                            left: 50%;
+                            bottom: -100px;
+                            transform: translate(-50%, 0%);
+                        }
+
+
+
+                    }
+
+
+                }
+
+
+            }
+
+            .c-container-03 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .c-button{
+                   
+                        border-radius: 10px;
+                        background: #0066C1;
+                        justify-content: center;
+                        align-items: center;
+                        color: #FFF;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 24px;
+                
+                    
+                }
+            
+            }
+        }
+
+    }
+}
+
+/* Common sm, md, lg */
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+    .section-15 {
+        padding: 100px 0 86px 0;
+
+        .c-wrapper {
+            width: 1085px;
+
+            .c-container-01 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                .c-item-01 {
+                    color: #FFF;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 24px;
+                    border-radius: 8px;
+                    background: #0066C1;
+                    padding: 4px 16px;
+                    width: fit-content;
+                    display: inline-flex;
+                }
+
+                .c-item-02 {
+                    font-size: 52px;
+                    font-weight: 500;
+                    line-height: 58px;
+                    text-align: center;
+                    color: #0066C1;
+                    margin: 28px 0 18px 0;
+
+
+                }
+
+                .c-item-03 {
+                    font-size: 19px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    text-align: center;
+                    color: #1A4359;
+
+                }
+            }
+
+            .c-container-02 {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                gap: 10px;
+                margin: 70px 0 106px 0;
+
+
+                .c-unit-01 {
+                    height: 354px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    &::after {
+
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        left: 0;
+                        background: #0066C1;
+                        opacity: 0.5;
+                        z-index: 2;
+                    }
+
+                    &.bc1 {
+                        &::after {
+                            background: #F09000;
+
+                        }
+                    }
+
+                    &.bc2 {
+                        &::after {
+                            background: #952BAF;
+
+
+                        }
+                    }
+
+                    &.bc3 {
+                        &::after {
+                            background: #0C826A;
+
+
+                        }
+                    }
+
+                    &.bc4 {
+                        &::after {
+                            background: #B72931;
+
+
+                        }
+                    }
+
+                    &.bc5 {
+                        &::after {
+                            background: #3F92CE;
+
+                        }
+                    }
+
+                    &.bc6 {
+                        &::after {
+                            background: #78C100;
+
+
+                        }
+                    }
+
+                    &.bc7 {
+                        &::after {
+                            background: #3E00F0C4;
+
+
+                        }
+                    }
+
+                    &.bc8 {
+                        &::after {
+                            background: #176E5C;
+                        }
+                    }
+
+
+
+                    .c-item-01 {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                        z-index: 1;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+
+                    }
+
+                    .c-item-02 {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        z-index: 3;
+
+                        .c-item-02-A {}
+
+                        .c-item-02-B {
+                            font-size: 30px;
+                            font-weight: 300;
+                            line-height: 28px;
+                            text-align: center;
+                            color: #FFF;
+                            margin-top: 16px;
+
+
+                        }
+
+                        .c-item-02-C {
+                            font-size: 30px;
+                            font-weight: 500;
+                            line-height: 28px;
+                            text-align: center;
+                            color: #FFF;
+
+                        }
+
+                        .c-item-02-D {
+                            position: absolute;
+                            left: 50%;
+                            bottom: -100px;
+                            transform: translate(-50%, 0%);
+                        }
+
+
+
+                    }
+
+
+                }
+
+
+            }
+
+            .c-container-03 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+    }
+}

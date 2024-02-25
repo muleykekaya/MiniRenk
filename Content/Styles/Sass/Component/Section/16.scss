@@ -1,0 +1,156 @@
+﻿@import "../../Base/Global.scss";
+/* Common xs1, xs2 */
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {  .section-16 {
+    background: #E9EFF5;
+    padding: 66px 0 126px 0;
+
+    .c-wrapper {
+width: 100%;
+        .c-container-01 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 28px;
+
+            .c-container-01-A {
+                font-size: 36px;
+                font-weight: 500;
+                line-height: 44px;
+                text-align: center;
+                color: #0066C1;
+                
+
+
+            }
+
+            .c-container-01-B {
+                font-size: 19px;
+                font-weight: 400;
+                line-height: 32px;
+                text-align: center;
+                color: #1A4359;
+
+            }
+        }
+
+        .c-container-02 {
+            display: grid;
+            grid-template-columns: auto auto;
+     row-gap: 36px;
+            margin-top: 90px;
+
+            .c-unit-01 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+          
+
+                .c-unit-01-A {
+                    margin-bottom: 10px;
+                    width: 100px;
+                }
+
+                .c-unit-01-B {
+                    font-size: 20px;
+                    font-weight: 300;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #0066C1;
+
+                }
+
+                .c-unit-01-C {
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 16px;
+                    text-align: center;
+                    color: #0066C1;
+
+                }
+            }
+        }
+    }
+}}
+
+/* Common sm, md, lg */
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+    .section-16 {
+        background: #E9EFF5;
+        padding: 104px 0 116px 0;
+
+        .c-wrapper {
+            width: 938px;
+
+            .c-container-01 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+
+                .c-container-01-A {
+                    font-size: 52px;
+                    font-weight: 500;
+                    line-height: 58px;
+                    text-align: center;
+                    color: #0066C1;
+                    margin: 28px 0 18px 0;
+
+
+                }
+
+                .c-container-01-B {
+                    font-size: 19px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    text-align: center;
+                    color: #1A4359;
+
+                }
+            }
+
+            .c-container-02 {
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                row-gap: 70px;
+                column-gap: 40px;
+                margin-top: 104px;
+
+                .c-unit-01 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    &.c2{
+                        grid-column: 2 / span 1;
+                    }
+
+                    .c-unit-01-A {
+                        margin-bottom: 10px;
+                    }
+
+                    .c-unit-01-B {
+                        font-size: 20px;
+                        font-weight: 300;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #0066C1;
+
+                    }
+
+                    .c-unit-01-C {
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #0066C1;
+
+                    }
+                }
+            }
+        }
+    }
+}

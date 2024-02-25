@@ -1,0 +1,192 @@
+﻿@import "../../Base/Global.scss";
+/* Common xs1, xs2 */
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .section-12 {
+        background-color: #E9EFF5;
+
+        .c-wrapper {
+            display: flex;
+            justify-content: center;
+         padding: 72px 0;
+         
+            .c-container-01 {
+              
+                background-color: #fff;
+                border-radius: 8px;
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+          
+             
+                
+
+                .c-container-01-A {
+
+                    margin: 75px 0;
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                   
+
+                    .c-item-01 {
+                        font-size: 40px;
+                        font-weight: 600;
+                        line-height: 36px;
+                        text-align: center;
+                        color: #0066C1;
+
+
+                    }
+
+                    &.p {
+                        font-family: Roboto;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 32px;
+                        text-align: center;
+                        color: #1A4359;
+                        width: 362px;
+
+
+                    }
+
+                    .c-item-02 {
+
+                        margin: 28px 0 28px 0;
+
+                    }
+                }
+
+                .c-container-01-B {
+          
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        left: 0;
+                        background-color: #AA7EFF;
+                        opacity: 0.7;
+                        z-index: 2;
+                    }
+
+                    .c-item-01 {
+                        object-fit: cover;
+                        z-index: 1;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 8px;
+                    }
+
+                    .c-item-02 {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        z-index: 3;
+                        -ms-transform: translate(-50%, -50%);
+                        transform: translate(-50%, -50%);
+
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+/* Common sm, md, lg */
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+    .section-12 {
+        background-color: #E9EFF5;
+
+        .c-wrapper {
+            display: flex;
+            justify-content: center;
+            width: 908px;
+
+            .c-container-01 {
+                height: 354px;
+                background-color: #fff;
+                border: 8px;
+                margin: 60px 0 66px 0;
+                display: flex;
+
+
+
+                .c-container-01-A {
+
+                    margin: 54px 36px 54px 54px;
+                    flex: 1;
+
+                    .c-item-01 {
+                        font-size: 40px;
+                        font-weight: 600;
+                        line-height: 36px;
+                        text-align: left;
+                        color: #0066C1;
+
+
+                    }
+
+                    &.p {
+                        font-family: Roboto;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 32px;
+                        text-align: left;
+                        color: #1A4359;
+                        width: 462px;
+
+
+                    }
+
+                    .c-item-02 {
+
+                        margin: 28px 0 28px 0;
+
+                    }
+                }
+
+                .c-container-01-B {
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        left: 0;
+                        background-color: #AA7EFF;
+                        opacity: 0.7;
+                        z-index: 2;
+                    }
+
+                    .c-item-01 {
+                        width: 355px;
+                        height: 353px;
+                        object-fit: cover;
+                        z-index: 1;
+                    }
+
+                    .c-item-02 {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        z-index: 3;
+                        -ms-transform: translate(-50%, -50%);
+                        transform: translate(-50%, -50%);
+
+                    }
+                }
+            }
+        }
+
+    }
+}

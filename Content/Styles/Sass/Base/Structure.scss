@@ -15,9 +15,7 @@ body {
         overflow-y: scroll;
     }
 }
-main{
-    margin-top: 137px;
-}
+
 #content-wrapper {
     z-index: 0;
 }
@@ -82,9 +80,14 @@ main{
     }
 }
 
-
+main{
+    margin-top: 154px;
+}
 /* Common XS1 and XS2 */
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    main{
+        margin-top: 98px;
+    }
 }
 
 /* XS1 */
@@ -107,6 +110,7 @@ main{
     body {
         zoom: $zoom-sm;
     }
+    
 }
 
 /* SM1 */

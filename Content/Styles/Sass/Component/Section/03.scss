@@ -5,28 +5,30 @@
     .section-03 {
         .c-wrapper {
             padding: 60px 0;
+
             .c-container-01 {
                 display: flex;
                 flex-direction: column;
                 gap: 20px;
                 margin-bottom: 44px;
-                
-                align-items: center;
-                .c-item-01 {
-                  
 
-                  color: #FFF;
-                  font-size: 16px;
-                  font-style: normal;
-                  font-weight: 500;
-                  line-height: 24px;
-                  border-radius: 8px;
-                  background: #0066C1;
-                  padding: 4px 16px;
-                  width: fit-content;
-                  display: inline-flex;
-             
-                
+                align-items: center;
+
+                .c-item-01 {
+
+
+                    color: #FFF;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 24px;
+                    border-radius: 8px;
+                    background: #0066C1;
+                    padding: 4px 16px;
+                    width: fit-content;
+                    display: inline-flex;
+
+
 
 
                 }
@@ -52,15 +54,16 @@
                 }
             }
 
-            .c-container-02{
-                .c-container-02-A{
-              display: flex;
-              flex-direction: column;
-              gap: 20px;
-                   
-                    .c-item{
+            .c-container-02 {
+                .c-container-02-A {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    .c-item {
                         display: flex;
                         flex-direction: column-reverse;
+
                         &.bg-01 {
                             background: rgba(0, 104, 199, 0.15);
                         }
@@ -82,16 +85,17 @@
 
 
                         }
-                        .c-item-01{
+
+                        .c-item-01 {
                             display: flex;
                             flex-direction: column;
                             align-items: center;
                             gap: 16px;
-                            padding:90px 40px 56px 40px ;
-                            .c-item-01-A{
+                            padding: 44px 0 52px 0;
 
-                            }
-                            .c-item-01-B{
+                            .c-item-01-A {}
+
+                            .c-item-01-B {
                                 font-family: Roboto;
                                 font-size: 16px;
                                 font-weight: 400;
@@ -100,12 +104,13 @@
                             }
                         }
 
-                        .c-item-02{
+                        .c-item-02 {
                             object-fit: cover;
                         }
                     }
                 }
-                .c-container-02-B{
+
+                .c-container-02-B {
                     display: none;
                 }
             }
@@ -126,27 +131,30 @@
                 text-align: center;
                 background: #FFF;
                 margin: 0 0 95px 0px;
+              
+
 
 
                 .c-item-01 {
                     color: #FFF;
-                    font-size: 20px;
+                    font-size: 16px;
                     font-style: normal;
                     font-weight: 500;
-                    line-height: 30px;
-                    border-radius: 10px;
+                    line-height: 24px;
+                    border-radius: 8px;
                     background: #0066C1;
+                    padding: 4px 16px;
+                    width: fit-content;
                     display: inline-flex;
-                    padding: 6px 20px 4px 20px;
-                    justify-content: flex-end;
-                    align-items: center;
+
+                   
                 }
 
-                .c-item-02 {
-                    color: #0066C1;
-                    margin: 28px 18px;
-
+                .c-item-02{
+                    margin: 28px 0 18px 0;
                 }
+
+         
 
                 .c-item-03 {
                     color: #1A4359;
@@ -195,7 +203,7 @@
 
                         .c-item-01 {
                             flex: 1;
-                            padding: 48px 120px 56px 56px;
+                            padding: 46px 120px 56px 56px;
 
                             .c-item-01-B {
                                 margin: 16px 0 24px 0;
@@ -219,10 +227,6 @@
 
                         }
                     }
-
-
-
-
 
 
                 }

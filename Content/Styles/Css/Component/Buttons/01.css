@@ -4,16 +4,16 @@
     border-radius: 10px;
     background: #0066C1;
     display: inline-flex;
-    padding: 18px 48px 20px 48px;
+    padding: 16px 32px;
     justify-content: center;
     align-items: center;
     color: #FFF;
     font-size: 18px;
-    font-weight: 600; }
+    font-weight: 500; }
 
   .btn-02 {
     display: inline-flex;
-    padding: 18px 48px 20px 48px;
+    padding: 16px 32px;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
@@ -24,14 +24,27 @@
 
   .btn-03 {
     display: inline-flex;
-    padding: 18px 48px 20px 48px;
+    padding: 16px 32px;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
     color: #FFF;
     font-size: 18px;
     font-weight: 600;
-    background: #0066C1; } }
+    background: #0066C1; }
+
+  .btn-04 {
+    border-radius: 10px;
+    background: #F31E2B;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em; } }
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .btn-01 {
@@ -65,6 +78,19 @@
     color: #FFF;
     font-size: 18px;
     font-weight: 600;
-    background: #0066C1; } }
+    background: #0066C1; }
+
+  .btn-04 {
+    border-radius: 10px;
+    background: #F31E2B;
+    display: inline-flex;
+    padding: 18px 48px 20px 48px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em; } }
 
 /*# sourceMappingURL=01.css.map */

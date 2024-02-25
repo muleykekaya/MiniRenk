@@ -9,9 +9,6 @@ body {
     width: 100%;
     overflow-y: scroll; }
 
-main {
-  margin-top: 137px; }
-
 #content-wrapper {
   z-index: 0; }
 
@@ -54,7 +51,13 @@ main {
     border-radius: 2px;
     background-color: #F5F7F9; }
 
+main {
+  margin-top: 154px; }
+
 /* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  main {
+    margin-top: 98px; } }
 /* XS1 */
 @media all and (max-width: 419px) {
   .c-wrapper {
