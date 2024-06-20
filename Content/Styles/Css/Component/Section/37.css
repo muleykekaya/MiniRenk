@@ -1,0 +1,59 @@
+/* Common xs1, xs2 */
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .section-37 {
+    background: #0068c7;
+    padding: 120px 0; }
+    .section-37 .c-container-01 {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      justify-content: center;
+      align-items: center; }
+      .section-37 .c-container-01 .c-item-02 {
+        font-family: Neulis Alt;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: center;
+        color: #ffb73e; }
+      .section-37 .c-container-01 .c-item-03 {
+        font-family: Neulis Alt;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 44px;
+        text-align: center;
+        color: #ffffff; }
+      .section-37 .c-container-01 .c-item-04 {
+        color: #ffffff;
+        margin: 0 30px; } }
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .section-37 {
+    background: #1070c5;
+    padding: 198px 0 156px 0; }
+    .section-37 .c-container-01 {
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+      justify-content: center;
+      align-items: center; }
+      .section-37 .c-container-01 .c-item-02 {
+        font-family: Neulis Alt;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 38px;
+        text-align: center;
+        color: #ffb73e; }
+      .section-37 .c-container-01 .c-item-03 {
+        font-family: Neulis Alt;
+        font-size: 54px;
+        font-weight: 600;
+        line-height: 58px;
+        text-align: center;
+        color: #ffffff; }
+      .section-37 .c-container-01 .c-item-04 {
+        color: #ffffff;
+        margin: 0 600px; } }
+
+/*# sourceMappingURL=37.css.map */

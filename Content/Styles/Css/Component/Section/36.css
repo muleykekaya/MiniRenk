@@ -1,0 +1,140 @@
+/* Common xs1, xs2 */
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .section-36 .c-container-01 .c-container-01-A {
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .section-36 .c-container-01 .c-container-01-A .c-item-01 {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      z-index: 1;
+      position: absolute;
+      left: 0;
+      top: 0; }
+      .section-36 .c-container-01 .c-container-01-A .c-item-01 img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover; }
+    .section-36 .c-container-01 .c-container-01-A::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: black;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+      z-index: 2; }
+    .section-36 .c-container-01 .c-container-01-A .c-item-02 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 3;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      bottom: -50px; }
+      .section-36 .c-container-01 .c-container-01-A .c-item-02 .c-item-02-A {
+        font-family: Neulis Alt;
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 44px;
+        text-align: center;
+        color: #ffffff; }
+      .section-36 .c-container-01 .c-container-01-A .c-item-02 .w {
+        font-weight: 300; }
+  .section-36 .c-container-01 .c-container-01-B .c-item-01 {
+    background: #000000;
+    padding-bottom: 42px; }
+    .section-36 .c-container-01 .c-container-01-B .c-item-01 .c-wrapper {
+      background-color: #fff;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 0; }
+      .section-36 .c-container-01 .c-container-01-B .c-item-01 .c-wrapper .c-item-01-B {
+        font-family: Sacramento;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 42px;
+        text-align: center;
+        color: #ff2340;
+        margin-bottom: 24px; }
+      .section-36 .c-container-01 .c-container-01-B .c-item-01 .c-wrapper .c-item-01-C {
+        padding: 0 32px; } }
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .section-36 .c-container-01 .c-container-01-A {
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .section-36 .c-container-01 .c-container-01-A .c-item-01 {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      z-index: 1;
+      position: absolute;
+      left: 0;
+      top: 0; }
+      .section-36 .c-container-01 .c-container-01-A .c-item-01 img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover; }
+    .section-36 .c-container-01 .c-container-01-A::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: black;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+      z-index: 2; }
+    .section-36 .c-container-01 .c-container-01-A .c-item-02 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 3;
+      position: absolute;
+      width: 100%;
+      height: 100%; }
+      .section-36 .c-container-01 .c-container-01-A .c-item-02 .c-item-02-A {
+        font-family: Neulis Alt;
+        font-size: 96px;
+        font-weight: 600;
+        line-height: 92px;
+        text-align: center;
+        color: #ffffff; }
+      .section-36 .c-container-01 .c-container-01-A .c-item-02 .w {
+        font-weight: 300; }
+  .section-36 .c-container-01 .c-container-01-B .c-item-01 {
+    background: #000000;
+    padding-bottom: 76px; }
+    .section-36 .c-container-01 .c-container-01-B .c-item-01 .c-wrapper {
+      width: 908px;
+      height: 340px;
+      background-color: #fff;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .section-36 .c-container-01 .c-container-01-B .c-item-01 .c-wrapper .c-item-01-B {
+        font-family: Sacramento;
+        font-size: 46px;
+        font-weight: 400;
+        line-height: 88px;
+        text-align: center;
+        color: #ff2340; }
+      .section-36 .c-container-01 .c-container-01-B .c-item-01 .c-wrapper .c-item-01-C {
+        margin: 0 168px; } }
+
+/*# sourceMappingURL=36.css.map */

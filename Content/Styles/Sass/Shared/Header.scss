@@ -1,7 +1,6 @@
 @import "../Base/Global.scss";
 
 
-
 /* Common xs1, xs2 */
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
     .comp-header-01 {
@@ -157,6 +156,31 @@
 
 
 
+}
+
+/* Common xs1, xs2 */
+@media all and (max-width: "374px") {
+    .comp-header-01 {
+        .bottom {
+            .c-wrapper {
+                #site-logo {
+                    img {
+                        height: 32px;
+                    }
+                }
+            }
+        }
+    }
+ 
+    .menu-header {
+        .c-wrapper {
+            #menu-logo {
+                img {
+                    height: 32px;
+                }
+            }
+        }
+    }
 }
 
 /* Common sm, md, lg */

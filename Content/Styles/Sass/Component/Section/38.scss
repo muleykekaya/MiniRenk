@@ -1,0 +1,285 @@
+﻿@import '../../Base/Global.scss';
+/* Common xs1, xs2 */
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+  .section-38 {
+    background: #e9eff5;
+    padding: 26px 0 74px 0;
+
+    .c-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+
+      .c-container-01 {
+        background: #ffffff;
+        display: flex;
+        flex-direction: column;
+        border-radius: 8px;
+        width: 100%;
+        height: 100%;
+        .c-item-01 {
+          object-fit: cover;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .c-container-01-A {
+          display: flex;
+          flex-direction: column;
+          margin: 40px 16px 20px 16px;
+          gap: 30px;
+          flex: 1;
+          .c-item-02 {
+            font-size: 36px;
+            line-height: 44px;
+          }
+          .c-item-03 {
+            padding: 0 4px;
+          }
+        }
+      }
+
+      .c-container-02 {
+        background: #0068c7;
+        border-radius: 8px;
+
+        .c-item-01 {
+          object-fit: cover;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .c-container-02-A {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin: 36px 0;
+          gap: 32px;
+
+          .c-item-02 {
+            color: #ffffff;
+            font-size: 32px;
+            line-height: 40px;
+          }
+
+          .c-item-03 {
+            color: #ffffff;
+            margin: 0 16px;
+          }
+        }
+      }
+
+      .c-container-03 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 36px;
+
+        .c-item-02 {
+          padding: 0 20px;
+        }
+      }
+      .c-container-04 {
+        display: flex;
+        flex-direction: column;
+        border-radius: 8px;
+        background-color: #ffffff;
+        width: 100%;
+
+        .c-item-01 {
+          display: flex;
+          flex-direction: column;
+          color: #0066c1;
+
+          // gap: 20px;
+          // padding: 38px 62px 34px 50px;
+          .c-item-05 {
+            img {
+              width: 100%;
+              object-fit: cover;
+            }
+          }
+
+          .c-item-02 {
+            padding: 36px 20px 36px 20px;
+
+            .c-item-02-A {
+              font-family: Neulis Alt;
+              font-size: 28px;
+              font-weight: 600;
+              line-height: 26px;
+              text-align: left;
+              color: #0066c1;
+              margin-bottom: 12px;
+            }
+
+            .c-item-02-B {
+              font-size: 12px;
+              line-height: 16px;
+              text-align: left;
+            }
+          }
+
+          .c-item-03 {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 0 20px 44px 20px;
+
+            .c-item-03-A {
+              display: flex;
+              gap: 16px;
+              .c-item-03-A-01 {
+                font-size: 12px;
+                line-height: 16px;
+                text-align: left;
+                padding-right: 30px;
+              }
+            }
+          }
+        }
+        .c-item-04 {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+/* Common sm, md, lg */
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+  .section-38 {
+    background: #e9eff5;
+    padding: 94px 0 104px 0;
+
+    .c-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+
+      .c-container-01 {
+        background: #ffffff;
+        display: flex;
+        border-radius: 8px;
+        .c-item-01 {
+          object-fit: cover;
+        }
+
+        .c-container-01-A {
+          display: flex;
+          flex-direction: column;
+          margin: 148px 30px 104px 56px;
+          gap: 30px;
+          flex: 1;
+        }
+
+        .c-item-02 {
+          text-align: left;
+        }
+        .c-item-03 {
+          text-align: left;
+        }
+      }
+
+      .c-container-02 {
+        background: #0068c7;
+        border-radius: 8px;
+        margin-top: 44px;
+
+        .c-item-01 {
+          object-fit: cover;
+        }
+
+        .c-container-02-A {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin: 142px 0 78px 0;
+          gap: 32px;
+
+          .c-item-02 {
+            color: #ffffff;
+          }
+
+          .c-item-03 {
+            color: #ffffff;
+            margin: 0 304px;
+          }
+        }
+      }
+
+      .c-container-03 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        .c-item-02 {
+          padding: 0 280px;
+        }
+      }
+      .c-container-04 {
+        display: flex;
+        border-radius: 8px;
+        background-color: #ffffff;
+
+        .c-item-01 {
+          display: flex;
+          flex-direction: column;
+          color: #0066c1;
+
+          gap: 20px;
+          padding: 38px 62px 34px 50px;
+
+          .c-item-05 {
+            display: none;
+          }
+
+          .c-item-02 {
+            .c-item-02-A {
+              font-family: Neulis Alt;
+              font-size: 28px;
+              font-weight: 600;
+              line-height: 26px;
+              text-align: left;
+              color: #0066c1;
+              margin-bottom: 12px;
+            }
+
+            .c-item-02-B {
+              margin-top: 20px;
+              width: 400px;
+            }
+          }
+
+          .c-item-03 {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .c-item-03-A {
+              display: flex;
+              gap: 16px;
+              .c-item-03-A-01 {
+                width: 200px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

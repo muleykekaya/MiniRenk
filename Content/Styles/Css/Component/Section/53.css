@@ -1,0 +1,63 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .section-53 {
+    padding: 88px 0; }
+    .section-53 .c-wrapper .c-container-01 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px; }
+      .section-53 .c-wrapper .c-container-01 .c-item-01 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 60px; }
+      .section-53 .c-wrapper .c-container-01 .c-container-02 {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 74px;
+        row-gap: 48px; }
+        .section-53 .c-wrapper .c-container-01 .c-container-02 .c-item-02 {
+          display: flex;
+          gap: 74px; }
+          .section-53 .c-wrapper .c-container-01 .c-container-02 .c-item-02 .g {
+            display: none; }
+          .section-53 .c-wrapper .c-container-01 .c-container-02 .c-item-02 .g2 {
+            display: none; }
+          .section-53 .c-wrapper .c-container-01 .c-container-02 .c-item-02 .p {
+            margin-left: -10px; }
+          .section-53 .c-wrapper .c-container-01 .c-container-02 .c-item-02 .c-item-02-A svg {
+            margin-left: 20px; }
+      .section-53 .c-wrapper .c-container-01 .c-item-04 {
+        display: none; } }
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .section-53 {
+    padding: 106px 0 88px 0; }
+    .section-53 .c-wrapper .c-container-01 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px; }
+      .section-53 .c-wrapper .c-container-01 .c-item-01 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px; }
+      .section-53 .c-wrapper .c-container-01 .c-container-02 {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 74px;
+        margin: 78px 0; }
+        .section-53 .c-wrapper .c-container-01 .c-container-02 .c-item-02 {
+          display: flex;
+          gap: 74px; }
+          .section-53 .c-wrapper .c-container-01 .c-container-02 .c-item-02 .g {
+            display: none; }
+          .section-53 .c-wrapper .c-container-01 .c-container-02 .c-item-02 .c-item-02-A svg {
+            margin-left: 20px; }
+          .section-53 .c-wrapper .c-container-01 .c-container-02 .c-item-02 .c-item-02-A .c-item-03 {
+            line-height: 58px; } }
+
+/*# sourceMappingURL=53.css.map */

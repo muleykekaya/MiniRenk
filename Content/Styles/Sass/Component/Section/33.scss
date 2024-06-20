@@ -1,0 +1,232 @@
+﻿@import "../../Base/Global.scss";
+/* Common xs1, xs2 */
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .section-33 {
+        padding:0 0 64px 0;
+        .c-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .c-container-01 {
+                display: flex;
+                flex-direction: column-reverse;
+                background: #FF6B32;
+                border-radius: 8px;
+
+                .c-item-01 {
+                    display: flex;
+                    flex-direction: column;
+
+                    gap: 20px;
+                    padding: 38px 0 34px 30px;
+
+                    .c-item-02-B {
+                        font-family: Neulis Alt;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 18px;
+                        text-align: left;
+                        color: #FFFFFF;
+
+                        &.w {           
+                            width: 254px;
+                        }
+
+                    }
+
+                    .c-item-02 {
+                        .c-item-02-A {
+                            font-family: Neulis Alt;
+                            font-size: 28px;
+                            font-weight: 600;
+                            line-height: 26px;
+                            text-align: left;
+                            color: #FFFFFF;
+                            margin-bottom: 6px;
+
+                        }
+
+
+
+                    }
+
+                    .c-item-03 {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+
+                        .c-item-03-A {
+                            display: flex;
+                            gap: 16px;
+
+                        }
+                    }
+
+                }
+
+                .c-item-04 {
+                    .c-item-04-A {
+                        height: 100%;
+                        z-index: 1;
+                        object-fit: cover;
+                        overflow: hidden;
+                        width: 100%;
+                    }
+
+                    .c-item-04-B {
+                        position: absolute;
+                        left: 22px;
+                        top: 50%;
+                        z-index: 2;
+                    }
+
+                    .c-item-04-C {
+                        position: absolute;
+                        right: 22px;
+                        top: 50%;
+                        z-index: 2;
+                    }
+                }
+
+                &.V1 {
+                    background: #00A925;
+
+                }
+                &.V2{
+                    background: #9783FE;
+
+                }
+                &.V3{
+                    background: #00BD99;
+
+                }
+                &.V4{
+                    background: #E265A2;
+
+                }
+                &.V5{
+                    background: #00D559;
+
+                }
+            }
+        }
+
+    }
+}
+
+/* Common sm, md, lg */
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+    .section-33 {
+        padding-bottom: 64px;
+        .c-wrapper {
+            width: 908px;
+            display: flex;
+            flex-direction: column;
+            gap: 36px;
+
+            .c-container-01 {
+                display: flex;
+                background: #FF6B32;
+                border-radius: 8px;
+
+                .c-item-01 {
+                    display: flex;
+                    flex-direction: column;
+
+                    gap: 50px;
+                    padding: 38px 0 34px 52px;
+
+                    .c-item-02-B {
+                        font-family: Neulis Alt;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 18px;
+                        text-align: left;
+                        color: #FFFFFF;
+
+                        &.w {
+                            width: 254px;
+                        }
+
+                    }
+
+                    .c-item-02 {
+                        .c-item-02-A {
+                            font-family: Neulis Alt;
+                            font-size: 28px;
+                            font-weight: 600;
+                            line-height: 26px;
+                            text-align: left;
+                            color: #FFFFFF;
+                            margin-bottom: 6px;
+
+                        }
+
+
+
+                    }
+
+                    .c-item-03 {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+
+                        .c-item-03-A {
+                            display: flex;
+                            gap: 16px;
+
+                        }
+                    }
+
+                }
+
+                .c-item-04 {
+                    .c-item-04-A {
+                        height: 100%;
+                        z-index: 1;
+                        object-fit: cover;
+                        border-radius: 8px;
+                    }
+
+                    .c-item-04-B {
+                        position: absolute;
+                        left: 22px;
+                        top: 50%;
+                        z-index: 2;
+                    }
+
+                    .c-item-04-C {
+                        position: absolute;
+                        right: 22px;
+                        top: 50%;
+                        z-index: 2;
+                    }
+                }
+
+                &.V1 {
+                    background: #00A925;
+
+                }
+                &.V2{
+                    background: #9783FE;
+
+                }
+                &.V3{
+                    background: #00BD99;
+
+                }
+                &.V4{
+                    background: #E265A2;
+
+                }
+                &.V5{
+                    background: #00D559;
+
+                }
+            }
+        }
+
+    }
+}

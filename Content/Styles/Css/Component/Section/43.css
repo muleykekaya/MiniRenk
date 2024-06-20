@@ -1,0 +1,70 @@
+/* Common xs1, xs2 */
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .section-43.bg1 {
+    background: #e9eff5; }
+  .section-43.bg2 {
+    background: #f5f5f3; }
+  .section-43 .c-wrapper {
+    padding: 44px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px; }
+    .section-43 .c-wrapper .c-container-01 {
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #ffffff; }
+      .section-43 .c-wrapper .c-container-01 .c-item-01 {
+        width: 100%; }
+        .section-43 .c-wrapper .c-container-01 .c-item-01 img {
+          width: 100%; }
+      .section-43 .c-wrapper .c-container-01 .c-item-02 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 30px 4px; }
+        .section-43 .c-wrapper .c-container-01 .c-item-02 .c-item-02-A {
+          font-size: 32px;
+          line-height: 40px; }
+        .section-43 .c-wrapper .c-container-01 .c-item-02 .c-item-02-B {
+          margin: 0 16px; } }
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .section-43 {
+    padding: 136px 0 152px 0; }
+    .section-43.bg1 {
+      background: #e9eff5; }
+    .section-43.bg2 {
+      background: #f5f5f3; }
+    .section-43 .c-wrapper {
+      width: 916px;
+      display: flex;
+      flex-direction: column;
+      gap: 140px; }
+      .section-43 .c-wrapper .c-container-01 {
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #ffffff; }
+        .section-43 .c-wrapper .c-container-01 .c-item-01 {
+          width: 100%; }
+          .section-43 .c-wrapper .c-container-01 .c-item-01 img {
+            width: 100%; }
+        .section-43 .c-wrapper .c-container-01 .c-item-02 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 28px;
+          padding: 50px 0; }
+          .section-43 .c-wrapper .c-container-01 .c-item-02 .c-item-02-B {
+            margin: 0 200px; } }
+
+/*# sourceMappingURL=43.css.map */

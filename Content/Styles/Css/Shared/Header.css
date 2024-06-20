@@ -90,6 +90,13 @@
       display: flex;
       align-items: center;
       gap: 16px; } }
+/* Common xs1, xs2 */
+@media all and (max-width: 374px) {
+  .comp-header-01 .bottom .c-wrapper #site-logo img {
+    height: 32px; }
+
+  .menu-header .c-wrapper #menu-logo img {
+    height: 32px; } }
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .comp-header-01 {
