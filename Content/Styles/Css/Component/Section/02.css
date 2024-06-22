@@ -1,7 +1,7 @@
 /* Common xs1, xs2 */
 @media all and (max-width: 767px) {
   .section-02 {
-    background-color: #E9EFF5;
+    background-color: #e9eff5;
     padding: 36px 0; }
     .section-02 .c-wrapper {
       display: flex;
@@ -22,25 +22,25 @@
           text-align: left;
           width: 275px; }
         .section-02 .c-wrapper .container-01 .c-item-01-B {
-          font-family: Roboto;
+          font-family: 'Roboto';
           font-size: 16px;
           font-weight: 400;
           line-height: 25px;
           text-align: left;
-          color: #1A4359; }
+          color: #1a4359; }
         .section-02 .c-wrapper .container-01 .c-item-01-C {
           position: absolute;
           right: 16px;
           bottom: 16px;
           border-radius: 50%;
-          background-color: #CCC;
+          background-color: #ccc;
           transition: background-color 0.35s; }
           .section-02 .c-wrapper .container-01 .c-item-01-C:hover {
             background-color: red; } }
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .section-02 {
-    background: #E9EFF5;
+    background: #e9eff5;
     padding: 96px 0 64px 0; }
     .section-02 .c-wrapper {
       display: flex;
@@ -62,8 +62,8 @@
           line-height: 95.917%;
           margin: 20px 0 16px 0; }
         .section-02 .c-wrapper .container-01 .c-item-01-B {
-          color: #1A4359;
-          font-family: Roboto;
+          color: #1a4359;
+          font-family: 'Roboto';
           font-size: 16px;
           font-weight: 400;
           line-height: 192.383%;
@@ -74,7 +74,7 @@
           right: 20px;
           bottom: 20px;
           border-radius: 50%;
-          background-color: #CCC;
+          background-color: #ccc;
           transition: background-color 0.35s; }
           .section-02 .c-wrapper .container-01 .c-item-01-C:hover {
             background-color: red; } }

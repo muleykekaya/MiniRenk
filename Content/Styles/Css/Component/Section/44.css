@@ -3,24 +3,24 @@
 @media all and (max-width: 767px) {
   .section-35 {
     padding: 84px 0 54px 0;
-    background: #E9EFF5; }
+    background: #e9eff5; }
     .section-35 .c-wrapper .c-container-01 {
       display: flex;
       flex-direction: column;
       gap: 16px; }
       .section-35 .c-wrapper .c-container-01 .c-container-01-A {
-        font-family: Nothing You Could Do;
+        font-family: 'Nothing You Could Do';
         font-size: 28px;
         font-weight: 400;
         line-height: 44px;
         text-align: center;
-        color: #FF2340; }
+        color: #ff2340; }
       .section-35 .c-wrapper .c-container-01 .c-container-01-B {
         font-size: 36px;
         font-weight: 500;
         line-height: 44px;
         text-align: center;
-        color: #0066C1; }
+        color: #0066c1; }
       .section-35 .c-wrapper .c-container-01 .c-container-01-C {
         font-size: 14px;
         font-weight: 400;
@@ -30,25 +30,25 @@
 @media all and (min-width: 768px) {
   .section-35 {
     padding: 58px 0 104px 0;
-    background: #E9EFF5; }
+    background: #e9eff5; }
     .section-35 .c-wrapper {
       width: 938px; }
       .section-35 .c-wrapper .c-container-01 {
         display: flex;
         flex-direction: column; }
         .section-35 .c-wrapper .c-container-01 .c-container-01-A {
-          font-family: Nothing You Could Do;
+          font-family: 'Nothing You Could Do';
           font-size: 36px;
           font-weight: 400;
           line-height: 58px;
           text-align: center;
-          color: #FF2340; }
+          color: #ff2340; }
         .section-35 .c-wrapper .c-container-01 .c-container-01-B {
           font-size: 52px;
           font-weight: 500;
           line-height: 58px;
           text-align: center;
-          color: #0066C1;
+          color: #0066c1;
           margin-bottom: 20px; }
         .section-35 .c-wrapper .c-container-01 .c-container-01-C {
           font-size: 20px;

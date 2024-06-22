@@ -1,94 +1,88 @@
-﻿@import "../../Base/Global.scss";
+﻿@import '../../Base/Global.scss';
 /* Common xs1, xs2 */
 /* Common XS1 and XS2 */
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
-    .section-35 {
-        padding: 84px 0 54px 0;
-        background: #E9EFF5;
+  .section-35 {
+    padding: 84px 0 54px 0;
+    background: #e9eff5;
 
-        .c-wrapper {
-            .c-container-01 {
-                display: flex;
-                flex-direction: column;
-                gap: 16px;
+    .c-wrapper {
+      .c-container-01 {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
 
-                .c-container-01-A {
-                    font-family: Nothing You Could Do;
-                    font-size: 28px;
-                    font-weight: 400;
-                    line-height: 44px;
-                    text-align: center;
-                    color: #FF2340;
-
-                }
-
-                .c-container-01-B {
-                    font-size: 36px;
-                    font-weight: 500;
-                    line-height: 44px;
-                    text-align: center;
-                    color: #0066C1;
-
-                }
-
-                .c-container-01-C {
-                    font-size: 14px;
-                    font-weight: 400;
-                    line-height: 24px;
-                    text-align: center;
-
-                }
-            }
-
-            .c-container-02 {}
-
+        .c-container-01-A {
+          font-family: 'Nothing You Could Do';
+          font-size: 28px;
+          font-weight: 400;
+          line-height: 44px;
+          text-align: center;
+          color: #ff2340;
         }
+
+        .c-container-01-B {
+          font-size: 36px;
+          font-weight: 500;
+          line-height: 44px;
+          text-align: center;
+          color: #0066c1;
+        }
+
+        .c-container-01-C {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: center;
+        }
+      }
+
+      .c-container-02 {
+      }
     }
+  }
 }
 
 /* Common sm, md, lg */
 @media all and (min-width: #{$mq-sm1 + "px"}) {
-    .section-35 {
-        padding: 58px 0 104px 0;
-        background: #E9EFF5;
+  .section-35 {
+    padding: 58px 0 104px 0;
+    background: #e9eff5;
 
-        .c-wrapper {
-            width: 938px;
-            .c-container-01 {
-                display: flex;
-                flex-direction: column;
+    .c-wrapper {
+      width: 938px;
+      .c-container-01 {
+        display: flex;
+        flex-direction: column;
 
-                .c-container-01-A {
-                    font-family: Nothing You Could Do;
-                    font-size: 36px;
-                    font-weight: 400;
-                    line-height: 58px;
-                    text-align: center;
-                    color: #FF2340;
-
-                }
-
-                .c-container-01-B {
-                    font-size: 52px;
-                    font-weight: 500;
-                    line-height: 58px;
-                    text-align: center;
-                    color: #0066C1;
-                    margin-bottom: 20px;
-
-                }
-
-                .c-container-01-C {
-                    font-size: 20px;
-                    font-weight: 400;
-                    line-height: 32px;
-                    text-align: center;
-
-                }
-            }
-
-            .c-container-02 {}
-
+        .c-container-01-A {
+          font-family: 'Nothing You Could Do';
+          font-size: 36px;
+          font-weight: 400;
+          line-height: 58px;
+          text-align: center;
+          color: #ff2340;
         }
+
+        .c-container-01-B {
+          font-size: 52px;
+          font-weight: 500;
+          line-height: 58px;
+          text-align: center;
+          color: #0066c1;
+          margin-bottom: 20px;
+        }
+
+        .c-container-01-C {
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 32px;
+          text-align: center;
+        }
+      }
+
+      .c-container-02 {
+      }
     }
+  }
 }

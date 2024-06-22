@@ -1,188 +1,166 @@
-﻿@import "../../Base/Global.scss";
+﻿@import '../../Base/Global.scss';
 /* Common xs1, xs2 */
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
-    .section-09 {
-        padding-bottom: 78px;
-        .c-wrapper {
-            .c-container-01 {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                gap: 16px;
+  .section-09 {
+    padding-bottom: 78px;
+    .c-wrapper {
+      .c-container-01 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
 
-                .c-item-01 {
-                    font-size: 40px;
-                    font-weight: 500;
-                    line-height: 50px;
-                    text-align: center;
-                    color: #0066C1;
-                }
-
-                .c-item-02 {
-                    font-size: 12px;
-                    font-weight: 400;
-                    line-height: 24px;
-                    text-align: center;
-
-                }
-            }
-
-            .c-container-02 {
-                display: grid;
-                grid-template-columns: auto auto;
-                gap: 16px;
-                margin-top: 16px;
-
-                .c-item-01 {
-                    overflow: hidden;
-                    border-radius: 4px 4px 0 0;
-                }
-
-                .c-item-03 {
-                    display: flex;
-                    flex-direction: column;
-                    background-color: #E9EFF5;
-                    padding: 16px 0 16px 18px;
-                    
-
-                    .c-item-03-A {
-                        font-family: Roboto;
-                        font-size: 12px;
-                        font-weight: 600;
-                        line-height: 16px;
-                        text-align: left;
-                        height: 48px;
-
-
-                    }
-
-                    .c-item-03-B {
-                        font-family: Roboto;
-                        font-size: 10px;
-                        font-weight: 400;
-                        line-height: 12px;
-                        text-align: left;
-                        margin: 12px 0 12px 0;
-
-                    }
-
-                    .c-item-03-C {
-
-                        display: flex;
-                        width: fit-content;
-                        border-radius: 50%;
-                        background-color: #CCC;
-                        transition: background-color 0.35s, border-color 0.35s;
-                        border: 1px solid;
-                        border-color: #ccc;
-                     
-
-
-                        &:hover {
-                            background-color: #0066C1;
-
-                            border-color: #0066C1;
-                        }
-                    }
-
-                    .svg-wh {
-                        width: 24px;
-                        height: 24px;
-                    }
-
-                }
-            }
+        .c-item-01 {
+          font-size: 40px;
+          font-weight: 500;
+          line-height: 50px;
+          text-align: center;
+          color: #0066c1;
         }
+
+        .c-item-02 {
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: center;
+        }
+      }
+
+      .c-container-02 {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 16px;
+        margin-top: 16px;
+
+        .c-item-01 {
+          overflow: hidden;
+          border-radius: 4px 4px 0 0;
+        }
+
+        .c-item-03 {
+          display: flex;
+          flex-direction: column;
+          background-color: #e9eff5;
+          padding: 16px 0 16px 18px;
+
+          .c-item-03-A {
+            font-family: 'Roboto';
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 16px;
+            text-align: left;
+            height: 48px;
+          }
+
+          .c-item-03-B {
+            font-family: 'Roboto';
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 12px;
+            text-align: left;
+            margin: 12px 0 12px 0;
+          }
+
+          .c-item-03-C {
+            display: flex;
+            width: fit-content;
+            border-radius: 50%;
+            background-color: #ccc;
+            transition: background-color 0.35s, border-color 0.35s;
+            border: 1px solid;
+            border-color: #ccc;
+
+            &:hover {
+              background-color: #0066c1;
+
+              border-color: #0066c1;
+            }
+          }
+
+          .svg-wh {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
     }
+  }
 }
 
 /* Common sm, md, lg */
 @media all and (min-width: #{$mq-sm1 + "px"}) {
-    .section-09 {
-        padding-bottom: 128px;
+  .section-09 {
+    padding-bottom: 128px;
 
-        .c-wrapper {
-            width: 1360px;
+    .c-wrapper {
+      width: 1360px;
 
-            .c-container-01 {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+      .c-container-01 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-                .c-item-01 {}
-
-                .c-item-02 {
-                    font-size: 20px;
-                    font-weight: 400;
-                    line-height: 32px;
-                    text-align: center;
-                    color: #1A4359;
-                    width: 760px;
-                    margin: 20px 0 44px 0;
-                }
-            }
-
-            .c-container-02 {
-                display: grid;
-                grid-template-columns: auto auto auto auto;
-                gap: 28px;
-
-
-                .c-item-01 {
-                    overflow: hidden;
-                    border-radius: 8px 8px 0 0;
-
-
-
-
-
-                    .c-item-02 {
-                        object-fit: cover;
-                        width: 100%;
-
-                    }
-
-                    .c-item-03 {
-                        display: flex;
-                        flex-direction: column;
-                        background-color: #E9EFF5;
-                        padding: 28px 18px 28px 28px;
-
-
-                        .c-item-03-A {
-                            width: 240px;
-
-                        }
-
-                        .c-item-03-B {
-                            margin: 18px 0 18px 0;
-                            width: 250px;
-                        }
-
-                        .c-item-03-C {
-
-                            display: flex;
-                            width: fit-content;
-                            border-radius: 50%;
-                            background-color: #CCC;
-                            transition: background-color 0.35s, border-color 0.35s;
-                            border: 1px solid;
-                            border-color: #ccc;
-
-
-                            &:hover {
-                                background-color: #0066C1;
-
-                                border-color: #0066C1;
-                            }
-                        }
-                    }
-
-
-                }
-
-
-            }
+        .c-item-01 {
         }
+
+        .c-item-02 {
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 32px;
+          text-align: center;
+          color: #1a4359;
+          width: 760px;
+          margin: 20px 0 44px 0;
+        }
+      }
+
+      .c-container-02 {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 28px;
+
+        .c-item-01 {
+          overflow: hidden;
+          border-radius: 8px 8px 0 0;
+
+          .c-item-02 {
+            object-fit: cover;
+            width: 100%;
+          }
+
+          .c-item-03 {
+            display: flex;
+            flex-direction: column;
+            background-color: #e9eff5;
+            padding: 28px 18px 28px 28px;
+
+            .c-item-03-A {
+              width: 240px;
+            }
+
+            .c-item-03-B {
+              margin: 18px 0 18px 0;
+              width: 250px;
+            }
+
+            .c-item-03-C {
+              display: flex;
+              width: fit-content;
+              border-radius: 50%;
+              background-color: #ccc;
+              transition: background-color 0.35s, border-color 0.35s;
+              border: 1px solid;
+              border-color: #ccc;
+
+              &:hover {
+                background-color: #0066c1;
+
+                border-color: #0066c1;
+              }
+            }
+          }
+        }
+      }
     }
+  }
 }

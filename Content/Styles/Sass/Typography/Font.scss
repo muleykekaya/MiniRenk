@@ -33,11 +33,11 @@
 
 //'Neulis'
 
-@font-face {
-  font-family: 'Neulis';
-  src: url('../../../Content/Files/Fonts/Neulis/Neulis-Medium.otf');
-  font-weight: 500;
-}
+// @font-face {
+//   font-family: 'Neulis';
+//   src: url('../../../Content/Files/Fonts/Neulis/Neulis-Medium.otf');
+//   font-weight: 500;
+// }
 
 //'Sacramento'
 @font-face {
@@ -53,7 +53,7 @@
   font-weight: 400;
 }
 
-//'Nothing You Could Do'
+//''Nothing You Could Do''
 @font-face {
   font-family: 'Nothing You Could Do';
   src: url('../../../Content/Files/Fonts/SpaceGrotesk/SpaceGrotesk-Medium.ttf');
@@ -86,7 +86,7 @@ a {
 
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
   .header-01 {
-    font-family: Neulis Alt;
+    font-family: 'Neulis Alt';
     font-size: 36px;
     font-weight: 500;
     line-height: 44px;
@@ -94,7 +94,7 @@ a {
     color: #0066c1;
   }
   .header-02 {
-    font-family: Neulis Alt;
+    font-family: 'Neulis Alt';
     font-size: 54px;
     font-weight: 600;
     line-height: 58px;
@@ -102,7 +102,7 @@ a {
     color: #0068c7;
   }
   .header-03 {
-    font-family: Neulis Alt;
+    font-family: 'Neulis Alt';
     font-size: 28px;
     font-weight: 600;
     line-height: 24px;
@@ -145,7 +145,7 @@ a {
   }
   .prg-05 {
     color: #0066c1;
-    font-family: Neulis Alt;
+    font-family: 'Neulis Alt';
     font-size: 10px;
     font-weight: 400;
     line-height: 12px;
@@ -156,7 +156,7 @@ a {
 /* Common sm, md, lg */
 @media all and (min-width: #{$mq-sm1 + "px"}) {
   .header-01 {
-    font-family: Neulis Alt;
+    font-family: 'Neulis Alt';
     font-size: 54px;
     font-weight: 500;
     line-height: 58px;
@@ -165,7 +165,7 @@ a {
   }
 
   .header-02 {
-    font-family: Neulis Alt;
+    font-family: 'Neulis Alt';
     font-size: 54px;
     font-weight: 600;
     line-height: 58px;
@@ -173,7 +173,7 @@ a {
     color: #0068c7;
   }
   .header-03 {
-    font-family: Neulis Alt;
+    font-family: 'Neulis Alt';
     font-size: 28px;
     font-weight: 600;
     line-height: 24px;
@@ -182,7 +182,7 @@ a {
   }
 
   .prg {
-    font-family: Neulis Alt;
+    font-family: 'Neulis Alt';
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -216,7 +216,7 @@ a {
     color: #1a4359;
   }
   .prg-05 {
-    font-family: Neulis Alt;
+    font-family: 'Neulis Alt';
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;

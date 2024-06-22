@@ -1,87 +1,27 @@
-﻿@import "./formgroup.scss";
-
-
-
-
+﻿@import './formgroup.scss';
 
 .chk-A {
-    @include chk-default('inline-flex');
-    @include chk-hover-label-before(1px solid #BD9A5F, '', '', '', '');
-    @include chk-disabled-label-before('none', '', '', #e9e9e9, '');
-    @include chk-error-label-before('', '', '', transparent,'');
+  @include chk-default('inline-flex');
+  @include chk-hover-label-before(1px solid #dcdcdc, '', '', '', '');
+  @include chk-disabled-label-before('none', '', '', #e9e9e9, '');
+  @include chk-error-label-before('', '', '', transparent, '');
+  @include chk-label-before(20px, 20px, 1px solid #dcdcdc, 5px, 0 0 0 34px);
+  @include chk-checked-label-before(
+    '',
+    20px,
+    '<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M13.5 4.50049L6.5 11.5002L3 8.00049" stroke="#1A4359" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </svg> ',
+    transparent
+  );
+  font-family: 'Neulis Alt';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 20px */
 
-    &.chk-large {
-        @include chk-label-before(20px, 20px,1px solid #BD9A5F, 0, 0 0 0 34px);
-        @include chk-checked-label-before('', 20px, '<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M13.5 4.50049L6.5 11.5002L3 8.00049" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </svg> ', transparent);
-        font-family: 'Space Grotesk';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 0.8125em;
-        line-height: 151.6%;
-        /* identical to box height, or 20px */
-
-
-        color: #646464;
-    }
-
-    &.chk-medium {
-        @include chk-label-before(20px, 20px,1px solid #373A37, 0, 0 0 0 0);
-        @include chk-checked-label-before('', 14px, '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M5.74888 10.0625L2.625 6.96435L3.61902 5.97852L5.74888 8.09084L10.3785 3.5L11.375 4.48211L5.74888 10.0625Z" fill="#0072B6"/> </svg> ', transparent);
-    }
-
-    &.chk-slim {
-        @include chk-label-before(16px, 16px,1px solid #7D8285, 0, 0 0 0 24px);
-        @include chk-checked-label-before('', 12px, '<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M10.125 3.37598L4.875 8.62574L2.25 6.00098" stroke="#373A37" stroke-linecap="round" stroke-linejoin="round"/> </svg> ', transparent);
-    }
-}
-
-
-.chk-B {
-    display: flex;
-
-    & > span {
-        display: flex;
-        align-items: center;
-        font-size: 0.875em;
-
-
-        &::before {
-            content: '';
-            display: block;
-            width: 42px;
-            height: 24px;
-            border-radius: 30px;
-            background-color: rgba(125, 130, 133, 0.5);
-            transition: background-color 0.2s, border 0.2s;
-            cursor: pointer;
-        }
-
-        &::after {
-            content: '';
-            position: absolute;
-            top: calc(50% - 9px);
-            left: 4px;
-            display: block;
-            width: 18px;
-            height: 18px;
-            border-radius: 50%;
-            background-color: #fff;
-            @include dynamicTransform(translateX(0));
-            @include dynamicTransition(transform 0.3s);
-            cursor: pointer;
-        }
-
-        & > span {
-            width: calc(100% - 50px);
-        }
-    }
-
-    [type=checkbox]:checked ~ span::before {
-        background-color: #373A37;
-    }
-
-    [type=checkbox]:checked ~ span::after {
-        @include dynamicTransform(translateX(16px));
-        background-color: #fff;
-    }
+  color: #1a4359;
+  margin-bottom: 24px;
+  span a {
+    color: #0066c1;
+  }
 }

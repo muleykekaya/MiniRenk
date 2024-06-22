@@ -20,13 +20,13 @@
       position: absolute;
       z-index: 2; }
     .section-25 .c-container-01 .c-item-03 {
-      font-family: Neulis Alt;
+      font-family: 'Neulis Alt';
       font-size: 42px;
       font-weight: 600;
       line-height: 40px;
       text-align: center;
       z-index: 3;
-      color: #FFFFFF; } }
+      color: #ffffff; } }
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .section-25 .c-container-01 {
@@ -48,13 +48,13 @@
       position: absolute;
       z-index: 2; }
     .section-25 .c-container-01 .c-item-03 {
-      font-family: Neulis Alt;
+      font-family: 'Neulis Alt';
       font-size: 96px;
       font-weight: 600;
       line-height: 92px;
       text-align: center;
       z-index: 3;
-      color: #FFFFFF;
+      color: #ffffff;
       width: 905px; } }
 
 /*# sourceMappingURL=25.css.map */

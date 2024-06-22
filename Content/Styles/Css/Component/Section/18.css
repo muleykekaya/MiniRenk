@@ -3,57 +3,133 @@
 @media all and (max-width: 767px) {
   .section-18 {
     padding: 84px 0 54px 0;
-    background: #E9EFF5; }
-    .section-18 .c-wrapper .c-container-01 {
+    background: #e9eff5; }
+    .section-18.bg-2 {
+      background: #f5f5f3; }
+    .section-18 .c-wrapper {
       display: flex;
       flex-direction: column;
-      gap: 16px; }
-      .section-18 .c-wrapper .c-container-01 .c-container-01-A {
-        font-family: Nothing You Could Do;
-        font-size: 28px;
-        font-weight: 400;
-        line-height: 44px;
-        text-align: center;
-        color: #FF2340; }
-      .section-18 .c-wrapper .c-container-01 .c-container-01-B {
-        font-size: 36px;
-        font-weight: 500;
-        line-height: 44px;
-        text-align: center;
-        color: #0066C1; }
-      .section-18 .c-wrapper .c-container-01 .c-container-01-C {
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 24px;
-        text-align: center; } }
+      align-items: center; }
+      .section-18 .c-wrapper .c-container-01 {
+        display: flex;
+        flex-direction: column;
+        gap: 16px; }
+        .section-18 .c-wrapper .c-container-01 .c-container-01-A {
+          font-family: 'Nothing You Could Do';
+          font-size: 28px;
+          font-weight: 400;
+          line-height: 44px;
+          text-align: center;
+          color: #ff2340; }
+        .section-18 .c-wrapper .c-container-01 .c-container-01-B {
+          font-size: 36px;
+          font-weight: 500;
+          line-height: 44px;
+          text-align: center;
+          color: #0066c1; }
+        .section-18 .c-wrapper .c-container-01 .c-container-01-C {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: center; }
+      .section-18 .c-wrapper .c-container-02 {
+        z-index: 1;
+        width: 100%;
+        margin-top: 40px;
+        background-color: #fff;
+        border-radius: 12px;
+        padding: 160px 16px 24px 16px; }
+        .section-18 .c-wrapper .c-container-02 .c-item-01 {
+          font-size: 25px;
+          color: #0066c1;
+          font-weight: 700;
+          text-align: center;
+          margin-bottom: 12px; }
+        .section-18 .c-wrapper .c-container-02 .c-item-02 {
+          font-size: 15px;
+          color: #1a4359;
+          font-weight: 400;
+          text-align: center;
+          margin-bottom: 40px; }
+        .section-18 .c-wrapper .c-container-02 .c-item-03 {
+          padding: 0 20px; }
+          .section-18 .c-wrapper .c-container-02 .c-item-03 .btn-01 {
+            width: 100%; }
+        .section-18 .c-wrapper .c-container-02 .c-item-05 {
+          position: absolute;
+          z-index: 2;
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 104px; }
+      .section-18 .c-wrapper .c-container-03 {
+        display: none; } }
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .section-18 {
     padding: 58px 0 104px 0;
-    background: #E9EFF5; }
+    background: #e9eff5; }
+    .section-18.bg-2 {
+      background: #f5f5f3; }
     .section-18 .c-wrapper {
-      width: 938px; }
+      width: 938px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
       .section-18 .c-wrapper .c-container-01 {
         display: flex;
         flex-direction: column; }
         .section-18 .c-wrapper .c-container-01 .c-container-01-A {
-          font-family: Nothing You Could Do;
+          font-family: 'Nothing You Could Do';
           font-size: 36px;
           font-weight: 400;
           line-height: 58px;
           text-align: center;
-          color: #FF2340; }
+          color: #ff2340; }
         .section-18 .c-wrapper .c-container-01 .c-container-01-B {
           font-size: 52px;
           font-weight: 500;
           line-height: 58px;
           text-align: center;
-          color: #0066C1;
+          color: #0066c1;
           margin-bottom: 20px; }
         .section-18 .c-wrapper .c-container-01 .c-container-01-C {
           font-size: 20px;
           font-weight: 400;
           line-height: 32px;
-          text-align: center; } }
+          text-align: center; }
+      .section-18 .c-wrapper .c-container-02 {
+        z-index: 1;
+        width: 620px;
+        margin-top: 40px;
+        background-color: #fff;
+        border-radius: 12px;
+        padding: 48px; }
+        .section-18 .c-wrapper .c-container-02 .c-item-01 {
+          font-size: 25px;
+          color: #0066c1;
+          font-weight: 700;
+          text-align: center;
+          margin-bottom: 12px; }
+        .section-18 .c-wrapper .c-container-02 .c-item-02 {
+          font-size: 15px;
+          color: #1a4359;
+          font-weight: 400;
+          text-align: center;
+          margin-bottom: 40px; }
+        .section-18 .c-wrapper .c-container-02 .c-item-03 {
+          padding: 0 20px; }
+          .section-18 .c-wrapper .c-container-02 .c-item-03 .btn-01 {
+            width: 100%; }
+        .section-18 .c-wrapper .c-container-02 .c-item-05 {
+          position: absolute;
+          z-index: 2;
+          bottom: 0px;
+          right: -80px; }
+      .section-18 .c-wrapper .c-container-03 {
+        position: absolute;
+        z-index: 0;
+        left: 10px;
+        bottom: 355px; } }
 
 /*# sourceMappingURL=18.css.map */

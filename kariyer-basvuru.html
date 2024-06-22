@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <title>Mini Renk</title>
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta
+      name="format-detection"
+      content="telephone=no"
+    />
+    <meta
+      name="author"
+      content="harmony"
+    />
+    <link
+      rel="icon"
+      href="favicon.ico"
+    />
+    <link
+      href="Content/favicon.ico"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link
+      href="Content/Styles/Css/Base.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+
+  <body class="tranparent-header home-page">
+    <div id="page-wrapper">
+      <div id="content-wrapper">
+        <main>
+          <section class="section-17">
+            <div class="c-wrapper">
+              <div class="c-container-01">
+                <a href="/">Anasayfa</a>
+                <svg
+                  width="6"
+                  height="10"
+                  viewBox="0 0 6 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L5 5L1 9"
+                    stroke="#667085"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <a href="/kariyer.html">Kariyer</a>
+              </div>
+              <div class="c-container-02">
+                <h3 class="c-item-01">Kariyer Başvurusu</h3>
+
+                <form
+                  class="c-item-02"
+                  id="career-form"
+                >
+                  <div class="c-item-03-A">
+                    <select
+                      class="select-01"
+                      id="position"
+                      name="position"
+                      data-rule-required="true"
+                    >
+                      <option value="">Lütfen Pozisyonunuzu Seçin</option>
+                      <option value="anaokulu-ogretmeni">
+                        Anaokulu Öğretmeni
+                      </option>
+                      <option value="ilkokul-ogretmeni">
+                        İlkokul Öğretmeni
+                      </option>
+                      <option value="kurum-yoneticisi">Kurum Yöneticisi</option>
+                      <option value="psikolog">Psikolog</option>
+                      <option value="brans-ogretmeni">Branş Öğretmeni</option>
+                      <option value="destek-personeli">Destek Personeli</option>
+                    </select>
+                  </div>
+
+                  <div class="c-item-03-A">
+                    <input
+                      id="fullname"
+                      type="text"
+                      name="fullname"
+                      value=""
+                      data-rule-required="true"
+                      data-maskformat="alphabeticWgap"
+                      maxlength="100"
+                      autocomplete="new-password"
+                      class="tb-01"
+                      onkeyup="this.setAttribute('value', this.value);"
+                    />
+                    <label
+                      for="fullname"
+                      class="tb-placeholder-01"
+                    >
+                      Adınız Soyadınız
+                    </label>
+                  </div>
+                  <div class="c-item-03-A">
+                    <input
+                      id="email"
+                      type="text"
+                      name="email"
+                      value=""
+                      data-rule-required="true"
+                      data-rule-email="true"
+                      maxlength="100"
+                      autocomplete="new-password"
+                      class="tb-01"
+                      onkeyup="this.setAttribute('value', this.value);"
+                    />
+                    <label
+                      for="email"
+                      class="tb-placeholder-01"
+                    >
+                      E-posta
+                    </label>
+                  </div>
+                  <div class="c-item-03-A">
+                    <input
+                      id="mobileNumber"
+                      type="text"
+                      name="mobileNumber"
+                      value=""
+                      data-rule-minlength="15"
+                      data-rule-required="true"
+                      data-maskformat="phone"
+                      autocomplete="new-password"
+                      class="tb-01"
+                      onkeyup="this.setAttribute('value', this.value);"
+                    />
+                    <label
+                      for="mobileNumber"
+                      class="tb-placeholder-01"
+                    >
+                      Numaranız
+                    </label>
+                  </div>
+                  <div class="c-item-03-A">
+                    <textarea
+                      id="message"
+                      type="text"
+                      name="message"
+                      value=""
+                      autocomplete="new-password"
+                      class="ta-01"
+                      onkeyup="this.setAttribute('value', this.value);"
+                    ></textarea>
+                    <label
+                      for="message"
+                      class="tb-placeholder-01"
+                    >
+                      İş Başvuru Mesajınız
+                    </label>
+                  </div>
+
+                  <div class="c-item-03-A">
+                    <div class="chk-A">
+                      <input
+                        id="kvkk"
+                        name="kvkk"
+                        type="checkbox"
+                        data-rule-required="true"
+                      />
+                      <label
+                        class="chk-label-01"
+                        for="kvkk"
+                        style="cursor: pointer"
+                      >
+                        <span>
+                          Detaylı bilgi için
+                          <a href="javascript:void(0);">Aydınlatma Metnimizi</a>
+                          ve
+                          <a href="javascript:void(0);">Çerez Politikamızı</a>
+                          inceleyiniz.
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="c-item-03-B">
+                    <div
+                      class="g-recaptcha"
+                      id="registirationRecaptcha"
+                    ></div>
+
+                    <button
+                      type="submit"
+                      class="btn-01"
+                      onclick="FormActions.checkValidationAndSubmitForm({ ev: event, sender: this });"
+                    >
+                      Gönder
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+
+      <section id="modal-wrapper">
+        <div id="modal-content">
+          <div id="modal-header"></div>
+          <div id="modal-body"></div>
+          <div id="modal-footer"></div>
+          <a
+            id="modal-close"
+            href="javascript:void(0);"
+            onclick="Feux.Modal.Actions.closeClick({ ev: event, sender: this });"
+          >
+          </a>
+        </div>
+      </section>
+
+      <div
+        id="overlay-wrapper"
+        onclick="Feux.Base.overlayClick({ sender: this });"
+      ></div>
+      <div id="toast-wrapper"></div>
+    </div>
+
+    <div id="mq-values">
+      <div id="mq-xs1"></div>
+      <div id="mq-xs2"></div>
+      <div id="mq-sm1"></div>
+      <div id="mq-sm2"></div>
+      <div id="mq-md"></div>
+      <div id="mq-lg"></div>
+      <div id="mq-xl"></div>
+    </div>
+    <script
+      src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit"
+      async
+      defer
+    ></script>
+    <script src="Content/Plugins/Jquery.Library/jquery-3.6.0.min.js"></script>
+    <script src="Content/Plugins/Jquery.Validation/jquery.validate.js"></script>
+    <script src="Content/Plugins/Jquery.Mask/jquery.mask.js"></script>
+    <script src="Content/Scripts/Base/Feux.Common.Global.js"></script>
+    <script src="Content/Scripts/Base/Feux.Common.Helper.js"></script>
+    <script src="Content/Scripts/Base/Feux.Common.Base.js"></script>
+    <script src="Content/Scripts/Base/Feux.Common.UX.js"></script>
+    <script src="Content/Scripts/Base/Feux.Common.jQuery.js"></script>
+    <script src="Content/Scripts/Base/Feux.Modal.Base.js"></script>
+    <script src="Content/Scripts/Form/Feux.Form.Base.js"></script>
+    <script src="Content/Scripts/Form/Feux.Form.Validation.js"></script>
+    <script src="Content/Scripts/Form/Feux.Form.Plugin.js"></script>
+    <script src="Content/Scripts/Static/Feux.Layout.js"></script>
+    <script>
+      var positionSelect = document.getElementById('position');
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      const positionValue = urlParams.get('position');
+      if (positionValue) {
+        positionSelect.value = positionValue;
+      }
+    </script>
+  </body>
+</html>

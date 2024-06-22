@@ -10,7 +10,7 @@
         display: flex;
         flex-direction: column-reverse;
         border-radius: 8px;
-        background-color: #F5F5F3;
+        background-color: #f5f5f3;
         overflow: hidden; }
       .section-05 .c-wrapper .container .c-item-01 {
         padding: 46px 0 56px 0;
@@ -19,19 +19,19 @@
           font-size: 36px;
           font-weight: 500;
           line-height: 44px;
-          color: #65BE4D; }
+          color: #65be4d; }
           .section-05 .c-wrapper .container .c-item-01 .c-item-01-A.c-01 {
-            color: #DE3C11; }
+            color: #de3c11; }
           .section-05 .c-wrapper .container .c-item-01 .c-item-01-A.c-02 {
-            color: #0C826A; }
+            color: #0c826a; }
           .section-05 .c-wrapper .container .c-item-01 .c-item-01-A.c-03 {
             color: #294864; }
         .section-05 .c-wrapper .container .c-item-01 .c-item-01-B {
-          font-family: Roboto;
+          font-family: 'Roboto';
           font-size: 14px;
           font-weight: 400;
           line-height: 24px;
-          color: #1A4359;
+          color: #1a4359;
           margin-top: 32px; }
         .section-05 .c-wrapper .container .c-item-01 .c-item-01-C {
           margin-top: 52px; }
@@ -45,7 +45,7 @@
       width: 930px; }
       .section-05 .c-wrapper .container .c-item {
         height: 384px;
-        background-color: #F5F5F3;
+        background-color: #f5f5f3;
         display: flex;
         margin: 0 0 60px 0;
         overflow: hidden;
@@ -57,15 +57,15 @@
             font-size: 36px;
             font-weight: 500;
             line-height: 44px;
-            color: #65BE4D; }
+            color: #65be4d; }
             .section-05 .c-wrapper .container .c-item .c-item-01 .c-item-01-A.c-01 {
-              color: #DE3C11; }
+              color: #de3c11; }
             .section-05 .c-wrapper .container .c-item .c-item-01 .c-item-01-A.c-02 {
-              color: #0C826A; }
+              color: #0c826a; }
             .section-05 .c-wrapper .container .c-item .c-item-01 .c-item-01-A.c-03 {
               color: #294864; }
           .section-05 .c-wrapper .container .c-item .c-item-01 .c-item-01-B {
-            font-family: Roboto;
+            font-family: 'Roboto';
             font-size: 16px;
             font-weight: 400;
             line-height: 32px;

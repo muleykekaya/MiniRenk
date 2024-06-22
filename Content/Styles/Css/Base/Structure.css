@@ -49,7 +49,7 @@ body {
   .custom-scroll-01::-webkit-scrollbar-thumb {
     width: 5px;
     border-radius: 2px;
-    background-color: #F5F7F9; }
+    background-color: #f5f7f9; }
 
 main {
   margin-top: 154px; }
@@ -69,7 +69,9 @@ main {
 /* Common SM1 and SM2 */
 @media all and (min-width: 768px) and (max-width: 1379px) {
   body {
-    zoom: 0.57; } }
+    zoom: 0.57; }
+    body .g-recaptcha {
+      zoom: 1.8; } }
 /* SM1 */
 @media all and (min-width: 768px) and (max-width: 1023px) {
   .c-wrapper {
@@ -83,6 +85,8 @@ main {
 @media all and (min-width: 1380px) and (max-width: 1679px) {
   body {
     zoom: 0.861; }
+    body .g-recaptcha {
+      zoom: 1.2; }
 
   .c-wrapper {
     width: 1360px; } }

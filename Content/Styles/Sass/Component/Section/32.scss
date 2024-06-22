@@ -1,125 +1,112 @@
-﻿@import "../../Base/Global.scss";
+﻿@import '../../Base/Global.scss';
 /* Common xs1, xs2 */
 /* Common XS1 and XS2 */
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
-    .section-32 {
-        padding-bottom: 54px;
+  .section-32 {
+    padding-bottom: 54px;
 
-        .c-wrapper {
-            display: flex;
-            gap: 80px;
-            padding: 18px 0 30px 0;
-            overflow-x: auto;
-            width: auto;
+    .c-wrapper {
+      display: flex;
+      gap: 80px;
+      padding: 18px 0 30px 0;
+      overflow-x: auto;
+      width: auto;
 
-            .c-item-01 {
-                display: flex;
-                flex-direction: column;
+      .c-item-01 {
+        display: flex;
+        flex-direction: column;
 
-                .c-item-01-A {}
-
-                .c-item-01-B {
-                    font-family: Neulis Alt;
-                    font-size: 20px;
-                    font-weight: 700;
-                    line-height: 20px;
-                    text-align: center;
-                    color: #FF6B32;
-                    margin-top: 20px;
-
-                    &.bg1 {
-                        color: #0C826A;
-
-                    }
-
-                    &.bg2 {
-                        color: #FFB73E;
-
-                    }
-
-                    &.bg3 {
-                        color: #5968FE;
-                        margin-top: 0;
-                    }
-
-                    &.bg4 {
-                        color: #FF0016;
-                        margin-top: 34px;
-                    }
-
-                }
-            }
-
-
-
+        .c-item-01-A {
         }
 
-        hr {
-            border: 1px solid #00000040;
-        }
+        .c-item-01-B {
+          font-family: 'Neulis Alt';
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 20px;
+          text-align: center;
+          color: #ff6b32;
+          margin-top: 20px;
 
+          &.bg1 {
+            color: #0c826a;
+          }
+
+          &.bg2 {
+            color: #ffb73e;
+          }
+
+          &.bg3 {
+            color: #5968fe;
+            margin-top: 0;
+          }
+
+          &.bg4 {
+            color: #ff0016;
+            margin-top: 34px;
+          }
+        }
+      }
     }
+
+    hr {
+      border: 1px solid #00000040;
+    }
+  }
 }
 
 /* Common sm, md, lg */
 @media all and (min-width: #{$mq-sm1 + "px"}) {
-    .section-32 {
-        padding-bottom: 64px;
+  .section-32 {
+    padding-bottom: 64px;
 
-        .c-wrapper {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 752px;
-            gap: 80px;
-            padding: 18px 0 30px 0;
+    .c-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 752px;
+      gap: 80px;
+      padding: 18px 0 30px 0;
 
+      .c-item-01 {
+        display: flex;
+        flex-direction: column;
 
-            .c-item-01 {
-                display: flex;
-                flex-direction: column;
-
-                .c-item-01-A {}
-
-                .c-item-01-B {
-                    font-family: Neulis Alt;
-                    font-size: 20px;
-                    font-weight: 700;
-                    line-height: 20px;
-                    text-align: center;
-                    color: #FF6B32;
-                    margin-top: 20px;
-
-                    &.bg1 {
-                        color: #0C826A;
-
-                    }
-
-                    &.bg2 {
-                        color: #FFB73E;
-
-                    }
-
-                    &.bg3 {
-                        color: #5968FE;
-                        margin-top: 0;
-                    }
-
-                    &.bg4 {
-                        color: #FF0016;
-                        margin-top: 34px;
-                    }
-
-                }
-            }
-
-
-
+        .c-item-01-A {
         }
 
-        hr {
-            border: 1px solid #00000040;
-        }
+        .c-item-01-B {
+          font-family: 'Neulis Alt';
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 20px;
+          text-align: center;
+          color: #ff6b32;
+          margin-top: 20px;
 
+          &.bg1 {
+            color: #0c826a;
+          }
+
+          &.bg2 {
+            color: #ffb73e;
+          }
+
+          &.bg3 {
+            color: #5968fe;
+            margin-top: 0;
+          }
+
+          &.bg4 {
+            color: #ff0016;
+            margin-top: 34px;
+          }
+        }
+      }
     }
+
+    hr {
+      border: 1px solid #00000040;
+    }
+  }
 }

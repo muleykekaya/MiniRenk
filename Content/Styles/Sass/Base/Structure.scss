@@ -1,130 +1,129 @@
-@import "Global.scss";
-
+@import 'Global.scss';
 
 html {
-    scroll-behavior: smooth;
-    height: 100%;
+  scroll-behavior: smooth;
+  height: 100%;
 }
 
 body {
-    min-height: 100%;
+  min-height: 100%;
 
-    &.noscroll {
-        position: fixed;
-        width: 100%;
-        overflow-y: scroll;
-    }
+  &.noscroll {
+    position: fixed;
+    width: 100%;
+    overflow-y: scroll;
+  }
 }
 
 #content-wrapper {
-    z-index: 0;
+  z-index: 0;
 }
 
 #overlay-wrapper {
-    display: block;
-    visibility: hidden;
-    position: fixed;
-    z-index: 100;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(34, 31, 68, 0.24);
-    opacity: 0;
-    transition: visibility 0s 0.3s, opacity 0.3s 0s;
+  display: block;
+  visibility: hidden;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(34, 31, 68, 0.24);
+  opacity: 0;
+  transition: visibility 0s 0.3s, opacity 0.3s 0s;
 
-    &.on {
-        visibility: visible;
-        opacity: 1;
-        transition: visibility 0s 0s, opacity 0.3s 0.05s;
-    }
+  &.on {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s 0s, opacity 0.3s 0.05s;
+  }
 }
 
 .c-wrapper {
-    margin: 0 auto 0 auto;
-    
+  margin: 0 auto 0 auto;
 }
 
 .no-header {
-    header {
-        display: none;
-    }
+  header {
+    display: none;
+  }
 }
 
 .no-menu {
-    #menu-primary,
-    #hamburger-menu-wrapper {
-        display: none;
-    }
+  #menu-primary,
+  #hamburger-menu-wrapper {
+    display: none;
+  }
 }
 
 .no-footer {
-    footer {
-        display: none;
-    }
+  footer {
+    display: none;
+  }
 }
 
 .custom-scroll-01 {
-    overflow-y:auto;
-    &::-webkit-scrollbar {
-        width: 5px;
-    }
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
 
-    &::-webkit-scrollbar-track {
-    }
+  &::-webkit-scrollbar-track {
+  }
 
-    &::-webkit-scrollbar-thumb {
-        width: 5px;
-        border-radius: 2px;
-        background-color: #F5F7F9;
-    }
+  &::-webkit-scrollbar-thumb {
+    width: 5px;
+    border-radius: 2px;
+    background-color: #f5f7f9;
+  }
 }
 
-main{
-    margin-top: 154px;
+main {
+  margin-top: 154px;
 }
 /* Common XS1 and XS2 */
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
-    main{
-        margin-top: 98px;
-    }
+  main {
+    margin-top: 98px;
+  }
 }
 
 /* XS1 */
 @media all and (max-width: #{($mq-xs2 - 1) + "px"}) {
-    .c-wrapper {
-        width: #{$c-wrapper-xs1-width};
-    }
+  .c-wrapper {
+    width: #{$c-wrapper-xs1-width};
+  }
 }
 
 /* XS2 */
 @media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
-    .c-wrapper {
-        width: #{$c-wrapper-xs2-width};
-    }
+  .c-wrapper {
+    width: #{$c-wrapper-xs2-width};
+  }
 }
-
 
 /* Common SM1 and SM2 */
 @media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
-    body {
-        zoom: $zoom-sm;
+  body {
+    zoom: $zoom-sm;
+    .g-recaptcha {
+      zoom: 1.8;
     }
-    
+  }
 }
 
 /* SM1 */
 @media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
-    .c-wrapper {
-        width: #{$c-wrapper-sm1-width + "px"};
-    }
+  .c-wrapper {
+    width: #{$c-wrapper-sm1-width + 'px'};
+  }
 }
 
 /* SM2 */
 @media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
-    .c-wrapper {
-        width: #{$c-wrapper-sm2-width + "px"};
-    }
+  .c-wrapper {
+    width: #{$c-wrapper-sm2-width + 'px'};
+  }
 }
 
 /* Common MD and LG */
@@ -133,18 +132,21 @@ main{
 
 /* MD */
 @media all and (min-width: #{$mq-md + "px"}) and (max-width: #{($mq-lg - 1) + "px"}) {
-    body {
-        zoom: 0.861;
+  body {
+    zoom: 0.861;
+    .g-recaptcha {
+      zoom: 1.2;
     }
+  }
 
-    .c-wrapper {
-        width: #{$c-wrapper-md-width + "px"};
-    }
+  .c-wrapper {
+    width: #{$c-wrapper-md-width + 'px'};
+  }
 }
 
 /* LG */
 @media all and (min-width: #{$mq-lg + "px"}) {
-    .c-wrapper {
-        width: #{$c-wrapper-lg-width + "px"};
-    }
+  .c-wrapper {
+    width: #{$c-wrapper-lg-width + 'px'};
+  }
 }

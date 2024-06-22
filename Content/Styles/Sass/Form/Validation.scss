@@ -1,93 +1,23 @@
- 
-@import "../Base/Global.scss";
+@import '../Base/Global.scss';
 
+.parenterror {
+  input[type='text'].error,
+  select.error {
+    border: 2px solid #a32f2a !important;
+    margin-bottom: 0;
+  }
 
-
-
-/* Common xs1, xs2 */
-@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
-
-    .parenterror {
-        input[type=text].error {
-            color: #A32F2A !important;
-            border: 2px solid #A32F2A !important;
-
-            &::placeholder {
-                color: #A32F2A !important;
-            }
-        }
-
-        #email {
-            &.error {
-                font-weight: 500 !important;
-                color: #A32F2A !important;
-                line-height: 15px !important;
-                font-size: 12px !important;
-            }
-        }
-
-        #chk-box-confirm {
-            ~ .chk-label-01 {
-                border: 2px solid #941313;
-            }
-
-            ~ .chk-label-01 {
-                color: #941313;
-            }
-        }
-
-        #chk-box-confirm-error {
-            display: none !important;
-        }
-
-        #email-error, #radio-error {
-            display: none !important;
-        }
+  .chk-label-01 {
+    &::before {
+      border: 2px solid #941313 !important;
     }
-}
+  }
 
-/* Common sm, md, lg */
-@media all and (min-width: #{$mq-sm1 + "px"}) {
-
-
-    .parenterror {
-        input[type=text].error {
-            color: #A32F2A !important;
-            border: 2px solid #A32F2A !important;
-
-            &::placeholder {
-                color: #A32F2A !important;
-            }
-        }
-
-        #email-error {
-            &.error {
-                position: absolute;
-                right: 0;
-                font-weight: 500 !important;
-                color: #A32F2A !important;
-                line-height: 15px !important;
-                font-size: 12px !important;
-                top: 6px;
-            }
-        }
-
-        #chk-box-confirm {
-            ~ .chk-label-01 {
-                border: 2px solid #941313;
-            }
-
-            ~ .chk-label-01 {
-                color: #941313;
-            }
-        }
-
-        #chk-box-confirm-error {
-            display: none !important;
-        }
-
-        #email-error, #radio-error {
-            display: none !important;
-        }
-    }
+  label.error {
+    display: block;
+    color: #a32f2a !important;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 4px 0 16px;
+  }
 }

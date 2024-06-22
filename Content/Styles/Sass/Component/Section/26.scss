@@ -1,142 +1,116 @@
-﻿@import "../../Base/Global.scss";
+﻿@import '../../Base/Global.scss';
 /* Common xs1, xs2 */
 /* Common XS1 and XS2 */
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
-    .section-26 {
-        background-color: #E9EFF5;
+  .section-26 {
+    background-color: #e9eff5;
 
-        .c-wrapper {
-            display: flex;
-            justify-content: center;
-            padding: 46px 0;
+    .c-wrapper {
+      display: flex;
+      justify-content: center;
+      padding: 46px 0;
 
-            .c-container-01 {
-                background-color: #fff;
-                border: 8px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                padding: 56px 0;
+      .c-container-01 {
+        background-color: #fff;
+        border: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 56px 0;
 
-                .c-item-01 {}
-
-                .c-item-02 {
-                    font-family: Sacramento;
-                    font-size: 30px;
-                    font-weight: 400;
-                    line-height: 60px;
-                    text-align: center;
-                    color: #FF2340;
-
-                }
-
-                .c-item-03 {
-                    display: flex;
-                    flex-direction: column;
-               width: 80%;
-
-                    .c-item-03-A,
-                    .c-item-03-B {
-                        &.p {
-                            font-family: Roboto;
-                            font-size: 16px;
-                            font-weight: 400;
-                            line-height: 32px;
-                            text-align: center;
-                            color: #1A4359;
-
-
-                        }
-
-                    }
-
-                    .c-item-03-B {
-
-                        margin-top: 32px;
-
-                    }
-                }
-
-
-
-
-            }
-
-
-
+        .c-item-01 {
         }
 
+        .c-item-02 {
+          font-family: Sacramento;
+          font-size: 30px;
+          font-weight: 400;
+          line-height: 60px;
+          text-align: center;
+          color: #ff2340;
+        }
+
+        .c-item-03 {
+          display: flex;
+          flex-direction: column;
+          width: 80%;
+
+          .c-item-03-A,
+          .c-item-03-B {
+            &.p {
+              font-family: 'Roboto';
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 32px;
+              text-align: center;
+              color: #1a4359;
+            }
+          }
+
+          .c-item-03-B {
+            margin-top: 32px;
+          }
+        }
+      }
     }
+  }
 }
 
 /* Common sm, md, lg */
 @media all and (min-width: #{$mq-sm1 + "px"}) {
-    .section-26 {
-        background-color: #E9EFF5;
+  .section-26 {
+    background-color: #e9eff5;
 
-        .c-wrapper {
-            display: flex;
-            justify-content: center;
-            width: 908px;
+    .c-wrapper {
+      display: flex;
+      justify-content: center;
+      width: 908px;
 
-            .c-container-01 {
-                height: 354px;
-                background-color: #fff;
-                border: 8px;
-                margin: 60px 0 66px 0;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
+      .c-container-01 {
+        height: 354px;
+        background-color: #fff;
+        border: 8px;
+        margin: 60px 0 66px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-                .c-item-01 {}
-
-                .c-item-02 {
-                    font-family: Sacramento;
-                    font-size: 46px;
-                    font-weight: 400;
-                    line-height: 88px;
-                    text-align: center;
-                    color: #FF2340;
-
-                }
-
-                .c-item-03 {
-                    display: flex;
-                    flex-direction: column;
-               width: 70%;
-
-                    .c-item-03-A,
-                    .c-item-03-B {
-                        &.p {
-                            font-family: Roboto;
-                            font-size: 16px;
-                            font-weight: 400;
-                            line-height: 32px;
-                            text-align: center;
-                            color: #1A4359;
-
-
-                        }
-
-                    }
-
-                    .c-item-03-B {
-
-                        margin-top: 32px;
-
-                    }
-                }
-
-
-
-
-            }
-
-
-
+        .c-item-01 {
         }
 
+        .c-item-02 {
+          font-family: Sacramento;
+          font-size: 46px;
+          font-weight: 400;
+          line-height: 88px;
+          text-align: center;
+          color: #ff2340;
+        }
+
+        .c-item-03 {
+          display: flex;
+          flex-direction: column;
+          width: 70%;
+
+          .c-item-03-A,
+          .c-item-03-B {
+            &.p {
+              font-family: 'Roboto';
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 32px;
+              text-align: center;
+              color: #1a4359;
+            }
+          }
+
+          .c-item-03-B {
+            margin-top: 32px;
+          }
+        }
+      }
     }
+  }
 }
