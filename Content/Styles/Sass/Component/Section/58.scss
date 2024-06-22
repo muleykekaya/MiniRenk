@@ -1,0 +1,28 @@
+﻿@import '../../Base/Global.scss';
+/* Common xs1, xs2 */
+/* Common XS1 and XS2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+  .section-58 {
+  }
+}
+
+/* Common sm, md, lg */
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+  .section-58 {
+    .c-container-01 {
+      background: #5968fe;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .c-item-01 {
+        margin: 20px 450px;
+        font-family: 'Neulis Alt';
+        font-size: 16px;
+        font-weight: 300;
+        line-height: auto;
+        text-align: center;
+        color: #ffffff;
+      }
+    }
+  }
+}

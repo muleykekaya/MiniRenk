@@ -112,7 +112,9 @@
     padding: 160px 0;
 
     .c-wrapper {
-      width: 1042px;
+      &.v1 {
+        width: 760px;
+      }
 
       .c-container-01 {
         text-align: center;
@@ -146,12 +148,17 @@
 
       .c-container-02 {
         display: flex;
+        justify-content: flex-end;
 
         .c-container-02-A {
+          width: 1056px;
+          margin-right: 100px;
           .c-item {
             border-radius: 10px;
-            margin: 0 0 60px 0;
             display: flex;
+            &:not(:last-child) {
+              margin: 0 0 60px 0;
+            }
 
             &.bg-01 {
               background: rgba(0, 104, 199, 0.15);
@@ -198,9 +205,11 @@
         }
 
         .c-container-02-B {
-          position: absolute;
-          right: -150px;
-          top: 0;
+          position: -webkit-sticky; /* Safari */
+          position: sticky;
+          right: 0;
+          top: 200px;
+          height: fit-content;
 
           .c-item {
             display: block;

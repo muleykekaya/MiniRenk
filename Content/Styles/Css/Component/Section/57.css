@@ -1,0 +1,75 @@
+/* Common xs1, xs2 */
+/* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .section-57 {
+    background: #0068c7; }
+    .section-57 .c-container-01 {
+      height: 480px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .section-57 .c-container-01 .c-item-01 {
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        position: absolute;
+        left: 0;
+        top: 0; }
+        .section-57 .c-container-01 .c-item-01 img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover; }
+      .section-57 .c-container-01 .c-item-02 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 3;
+        position: absolute;
+        width: 100%;
+        height: 100%; }
+        .section-57 .c-container-01 .c-item-02 .c-item-02-A {
+          font-family: 'Neulis Alt';
+          font-size: 40px;
+          font-weight: 300;
+          line-height: 40px;
+          text-align: center;
+          color: #ffffff; }
+        .section-57 .c-container-01 .c-item-02 .w {
+          font-weight: 600; } }
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .section-57 {
+    background: #0068c7; }
+    .section-57 .c-container-01 {
+      height: 480px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .section-57 .c-container-01 .c-item-01 {
+        z-index: 1;
+        position: absolute; }
+        .section-57 .c-container-01 .c-item-01 img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover; }
+      .section-57 .c-container-01 .c-item-02 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 3;
+        position: absolute;
+        width: 100%;
+        height: 100%; }
+        .section-57 .c-container-01 .c-item-02 .c-item-02-A {
+          font-family: 'Neulis Alt';
+          font-size: 96px;
+          font-weight: 300;
+          line-height: 92px;
+          text-align: center;
+          color: #ffffff; }
+        .section-57 .c-container-01 .c-item-02 .w {
+          font-weight: 600; } }
+
+/*# sourceMappingURL=57.css.map */
