@@ -2,7 +2,7 @@
 /* Common XS1 and XS2 */
 @media all and (max-width: 767px) {
   .section-42 {
-    background-color: #00bd99;
+    background: #8522d7;
     padding: 44px 0; }
     .section-42.v2 {
       background: #ffffff; }
@@ -36,7 +36,7 @@
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .section-42 {
-    background-color: #00bd99;
+    background: #8522d7;
     padding: 122px 0; }
     .section-42.v2 {
       background: #ffffff; }

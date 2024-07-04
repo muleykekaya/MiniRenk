@@ -35,7 +35,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        z-index: 3; }
+        z-index: 3;
+        margin-bottom: 100px; }
         .section-30 .c-container-01 .c-item-02 .c-item-02-A {
           font-family: 'Neulis Alt';
           font-size: 32px;
@@ -48,7 +49,6 @@
       .section-30 .c-container-01 .c-item-03 {
         position: absolute;
         bottom: -20px;
-        left: 0;
         z-index: 3;
         overflow: hidden; } }
 /* Common sm, md, lg */

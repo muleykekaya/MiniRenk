@@ -25,7 +25,9 @@
       margin-top: 16px; }
       .section-09 .c-wrapper .c-container-02 .c-item-01 {
         overflow: hidden;
-        border-radius: 4px 4px 0 0; }
+        border-radius: 4px; }
+        .section-09 .c-wrapper .c-container-02 .c-item-01 img {
+          border-radius: 4px; }
       .section-09 .c-wrapper .c-container-02 .c-item-03 {
         display: flex;
         flex-direction: column;
@@ -69,6 +71,9 @@
         display: flex;
         flex-direction: column;
         align-items: center; }
+        .section-09 .c-wrapper .c-container-01 .c-item-01 {
+          overflow: hidden;
+          border-radius: 8px; }
         .section-09 .c-wrapper .c-container-01 .c-item-02 {
           font-size: 20px;
           font-weight: 400;
@@ -83,7 +88,7 @@
         gap: 28px; }
         .section-09 .c-wrapper .c-container-02 .c-item-01 {
           overflow: hidden;
-          border-radius: 8px 8px 0 0; }
+          border-radius: 8px; }
           .section-09 .c-wrapper .c-container-02 .c-item-01 .c-item-02 {
             object-fit: cover;
             width: 100%; }

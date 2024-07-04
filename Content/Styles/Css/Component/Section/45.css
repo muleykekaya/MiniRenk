@@ -16,8 +16,7 @@
       top: 0; }
       .section-45 .c-container-01 .c-item-01 img {
         height: 100%;
-        width: 100%;
-        object-fit: cover; }
+        width: 100%; }
     .section-45 .c-container-01::after {
       content: '';
       position: absolute;
@@ -25,9 +24,8 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(32, 197, 166, 0);
       z-index: 2;
-      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%); }
+      background: linear-gradient(180deg, rgba(33, 131, 132, 0) 0%, #218384 100%); }
     .section-45 .c-container-01 .c-item-02 {
       display: flex;
       flex-direction: column;
@@ -58,9 +56,8 @@
       left: 0;
       top: 0; }
       .section-45 .c-container-01 .c-item-01 img {
-        height: 100%;
         width: 100%;
-        object-fit: cover; }
+        height: 100%; }
     .section-45 .c-container-01::after {
       content: '';
       position: absolute;
@@ -68,8 +65,8 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
-      z-index: 2; }
+      z-index: 2;
+      background: linear-gradient(180deg, rgba(33, 131, 132, 0) 0%, #218384 100%); }
     .section-45 .c-container-01 .c-item-02 {
       display: flex;
       flex-direction: column;
@@ -78,7 +75,8 @@
       z-index: 3;
       position: absolute;
       width: 100%;
-      height: 100%; }
+      height: 100%;
+      bottom: -80px; }
       .section-45 .c-container-01 .c-item-02 .c-item-02-A {
         font-family: 'Neulis Alt';
         font-size: 96px;

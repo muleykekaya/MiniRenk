@@ -14,12 +14,14 @@
         overflow: hidden;
         background: #ffffff;
         box-shadow: 0px 1px 3.9px 0 rgba(0, 0, 0, 0.25);
+        overflow: hidden;
 
         .c-item-01 {
           width: 100%;
           img {
             width: 100%;
             object-fit: cover;
+            border-radius: 6px 6 px 0px 0px;
           }
         }
 
@@ -38,7 +40,7 @@
             display: flex;
             flex-direction: column;
             gap: 16px;
-            margin-top: 28px;
+            margin-top: 66px;
 
             .c-item-05-A {
               display: flex;
@@ -54,6 +56,26 @@
               &.w {
               }
             }
+          }
+        }
+        .icon {
+          display: flex;
+          gap: 6px;
+          position: absolute;
+          right: 12px;
+          top: 42%;
+          border-radius: 8px;
+          background: #fff;
+          padding: 10px;
+          align-items: center;
+
+          .c-item-01 {
+            color: #0068c7;
+            font-family: 'Neulis Alt';
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 10px; /* 17.019px */
           }
         }
       }
@@ -88,13 +110,14 @@
           padding: 38px 40px 48px;
           .c-item-03 {
             text-align: left;
+            margin-right: 40px;
           }
           .c-item-04 {
             color: #1a4359;
             margin-top: 8px;
           }
           .c-item-05 {
-            margin-top: 36px;
+            margin-top: 80px;
             .c-item-05-A {
               display: flex;
               gap: 20px;
@@ -107,6 +130,25 @@
                 padding-right: 20px;
               }
             }
+          }
+        }
+        .icon {
+          display: flex;
+          gap: 6px;
+          position: absolute;
+          right: 32px;
+          top: 320px;
+          border-radius: 8px;
+          background: #fff;
+          padding: 10px;
+          align-items: center;
+          .c-item-01 {
+            color: #0068c7;
+            font-family: 'Neulis Alt';
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130.918%; /* 17.019px */
           }
         }
       }

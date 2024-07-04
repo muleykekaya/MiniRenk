@@ -13,7 +13,8 @@
           .c-item {
             display: flex;
             flex-direction: column-reverse;
-
+            border-radius: 10px;
+            overflow: hidden;
             &.bg-01 {
               background: rgba(0, 104, 199, 0.15);
             }
@@ -54,6 +55,7 @@
 
             .c-item-02 {
               object-fit: cover;
+              border-radius: 10px 10px 0 0;
             }
           }
         }
@@ -82,6 +84,7 @@
             border-radius: 10px;
             margin: 0 0 60px 0;
             display: flex;
+            overflow: hidden;
 
             &.bg-01 {
               background: rgba(0, 104, 199, 0.15);
@@ -120,9 +123,7 @@
             }
 
             .c-item-02 {
-              width: 470px;
-              height: 376px;
-              object-fit: cover;
+              border-radius: 0px 10px 10px 0px;
             }
           }
         }

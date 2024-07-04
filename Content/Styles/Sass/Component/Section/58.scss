@@ -3,6 +3,22 @@
 /* Common XS1 and XS2 */
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
   .section-58 {
+    .c-container-01 {
+      background: #5968fe;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .c-item-01 {
+        margin: 40px 12px;
+        color: #fff;
+        text-align: center;
+        font-family: 'Neulis Alt';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
   }
 }
 

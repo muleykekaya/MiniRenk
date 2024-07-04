@@ -1,6 +1,6 @@
 /* Common xs1, xs2 */
 @media all and (max-width: 767px) {
-  .section-03 .c-wrapper {
+  .section-03 {
     padding: 60px 0; }
     .section-03 .c-wrapper .c-container-01 {
       display: flex;
@@ -27,18 +27,21 @@
         text-align: center; }
       .section-03 .c-wrapper .c-container-01 .c-item-03 {
         color: #1a4359;
-        font-size: 16px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
-        text-align: center; }
+        text-align: center;
+        margin: 0 16px; }
     .section-03 .c-wrapper .c-container-02 .c-container-02-A {
       display: flex;
       flex-direction: column;
       gap: 20px; }
       .section-03 .c-wrapper .c-container-02 .c-container-02-A .c-item {
         display: flex;
-        flex-direction: column-reverse; }
+        flex-direction: column-reverse;
+        border-radius: 10px;
+        overflow: hidden; }
         .section-03 .c-wrapper .c-container-02 .c-container-02-A .c-item.bg-01 {
           background: rgba(0, 104, 199, 0.15); }
         .section-03 .c-wrapper .c-container-02 .c-container-02-A .c-item.bg-02 {
@@ -61,9 +64,11 @@
             font-size: 16px;
             font-weight: 400;
             line-height: 24px;
-            text-align: center; }
+            text-align: center;
+            margin: 0 40px; }
         .section-03 .c-wrapper .c-container-02 .c-container-02-A .c-item .c-item-02 {
-          object-fit: cover; }
+          object-fit: cover;
+          border-radius: 10px; }
     .section-03 .c-wrapper .c-container-02 .c-container-02-B {
       display: none; } }
 /* Common sm, md, lg */
@@ -132,7 +137,8 @@
           .section-03 .c-wrapper .c-container-02 .c-container-02-A .c-item .c-item-02 {
             width: 470px;
             height: 376px;
-            object-fit: cover; }
+            object-fit: cover;
+            border-radius: 0px 10px 10px 0px; }
       .section-03 .c-wrapper .c-container-02 .c-container-02-B {
         position: -webkit-sticky;
         /* Safari */

@@ -71,8 +71,18 @@
 
 .line-clamp-6 {
   display: -webkit-box;
-  -webkit-line-clamp: 6;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden; }
+
+.google-comments [class^='WidgetBackground__Content-'] a {
+  display: none !important; }
+.google-comments [class^='WidgetTitle__Container-sc'] {
+  display: none !important; }
+
+.eapps-instagram-feed .eapps-instagram-feed-title-container {
+  display: none; }
+.eapps-instagram-feed > a {
+  display: none !important; }
 
 /*# sourceMappingURL=Misc.css.map */

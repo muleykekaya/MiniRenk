@@ -53,13 +53,18 @@
           .section-56 .c-wrapper .c-container-01 .c-item-01 img {
             width: 100%; }
         .section-56 .c-wrapper .c-container-01 .c-item-02 {
-          padding: 94px 0;
+          padding: 56px 0;
           display: flex;
           flex-direction: column;
           gap: 20px; }
+          .section-56 .c-wrapper .c-container-01 .c-item-02 .c-item-02-A {
+            margin: 0 88px; }
           .section-56 .c-wrapper .c-container-01 .c-item-02 .c-item-02-B {
-            margin: 0 132px; }
+            margin: 0 48px; }
           .section-56 .c-wrapper .c-container-01 .c-item-02 .c-item-03-B {
-            margin: 20px 132px 0 132px; } }
+            margin: 20px 132px 0 132px;
+            font-weight: 600; }
+            .section-56 .c-wrapper .c-container-01 .c-item-02 .c-item-03-B.w {
+              font-weight: 400; } }
 
 /*# sourceMappingURL=56.css.map */

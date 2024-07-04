@@ -21,7 +21,6 @@
         img {
           height: 100%;
           width: 100%;
-          object-fit: cover;
         }
       }
 
@@ -32,9 +31,12 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: rgba(32, 197, 166, 0);
         z-index: 2;
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+        background: linear-gradient(
+          180deg,
+          rgba(33, 131, 132, 0) 0%,
+          #218384 100%
+        );
       }
       .c-item-02 {
         display: flex;
@@ -76,9 +78,8 @@
         top: 0;
 
         img {
-          height: 100%;
           width: 100%;
-          object-fit: cover;
+          height: 100%;
         }
       }
 
@@ -89,9 +90,12 @@
         left: 0;
         width: 100%;
         height: 100%;
-        // background: rgba(32, 197, 166, 0);
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
         z-index: 2;
+        background: linear-gradient(
+          180deg,
+          rgba(33, 131, 132, 0) 0%,
+          #218384 100%
+        );
       }
       .c-item-02 {
         display: flex;
@@ -102,6 +106,7 @@
         position: absolute;
         width: 100%;
         height: 100%;
+        bottom: -80px;
         .c-item-02-A {
           font-family: 'Neulis Alt';
           font-size: 96px;

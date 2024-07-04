@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <title>Minirenk</title>
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta
+      name="format-detection"
+      content="telephone=no"
+    />
+    <meta
+      name="author"
+      content="harmony"
+    />
+    <link
+      rel="icon"
+      href="favicon.ico"
+    />
+    <link
+      href="Content/favicon.ico"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link
+      href="Content/Styles/Css/Base.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+
+  <body class="tranparent-header home-page">
+    <div id="page-wrapper">
+      <div id="content-wrapper">
+        <main>
+          <section class="section-60">
+            <div class="c-container-01">
+              <div class="c-unit-01">
+                <h2 class="c-item-01">Eğitim Değerlerimiz</h2>
+                <h1 class="c-item-02">Hakkımızda</h1>
+                <picture class="c-item-03">
+                  <source
+                    media="(max-width:767px)"
+                    srcset="Content/Files/Images/Home/hakkimizda/1-1.png"
+                  />
+                  <img
+                    src="Content/Files/Images/Home/hakkimizda/1.png"
+                    class=""
+                  />
+                </picture>
+              </div>
+              <div class="c-unit-02">
+                <div class="c-wrapper">
+                  <p class="c-item-01">
+                    Eğitimci, yönetici ve uzman psikologlarımızdan oluşan
+                    kurucularımız 2011 yılında eğitimde şeffaflığı, çok
+                    yönlülüğü, öğrencide eğitim eşitliğini, öğretmenlerimizde
+                    ise meslek sevgisini, uzmanlığı ve eğitimini en ön planda
+                    tutarak Minirenk markasını kurmuştur.
+                  </p>
+                  <p class="c-item-01">
+                    Minirenk Eğitim Kurumları marka hakkı satmadığından her
+                    şubesi tek bir yönetim ile idare edilmektedir.
+                  </p>
+                  <p class="c-item-01">
+                    Minirenk Okulları, çocuğunuzun mutlu bir geleceğe ilk
+                    adımlarını atacağı, onu bekleyen geleceğe güçlü bir şekilde
+                    hazırlandığı yerdir.
+                  </p>
+                  <p class="c-item-01">
+                    Çocukların bedensel, zihinsel, duygusal ve sosyal yönden
+                    gelişimini, temel alışkanlıklar kazanmalarını, sorumluluk
+                    sahibi olmalarını, dürüst, saygılı, nazik ve düzenli
+                    olmalarını sağlamak bizim için çok değerli.
+                  </p>
+                  <p class="c-item-01">
+                    İşte bu yüzden Minirenk Okulları’nda, çocuğunuzun benlik
+                    kavramını geliştirmesine, kendini ifade etmesine,
+                    bağımsızlığını kazanması ve öz denetimini sağlamasına imkân
+                    tanımak için çalışıyoruz. Biliyoruz ki, kendi seçimlerini
+                    yapabilen ve öz denetimini sağlayabilen çocuklar, mutlu
+                    çocuklardır. İşte Minirenk, bu yüzden var.
+                  </p>
+                </div>
+              </div>
+              <div class="c-unit-03">
+                <svg
+                  width="38"
+                  height="25"
+                  viewBox="0 0 38 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.9997 24.8442C18.9997 24.8442 18.8431 24.5583 18.5299 24.1225C16.5439 21.358 13.3209 19.7487 9.91863 19.7487H2.0609C0.923772 19.7487 0 18.8272 0 17.6878V2.08132C0 0.93285 0.93285 0 2.08132 0H12.0363C12.0363 0 12.118 0.00226964 12.261 0.0158879C16.0786 0.347265 18.9997 3.56798 18.9997 7.39925V24.8442Z"
+                    fill="#FF0016"
+                  />
+                  <path
+                    d="M19 24.8442C19 24.8442 19.1566 24.5583 19.4698 24.1225C21.4558 21.358 24.6788 19.7487 28.0811 19.7487H35.9139C37.0669 19.7487 37.9997 18.8159 37.9997 17.6629V2.09267C37.9997 0.93739 37.0623 0 35.9071 0H25.9635C25.9635 0 25.8863 0.00226964 25.7433 0.0158879C21.9211 0.344996 19 3.57025 19 7.40833V24.8442Z"
+                    fill="#FF0016"
+                  />
+                </svg>
+                <p class="c-item-01">Her Öğrencimiz Eşsizdir</p>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+
+      <section id="modal-wrapper">
+        <div id="modal-content">
+          <div id="modal-header"></div>
+          <div id="modal-body"></div>
+          <div id="modal-footer"></div>
+          <a
+            id="modal-close"
+            href="javascript:void(0);"
+            onclick="Feux.Modal.Actions.closeClick({ ev: event, sender: this });"
+          >
+          </a>
+        </div>
+      </section>
+
+      <div
+        id="overlay-wrapper"
+        onclick="Feux.Base.overlayClick({ sender: this });"
+      ></div>
+      <div id="toast-wrapper"></div>
+    </div>
+
+    <div id="mq-values">
+      <div id="mq-xs1"></div>
+      <div id="mq-xs2"></div>
+      <div id="mq-sm1"></div>
+      <div id="mq-sm2"></div>
+      <div id="mq-md"></div>
+      <div id="mq-lg"></div>
+      <div id="mq-xl"></div>
+    </div>
+    <script
+      src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit"
+      async
+      defer
+    ></script>
+    <script src="Content/Plugins/Jquery.Library/jquery-3.6.0.min.js"></script>
+    <script src="Content/Plugins/Jquery.Validation/jquery.validate.js"></script>
+    <script src="Content/Plugins/Jquery.Mask/jquery.mask.js"></script>
+    <script src="Content/Scripts/Base/Feux.Common.Global.js"></script>
+    <script src="Content/Scripts/Base/Feux.Common.jQuery.js"></script>
+    <script src="Content/Scripts/Form/Feux.Form.Base.js"></script>
+    <script src="Content/Scripts/Form/Feux.Form.Validation.js"></script>
+    <script src="Content/Scripts/Form/Feux.Form.Plugin.js"></script>
+    <script src="Content/Scripts/Static/Feux.Layout.js"></script>
+    <script>
+      var positionSelect = document.getElementById('position');
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      const positionValue = urlParams.get('position');
+      if (positionValue) {
+        positionSelect.value = positionValue;
+      }
+    </script>
+  </body>
+</html>

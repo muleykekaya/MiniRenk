@@ -3,7 +3,7 @@
 @media all and (max-width: 767px) {
   .section-34 {
     padding: 74px 0 0 0;
-    background: #E7F2F0; }
+    background: #e7f2f0; }
     .section-34 .c-wrapper {
       display: flex;
       flex-direction: column;
@@ -11,13 +11,15 @@
       .section-34 .c-wrapper .c-container-01 {
         display: flex;
         flex-direction: column;
-        background: #FFFFFF;
+        background: #ffffff;
         border-radius: 8px;
         justify-content: center;
-        align-items: center; }
+        align-items: center;
+        overflow: hidden; }
         .section-34 .c-wrapper .c-container-01 .c-item-01 {
           width: 100%;
-          overflow: hidden; }
+          border-radius: 8px 8px 0 0;
+          object-fit: cover; }
         .section-34 .c-wrapper .c-container-01 .c-item-02 {
           padding: 44px 0;
           display: flex;
@@ -25,16 +27,18 @@
           gap: 20px; }
           .section-34 .c-wrapper .c-container-01 .c-item-02 .c-item-02-A {
             font-size: 32px;
-            line-height: 42px; }
+            line-height: 42px;
+            margin: 0 20px; }
           .section-34 .c-wrapper .c-container-01 .c-item-02 .c-item-02-B {
             margin: 0 20px;
             font-size: 16px;
-            line-height: 30px; } }
+            line-height: 30px;
+            margin: 0 44px; } }
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .section-34 {
     padding: 74px 0 108px 0;
-    background: #E7F2F0; }
+    background: #e7f2f0; }
     .section-34 .c-wrapper {
       width: 908px;
       display: flex;
@@ -43,10 +47,13 @@
       .section-34 .c-wrapper .c-container-01 {
         display: flex;
         flex-direction: column;
-        background: #FFFFFF;
+        background: #ffffff;
         border-radius: 8px;
         justify-content: center;
-        align-items: center; }
+        align-items: center;
+        overflow: hidden; }
+        .section-34 .c-wrapper .c-container-01 .c-item-01 img {
+          border-radius: 8px 8px 0px 0px; }
         .section-34 .c-wrapper .c-container-01 .c-item-02 {
           padding: 94px 0;
           display: flex;

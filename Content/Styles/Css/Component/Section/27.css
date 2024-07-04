@@ -8,12 +8,10 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      border-radius: 8px;
-      padding: 56px 0 0 0; }
-      .section-27 .c-wrapper .c-item-01 {
-        width: 100%;
-        height: 100%;
-        overflow: hidden; }
+      padding: 56px 0 0 0;
+      overflow: hidden; }
+      .section-27 .c-wrapper .c-item-01 img {
+        border-radius: 8px; }
       .section-27 .c-wrapper .c-item-02 {
         background: #ffffff;
         display: flex;
@@ -21,7 +19,9 @@
         justify-content: center;
         align-items: center;
         padding: 54px 0 30px 0;
-        margin-bottom: 152px; }
+        margin-bottom: 152px;
+        border-radius: 0 0 8px 8px;
+        overflow: hidden; }
         .section-27 .c-wrapper .c-item-02 .c-item-02-A {
           font-size: 32px;
           font-weight: 600;
@@ -56,7 +56,8 @@
     .section-27.V2 {
       background: #8522d7; }
       .section-27.V2 .c-wrapper .c-item-03 img {
-        right: -100px; }
+        right: -100px;
+        bottom: -2px; }
     .section-27.V3 {
       background: #00d559; }
       .section-27.V3 .c-wrapper .c-item-03 img {
@@ -80,26 +81,32 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 68px 0;
-      border-radius: 8px; }
+      padding: 68px 0; }
+      .section-27 .c-wrapper .c-item-01 img {
+        border-radius: 8px 8px 0px 0px;
+        object-fit: cover; }
       .section-27 .c-wrapper .c-item-02 {
-        width: 100%;
         background: #ffffff;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 64px 40px 44px 40px;
-        gap: 8px; }
+        padding: 92px 40px 48px 40px;
+        gap: 8px;
+        border-radius: 0 0 8px 8px;
+        width: 100%; }
         .section-27 .c-wrapper .c-item-02 .c-item-02-B:not(:last-child) {
           margin-bottom: 28px; }
         .section-27 .c-wrapper .c-item-02 .c-item-02-C {
-          font-family: Sacramento;
-          font-size: 20px;
-          font-weight: 400;
-          line-height: 28px;
+          color: #ff2340;
           text-align: center;
-          color: #ff2340; }
+          font-family: Sacramento;
+          font-size: 46px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 192.383%;
+          /* 88.496px */
+          letter-spacing: -0.05px; }
       .section-27 .c-wrapper .c-item-03 {
         position: absolute;
         bottom: 0;
@@ -114,7 +121,7 @@
     .section-27.V2 {
       background: #8522d7; }
       .section-27.V2 .c-wrapper .c-item-03 {
-        bottom: 0px;
+        bottom: -2px;
         left: -120px; }
       .section-27.V2 .c-wrapper .c-item-02-B {
         padding: 0 60px; }
@@ -122,14 +129,14 @@
       background: #00d559; }
       .section-27.V3 .c-wrapper .c-item-03 {
         bottom: -2px;
-        right: -214px; }
+        right: -230px; }
       .section-27.V3 .c-wrapper .c-item-02-B {
         padding: 0 60px; }
     .section-27.V4 {
       background: #ff6b32; }
       .section-27.V4 .c-wrapper .c-item-03 {
         bottom: 0px;
-        right: -180px; }
+        right: -200px; }
       .section-27.V4 .c-wrapper .c-item-02-B {
         padding: 0 50px; } }
 

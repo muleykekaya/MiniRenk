@@ -9,12 +9,17 @@
       font-weight: 500;
       line-height: 50px;
       text-align: center;
-      color: #0066C1; }
+      color: #0066c1; }
     .section-08 .c-wrapper .c-container-01 .c-item-02 {
-      font-size: 12px;
+      margin: 0 24px;
+      color: #1a4359;
+      text-align: center;
+      font-family: 'Neulis Alt';
+      font-size: 14px;
+      font-style: normal;
       font-weight: 400;
-      line-height: 24px;
-      text-align: center; }
+      line-height: 174.217%;
+      /* 24.39px */ }
   .section-08 .c-wrapper .c-container-02 {
     display: grid;
     grid-template-columns: auto auto;
@@ -48,7 +53,7 @@
             width: 28px;
             height: 28px; }
           .section-08 .c-wrapper .c-container-02 .c-item .c-item-02 .c-item-02-A .c-unit-02 {
-            color: #FFFFFF;
+            color: #ffffff;
             font-size: 12px;
             font-weight: 500;
             line-height: 20px;
@@ -69,7 +74,7 @@
           font-weight: 400;
           line-height: 32px;
           text-align: center;
-          color: #1A4359;
+          color: #1a4359;
           width: 760px;
           margin: 20px 0 44px 0; }
       .section-08 .c-wrapper .c-container-02 {
@@ -100,7 +105,7 @@
               gap: 8px;
               align-items: center; }
               .section-08 .c-wrapper .c-container-02 .c-item .c-item-02 .c-item-02-A .c-unit-02 {
-                color: #FFFFFF;
+                color: #ffffff;
                 font-size: 20px;
                 font-weight: 500;
                 line-height: 32px;

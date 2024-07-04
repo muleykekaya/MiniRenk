@@ -7,7 +7,9 @@
       height: 480px;
       display: flex;
       align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      border-radius: 8px;
+      overflow: hidden; }
       .section-54 .c-container-01 .c-item-01 {
         height: 100%;
         width: 100%;
@@ -19,7 +21,8 @@
         .section-54 .c-container-01 .c-item-01 img {
           height: 100%;
           width: 100%;
-          object-fit: cover; }
+          object-fit: cover;
+          border-radius: 8px 8px 0px 0px; }
       .section-54 .c-container-01::after {
         content: '';
         position: absolute;
@@ -48,9 +51,7 @@
       .section-54 .c-container-01 .c-item-03 {
         position: absolute;
         bottom: -20px;
-        left: 0;
-        z-index: 3;
-        overflow: hidden; } }
+        z-index: 3; } }
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .section-54 {

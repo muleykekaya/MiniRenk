@@ -1,5 +1,20 @@
 /* Common xs1, xs2 */
 /* Common XS1 and XS2 */
+@media all and (max-width: 767px) {
+  .section-58 .c-container-01 {
+    background: #5968fe;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .section-58 .c-container-01 .c-item-01 {
+      margin: 40px 12px;
+      color: #fff;
+      text-align: center;
+      font-family: 'Neulis Alt';
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal; } }
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .section-58 .c-container-01 {

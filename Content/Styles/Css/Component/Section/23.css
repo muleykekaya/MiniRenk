@@ -2,7 +2,7 @@
 /* Common XS1 and XS2 */
 @media all and (max-width: 767px) {
   .section-23 {
-    background: #0c826a;
+    fill: rgba(12, 130, 106, 0.1);
     padding: 44px 12px 56px 12px; }
     .section-23 .c-container {
       display: flex;
@@ -41,14 +41,22 @@
           text-align: center;
           color: #ff2340;
           margin-bottom: 5px; }
-      .section-23 .c-container.v1 .c-wrapper .c-item-01 .c-item-01-A {
-        color: #0c826a; }
-      .section-23 .c-container.v2 .c-wrapper .c-item-01 .c-item-01-A {
-        color: #5968fe; }
-      .section-23 .c-container.v3 .c-wrapper .c-item-01 .c-item-01-A {
-        color: #ffb900; }
-      .section-23 .c-container.v4 .c-wrapper .c-item-01 .c-item-01-A {
-        color: #ffc5e1; } }
+      .section-23 .c-container.v1 {
+        background: rgba(12, 130, 106, 0.1); }
+        .section-23 .c-container.v1 .c-wrapper .c-item-01 .c-item-01-A {
+          color: #0c826a; }
+      .section-23 .c-container.v2 {
+        background: rgba(89, 104, 254, 0.1); }
+        .section-23 .c-container.v2 .c-wrapper .c-item-01 .c-item-01-A {
+          color: #5968fe; }
+      .section-23 .c-container.v3 {
+        background: rgba(255, 185, 0, 0.1); }
+        .section-23 .c-container.v3 .c-wrapper .c-item-01 .c-item-01-A {
+          color: #ffb900; }
+      .section-23 .c-container.v4 {
+        background: rgba(255, 197, 225, 0.1); }
+        .section-23 .c-container.v4 .c-wrapper .c-item-01 .c-item-01-A {
+          color: #ffc5e1; } }
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .section-23 .c-container .c-wrapper {
@@ -62,12 +70,13 @@
       justify-content: center;
       align-items: center;
       gap: 20px;
-      padding: 116px 0 74px 0; }
+      padding: 80px 0 60px 0; }
       .section-23 .c-container .c-wrapper .c-item-01 .c-item-01-A {
         font-size: 42px;
         font-weight: 500;
         line-height: 40px;
-        text-align: center; }
+        text-align: center;
+        padding: 0 10px; }
       .section-23 .c-container .c-wrapper .c-item-01 .c-item-01-B {
         font-family: 'Roboto';
         font-size: 16px;
@@ -79,16 +88,19 @@
       .section-23 .c-container .c-wrapper .c-item-01 .c-item-01-C {
         position: absolute; }
       .section-23 .c-container .c-wrapper .c-item-01 .c-item-01-D {
-        font-size: 46px;
-        font-weight: 400;
-        line-height: 88px;
+        color: #ff2340;
         text-align: center;
-        color: #ff2340; }
+        font-family: Sacramento;
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 192.383%;
+        /* 88.496px */
+        letter-spacing: -0.05px; }
       .section-23 .c-container .c-wrapper .c-item-01 .c-item-01-E {
         display: none; }
   .section-23 .c-container.v1 {
-    background: #0c826a;
-    background: linear-gradient(180deg, #0c826a 0%, rgba(12, 130, 81, 0.6362920168) 0%); }
+    background: rgba(12, 130, 106, 0.1); }
     .section-23 .c-container.v1 .c-wrapper .c-item-01 .c-item-01-A {
       color: #0c826a; }
     .section-23 .c-container.v1 .c-wrapper .c-item-01 .c-item-01-C {
@@ -97,21 +109,21 @@
     .section-23 .c-container.v1:has(.c-item-01-D) .c-item-01-A {
       margin-bottom: 0; }
   .section-23 .c-container.v2 {
-    background: #5968fe; }
+    background: rgba(89, 104, 254, 0.1); }
     .section-23 .c-container.v2 .c-wrapper .c-item-01 .c-item-01-A {
       color: #5968fe; }
     .section-23 .c-container.v2 .c-wrapper .c-item-01 .c-item-01-C {
-      bottom: -8px;
+      bottom: -2px;
       right: -112px; }
   .section-23 .c-container.v3 {
-    background: #ffb900; }
+    background: rgba(255, 185, 0, 0.1); }
     .section-23 .c-container.v3 .c-wrapper .c-item-01 .c-item-01-A {
       color: #ffb900; }
     .section-23 .c-container.v3 .c-wrapper .c-item-01 .c-item-01-C {
       bottom: -8px;
       right: -140px; }
   .section-23 .c-container.v4 {
-    background: #ffc5e1; }
+    background: rgba(255, 197, 225, 0.1); }
     .section-23 .c-container.v4 .c-wrapper .c-item-01 .c-item-01-A {
       color: #ffc5e1; }
     .section-23 .c-container.v4 .c-wrapper .c-item-01 .c-item-01-C {

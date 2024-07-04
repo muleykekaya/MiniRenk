@@ -25,7 +25,7 @@
         .section-38 .c-wrapper .c-container-01 .c-container-01-A {
           display: flex;
           flex-direction: column;
-          margin: 40px 16px 20px 16px;
+          margin: 40px 16px 36px 16px;
           gap: 30px;
           flex: 1; }
           .section-38 .c-wrapper .c-container-01 .c-container-01-A .c-item-02 {
@@ -68,7 +68,7 @@
         flex-direction: column;
         border-radius: 8px;
         background-color: #ffffff;
-        width: 100%; }
+        overflow: hidden; }
         .section-38 .c-wrapper .c-container-04 .c-item-01 {
           display: flex;
           flex-direction: column;
@@ -102,7 +102,8 @@
                 font-size: 12px;
                 line-height: 16px;
                 text-align: left;
-                padding-right: 30px; }
+                padding-right: 30px;
+                color: #0066c1; }
         .section-38 .c-wrapper .c-container-04 .c-item-04 {
           display: none; } }
 /* Common sm, md, lg */
@@ -119,8 +120,12 @@
       .section-38 .c-wrapper .c-container-01 {
         background: #ffffff;
         display: flex;
-        border-radius: 8px; }
-        .section-38 .c-wrapper .c-container-01 .c-item-01 {
+        border-radius: 8px;
+        overflow: hidden; }
+        .section-38 .c-wrapper .c-container-01 .c-item-01 img {
+          height: 100%;
+          width: 100%;
+          border-radius: 0px 8px 8px 0px;
           object-fit: cover; }
         .section-38 .c-wrapper .c-container-01 .c-container-01-A {
           display: flex;
@@ -135,16 +140,21 @@
       .section-38 .c-wrapper .c-container-02 {
         background: #0068c7;
         border-radius: 8px;
-        margin-top: 44px; }
-        .section-38 .c-wrapper .c-container-02 .c-item-01 {
-          object-fit: cover; }
+        margin-top: 44px;
+        overflow: hidden; }
+        .section-38 .c-wrapper .c-container-02 .c-item-01 img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+          border-radius: 8px 8px 0px 0px; }
         .section-38 .c-wrapper .c-container-02 .c-container-02-A {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
           margin: 142px 0 78px 0;
-          gap: 32px; }
+          gap: 32px;
+          flex: 1; }
           .section-38 .c-wrapper .c-container-02 .c-container-02-A .c-item-02 {
             color: #ffffff; }
           .section-38 .c-wrapper .c-container-02 .c-container-02-A .c-item-03 {
@@ -189,6 +199,8 @@
               display: flex;
               gap: 16px; }
               .section-38 .c-wrapper .c-container-04 .c-item-01 .c-item-03 .c-item-03-A .c-item-03-A-01 {
-                width: 200px; } }
+                width: 200px; }
+        .section-38 .c-wrapper .c-container-04 .c-item-04 img {
+          border-radius: 0 8px 8px 0; } }
 
 /*# sourceMappingURL=38.css.map */

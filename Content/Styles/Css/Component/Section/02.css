@@ -33,10 +33,7 @@
           right: 16px;
           bottom: 16px;
           border-radius: 50%;
-          background-color: #ccc;
-          transition: background-color 0.35s; }
-          .section-02 .c-wrapper .container-01 .c-item-01-C:hover {
-            background-color: red; } }
+          transition: background-color 0.35s; } }
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .section-02 {
@@ -47,6 +44,7 @@
       justify-content: center;
       gap: 12px; }
       .section-02 .c-wrapper .container-01 {
+        display: block;
         border-radius: 8px;
         background: #fff;
         width: 520px;
@@ -74,9 +72,6 @@
           right: 20px;
           bottom: 20px;
           border-radius: 50%;
-          background-color: #ccc;
-          transition: background-color 0.35s; }
-          .section-02 .c-wrapper .container-01 .c-item-01-C:hover {
-            background-color: red; } }
+          transition: background-color 0.35s; } }
 
 /*# sourceMappingURL=02.css.map */

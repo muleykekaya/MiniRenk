@@ -10,13 +10,13 @@
       justify-content: center;
       gap: 34px; }
       .section-15 .c-wrapper .c-container-01 .c-item-01 {
-        color: #FFF;
+        color: #fff;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
         line-height: 32px;
         border-radius: 8px;
-        background: #0066C1;
+        background: #0066c1;
         padding: 4px 16px;
         width: fit-content;
         display: inline-flex; }
@@ -25,13 +25,13 @@
         font-weight: 500;
         line-height: 44px;
         text-align: center;
-        color: #0066C1; }
+        color: #0066c1; }
       .section-15 .c-wrapper .c-container-01 .c-item-03 {
         font-size: 14px;
         font-weight: 400;
         line-height: 24px;
         text-align: center;
-        color: #1A4359; }
+        color: #1a4359; }
     .section-15 .c-wrapper .c-container-02 {
       display: flex;
       flex-direction: column;
@@ -41,7 +41,9 @@
         height: 354px;
         display: flex;
         align-items: center;
-        justify-content: center; }
+        justify-content: center;
+        border-radius: 9px;
+        overflow: hidden; }
         .section-15 .c-wrapper .c-container-02 .c-unit-01::after {
           content: '';
           position: absolute;
@@ -49,25 +51,26 @@
           bottom: 0;
           right: 0;
           left: 0;
-          background: #0066C1;
+          background: #0066c1;
           opacity: 0.5;
-          z-index: 2; }
+          z-index: 2;
+          border-radius: 9px; }
         .section-15 .c-wrapper .c-container-02 .c-unit-01.bc1::after {
-          background: #F09000; }
+          background: #f09000; }
         .section-15 .c-wrapper .c-container-02 .c-unit-01.bc2::after {
-          background: #952BAF; }
+          background: #952baf; }
         .section-15 .c-wrapper .c-container-02 .c-unit-01.bc3::after {
-          background: #0C826A; }
+          background: #0c826a; }
         .section-15 .c-wrapper .c-container-02 .c-unit-01.bc4::after {
-          background: #B72931; }
+          background: #b72931; }
         .section-15 .c-wrapper .c-container-02 .c-unit-01.bc5::after {
-          background: #3F92CE; }
+          background: #3f92ce; }
         .section-15 .c-wrapper .c-container-02 .c-unit-01.bc6::after {
-          background: #78C100; }
+          background: #78c100; }
         .section-15 .c-wrapper .c-container-02 .c-unit-01.bc7::after {
-          background: #3E00F0C4; }
+          background: #3e00f0c4; }
         .section-15 .c-wrapper .c-container-02 .c-unit-01.bc8::after {
-          background: #176E5C; }
+          background: #176e5c; }
         .section-15 .c-wrapper .c-container-02 .c-unit-01 .c-item-01 {
           height: 100%;
           width: 100%;
@@ -87,14 +90,14 @@
             font-weight: 300;
             line-height: 28px;
             text-align: center;
-            color: #FFF;
+            color: #fff;
             margin-top: 16px; }
           .section-15 .c-wrapper .c-container-02 .c-unit-01 .c-item-02 .c-item-02-C {
             font-size: 30px;
             font-weight: 500;
             line-height: 28px;
             text-align: center;
-            color: #FFF; }
+            color: #fff; }
           .section-15 .c-wrapper .c-container-02 .c-unit-01 .c-item-02 .c-item-02-D {
             position: absolute;
             left: 50%;
@@ -106,10 +109,10 @@
       justify-content: center; }
       .section-15 .c-wrapper .c-container-03 .c-button {
         border-radius: 10px;
-        background: #0066C1;
+        background: #0066c1;
         justify-content: center;
         align-items: center;
-        color: #FFF;
+        color: #fff;
         font-size: 18px;
         font-weight: 600;
         line-height: 24px; } }
@@ -125,13 +128,13 @@
         align-items: center;
         justify-content: center; }
         .section-15 .c-wrapper .c-container-01 .c-item-01 {
-          color: #FFF;
+          color: #fff;
           font-size: 16px;
           font-style: normal;
           font-weight: 500;
           line-height: 24px;
           border-radius: 8px;
-          background: #0066C1;
+          background: #0066c1;
           padding: 4px 16px;
           width: fit-content;
           display: inline-flex; }
@@ -140,14 +143,15 @@
           font-weight: 500;
           line-height: 58px;
           text-align: center;
-          color: #0066C1;
+          color: #0066c1;
           margin: 28px 0 18px 0; }
         .section-15 .c-wrapper .c-container-01 .c-item-03 {
           font-size: 19px;
           font-weight: 400;
           line-height: 32px;
           text-align: center;
-          color: #1A4359; }
+          color: #1a4359;
+          margin: 0 140px; }
       .section-15 .c-wrapper .c-container-02 {
         display: grid;
         grid-template-columns: auto auto auto;
@@ -157,7 +161,9 @@
           height: 354px;
           display: flex;
           align-items: center;
-          justify-content: center; }
+          justify-content: center;
+          border-radius: 9px;
+          overflow: hidden; }
           .section-15 .c-wrapper .c-container-02 .c-unit-01::after {
             content: '';
             position: absolute;
@@ -165,25 +171,28 @@
             bottom: 0;
             right: 0;
             left: 0;
-            background: #0066C1;
-            opacity: 0.5;
-            z-index: 2; }
+            background: #0066c1;
+            opacity: 0.45;
+            z-index: 2;
+            border-radius: 9px;
+            opacity: 0.45;
+            mix-blend-mode: overlay; }
           .section-15 .c-wrapper .c-container-02 .c-unit-01.bc1::after {
-            background: #F09000; }
+            background: #f09000; }
           .section-15 .c-wrapper .c-container-02 .c-unit-01.bc2::after {
-            background: #952BAF; }
+            background: #952baf; }
           .section-15 .c-wrapper .c-container-02 .c-unit-01.bc3::after {
-            background: #0C826A; }
+            background: #0c826a; }
           .section-15 .c-wrapper .c-container-02 .c-unit-01.bc4::after {
-            background: #B72931; }
+            background: #b72931; }
           .section-15 .c-wrapper .c-container-02 .c-unit-01.bc5::after {
-            background: #3F92CE; }
+            background: #3f92ce; }
           .section-15 .c-wrapper .c-container-02 .c-unit-01.bc6::after {
-            background: #78C100; }
+            background: #78c100; }
           .section-15 .c-wrapper .c-container-02 .c-unit-01.bc7::after {
-            background: #3E00F0C4; }
+            background: #3e00f0c4; }
           .section-15 .c-wrapper .c-container-02 .c-unit-01.bc8::after {
-            background: #176E5C; }
+            background: #176e5c; }
           .section-15 .c-wrapper .c-container-02 .c-unit-01 .c-item-01 {
             height: 100%;
             width: 100%;
@@ -203,14 +212,14 @@
               font-weight: 300;
               line-height: 28px;
               text-align: center;
-              color: #FFF;
+              color: #fff;
               margin-top: 16px; }
             .section-15 .c-wrapper .c-container-02 .c-unit-01 .c-item-02 .c-item-02-C {
               font-size: 30px;
               font-weight: 500;
               line-height: 28px;
               text-align: center;
-              color: #FFF; }
+              color: #fff; }
             .section-15 .c-wrapper .c-container-02 .c-unit-01 .c-item-02 .c-item-02-D {
               position: absolute;
               left: 50%;

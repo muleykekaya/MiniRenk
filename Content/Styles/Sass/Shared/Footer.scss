@@ -229,6 +229,18 @@
           line-height: 58px;
           text-align: left;
           color: #fff;
+          .c-unit-01 {
+            color: #1a4359;
+            font-family: 'Neulis Alt';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 0%; /* 0px */
+          }
+          .c-unit-02 {
+            display: flex;
+            gap: 12px;
+          }
         }
 
         .c-item-02 {
@@ -262,6 +274,10 @@
             line-height: 30px;
             text-align: left;
             margin: 80px 0 10px 0;
+          }
+          .c-unit-02 {
+            display: flex;
+            gap: 12px;
           }
         }
 
@@ -356,8 +372,7 @@
         }
 
         .c-item-02 {
-          display: flex;
-          gap: 24px;
+          color: #1a4359;
         }
       }
     }

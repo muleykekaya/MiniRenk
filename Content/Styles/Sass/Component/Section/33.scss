@@ -12,15 +12,15 @@
       .c-container-01 {
         display: flex;
         flex-direction: column-reverse;
-        background: #ff6b32;
+        background: #115600;
         border-radius: 8px;
-
+        overflow: hidden;
         .c-item-01 {
           display: flex;
           flex-direction: column;
 
           gap: 20px;
-          padding: 38px 0 34px 30px;
+          padding: 38px 24px 34px 24px;
 
           .c-item-02-B {
             font-family: 'Neulis Alt';
@@ -31,7 +31,6 @@
             color: #ffffff;
 
             &.w {
-              width: 254px;
             }
           }
 
@@ -51,6 +50,7 @@
             display: flex;
             flex-direction: column;
             gap: 20px;
+            margin-top: 72px;
 
             .c-item-03-A {
               display: flex;
@@ -60,43 +60,54 @@
         }
 
         .c-item-04 {
+          width: 100%;
+          height: 280px;
+          .swiper {
+            width: 100%;
+            height: 100%;
+            .swiper-button-prev,
+            .swiper-button-next {
+              width: 50px;
+              height: 42px;
+              margin: 0;
+              transform: translateY(-50%);
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              &::after {
+                display: none;
+              }
+              &.swiper-button-disabled {
+                opacity: 0.5;
+              }
+            }
+          }
+
           .c-item-04-A {
+            width: 100%;
             height: 100%;
             z-index: 1;
             object-fit: cover;
-            overflow: hidden;
-            width: 100%;
-          }
-
-          .c-item-04-B {
-            position: absolute;
-            left: 22px;
-            top: 50%;
-            z-index: 2;
-          }
-
-          .c-item-04-C {
-            position: absolute;
-            right: 22px;
-            top: 50%;
-            z-index: 2;
+            border-radius: 8px 8px 0 0;
           }
         }
 
         &.V1 {
-          background: #00a925;
+          background: #f60;
         }
         &.V2 {
-          background: #9783fe;
+          background: #ecbd32;
         }
         &.V3 {
-          background: #00bd99;
+          background: #0d359c;
         }
         &.V4 {
-          background: #e265a2;
+          background: #6203b2;
         }
+
         &.V5 {
-          background: #00d559;
+          background: #684eed;
         }
       }
     }
@@ -115,13 +126,13 @@
 
       .c-container-01 {
         display: flex;
-        background: #ff6b32;
         border-radius: 8px;
+        background: #115600;
 
         .c-item-01 {
           display: flex;
           flex-direction: column;
-
+          flex: 1;
           gap: 50px;
           padding: 38px 0 34px 52px;
 
@@ -132,10 +143,7 @@
             line-height: 18px;
             text-align: left;
             color: #ffffff;
-
-            &.w {
-              width: 254px;
-            }
+            margin-right: 160px;
           }
 
           .c-item-02 {
@@ -147,6 +155,7 @@
               text-align: left;
               color: #ffffff;
               margin-bottom: 6px;
+              margin-right: 180px;
             }
           }
 
@@ -163,42 +172,54 @@
         }
 
         .c-item-04 {
+          width: 400px;
+          height: 300px;
+          .swiper {
+            width: 100%;
+            height: 100%;
+            .swiper-button-prev,
+            .swiper-button-next {
+              width: 50px;
+              height: 42px;
+              margin: 0;
+              transform: translateY(-50%);
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              &::after {
+                display: none;
+              }
+              &.swiper-button-disabled {
+                opacity: 0.5;
+              }
+            }
+          }
+
           .c-item-04-A {
+            width: 100%;
             height: 100%;
             z-index: 1;
             object-fit: cover;
             border-radius: 8px;
           }
-
-          .c-item-04-B {
-            position: absolute;
-            left: 22px;
-            top: 50%;
-            z-index: 2;
-          }
-
-          .c-item-04-C {
-            position: absolute;
-            right: 22px;
-            top: 50%;
-            z-index: 2;
-          }
         }
 
         &.V1 {
-          background: #00a925;
+          background: #f60;
         }
         &.V2 {
-          background: #9783fe;
+          background: #ecbd32;
         }
         &.V3 {
-          background: #00bd99;
+          background: #0d359c;
         }
         &.V4 {
-          background: #e265a2;
+          background: #6203b2;
         }
+
         &.V5 {
-          background: #00d559;
+          background: #684eed;
         }
       }
     }

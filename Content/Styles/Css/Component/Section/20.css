@@ -14,7 +14,8 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        text-align: center; }
+        text-align: center;
+        overflow: hidden; }
         .section-20 .c-wrapper .c-container-01 .c-container-01-A {
           margin: 46px 0 46px 0;
           flex: 1;
@@ -38,7 +39,7 @@
             text-align: center;
             color: #1a4359; }
           .section-20 .c-wrapper .c-container-01 .c-container-01-A .c-item-02 {
-            margin: 28px 0 28px 0; }
+            margin: 28px 24px 28px 32px; }
         .section-20 .c-wrapper .c-container-01 .c-container-01-B::after {
           content: '';
           position: absolute;
@@ -73,9 +74,10 @@
       .section-20 .c-wrapper .c-container-01 {
         height: 354px;
         background-color: #fff;
-        border: 8px;
+        border-radius: 8px;
         margin: 60px 0 66px 0;
-        display: flex; }
+        display: flex;
+        overflow: hidden; }
         .section-20 .c-wrapper .c-container-01 .c-container-01-A {
           margin: 72px 36px 70px 54px;
           flex: 1; }
@@ -85,7 +87,8 @@
             font-size: 42px;
             font-weight: 500;
             line-height: 38px;
-            text-align: left; }
+            text-align: left;
+            margin-right: 150px; }
           .section-20 .c-wrapper .c-container-01 .c-container-01-A .c-item-02 {
             font-family: 'Roboto';
             font-size: 16px;
@@ -104,12 +107,15 @@
           left: 0;
           background-color: #00d559;
           opacity: 0.7;
-          z-index: 2; }
+          z-index: 2;
+          border-radius: 0px 8px 8px 0px;
+          mix-blend-mode: soft-light; }
         .section-20 .c-wrapper .c-container-01 .c-container-01-B .c-item-01 {
           width: 355px;
           height: 353px;
           object-fit: cover;
-          z-index: 1; }
+          z-index: 1;
+          border-radius: 0px 8px 8px 0px; }
         .section-20 .c-wrapper .c-container-01 .c-container-01-B .c-item-02 {
           position: absolute;
           top: 50%;

@@ -2,7 +2,8 @@
 /* Common xs1, xs2 */
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
   .section-53 {
-    padding: 88px 0;
+    padding: 106px 0 88px 0;
+    z-index: 0;
     .c-wrapper {
       .c-container-01 {
         display: flex;
@@ -13,18 +14,16 @@
         .c-item-01 {
           display: flex;
           flex-direction: column;
-          gap: 10px;
-          margin-bottom: 60px;
+          gap: 20px;
         }
         .c-container-02 {
           display: grid;
           grid-template-columns: auto auto;
-          column-gap: 74px;
-          row-gap: 48px;
+          gap: 36px;
+          margin: 60px 0;
           .c-item-02 {
             display: flex;
-            gap: 74px;
-
+            gap: 18px;
             .g {
               display: none;
             }
@@ -32,20 +31,23 @@
               display: none;
             }
 
-            .p {
-              margin-left: -10px;
-            }
-
             .c-item-02-A {
               svg {
-                margin-left: 20px;
+                margin-left: 64px;
+              }
+              .c-item-03 {
+                color: #1a4359;
+                text-align: center;
+                font-family: 'Neulis Alt';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: -1.08px;
+                margin: 10px 20px;
               }
             }
           }
-        }
-
-        .c-item-04 {
-          display: none;
         }
       }
     }
@@ -56,6 +58,7 @@
 @media all and (min-width: #{$mq-sm1 + "px"}) {
   .section-53 {
     padding: 106px 0 88px 0;
+    z-index: 0;
     .c-wrapper {
       .c-container-01 {
         display: flex;
@@ -71,21 +74,29 @@
         .c-container-02 {
           display: grid;
           grid-template-columns: auto auto auto auto;
-          gap: 74px;
+          gap: 36px;
           margin: 78px 0;
           .c-item-02 {
             display: flex;
-            gap: 74px;
+            gap: 36px;
             .g {
               display: none;
             }
 
             .c-item-02-A {
               svg {
-                margin-left: 20px;
+                margin-left: 80px;
               }
               .c-item-03 {
-                line-height: 58px;
+                color: #1a4359;
+                text-align: center;
+                font-family: 'Neulis Alt';
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: -1.08px;
+                width: 182px;
               }
             }
           }

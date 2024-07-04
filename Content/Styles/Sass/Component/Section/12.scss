@@ -18,6 +18,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        overflow: hidden;
 
         .c-container-01-A {
           margin: 75px 0;
@@ -36,18 +37,22 @@
             color: #0066c1;
           }
 
-          &.p {
-            font-family: 'Roboto';
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 32px;
-            text-align: center;
+          &.y {
             color: #1a4359;
-            width: 362px;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 192.383%; /* 30.781px */
+            letter-spacing: -0.05px;
           }
 
           .c-item-02 {
-            margin: 28px 0 28px 0;
+            margin: 28px 50px;
+          }
+          .c-item-03 {
+            margin: 0 40px;
           }
         }
 
@@ -69,7 +74,7 @@
             z-index: 1;
             width: 100%;
             height: 100%;
-            border-radius: 8px;
+            border-radius: 8px 8px 0 0;
           }
 
           .c-item-02 {
@@ -99,7 +104,7 @@
       .c-container-01 {
         height: 354px;
         background-color: #fff;
-        border: 8px;
+        border-radius: 8px;
         margin: 60px 0 66px 0;
         display: flex;
 
@@ -127,6 +132,7 @@
 
           .c-item-02 {
             margin: 28px 0 28px 0;
+            border-radius: 0px 8px 8px 0px;
           }
         }
 
@@ -141,6 +147,7 @@
             background-color: #aa7eff;
             opacity: 0.7;
             z-index: 2;
+            border-radius: 0px 8px 8px 0px;
           }
 
           .c-item-01 {
@@ -148,6 +155,8 @@
             height: 353px;
             object-fit: cover;
             z-index: 1;
+            overflow: hidden;
+            border-radius: 0px 8px 8px 0px;
           }
 
           .c-item-02 {
@@ -157,6 +166,7 @@
             z-index: 3;
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
+            border-radius: 0px 8px 8px 0px;
           }
         }
       }

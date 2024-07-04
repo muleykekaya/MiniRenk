@@ -47,7 +47,8 @@
         justify-content: center;
         align-items: center;
         z-index: 3;
-
+        position: absolute;
+        bottom: 32px;
         .c-item-02-A {
           margin-bottom: 24px;
         }
@@ -58,6 +59,7 @@
           line-height: 34px;
           text-align: center;
           color: #ffffff;
+          margin: 16px 0 10px 0;
         }
 
         .c-item-02-C {
@@ -70,14 +72,9 @@
         }
 
         .c-item-02-D {
-          width: 114px;
-          height: 4px;
           position: absolute;
-          transform: translate(-50%, -50%);
-          left: 50%;
-          bottom: -30px;
+          bottom: -70px;
           z-index: 3;
-          background-color: #00d559;
         }
       }
     }
@@ -154,14 +151,9 @@
         }
 
         .c-item-02-D {
-          width: 114px;
-          height: 4px;
           position: absolute;
-          transform: translate(-50%, -50%);
-          left: 50%;
-          bottom: -90px;
+          bottom: -72px;
           z-index: 3;
-          background-color: #00d559;
         }
       }
     }

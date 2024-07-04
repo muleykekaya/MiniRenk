@@ -7,7 +7,7 @@
       font-weight: 500;
       line-height: 50px;
       text-align: center;
-      color: #0066C1; }
+      color: #0066c1; }
     .section-07 .c-wrapper .c-container-02 {
       display: grid;
       grid-template-columns: auto auto;
@@ -28,7 +28,8 @@
           font-weight: 500;
           line-height: 20px;
           text-align: center;
-          height: 64px; } }
+          height: 64px;
+          margin: 0 8px; } }
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .section-07 {
@@ -40,7 +41,7 @@
         font-weight: 500;
         line-height: 58px;
         text-align: center;
-        color: #0066C1; }
+        color: #0066c1; }
       .section-07 .c-wrapper .c-container-02 {
         display: grid;
         grid-template-columns: auto auto auto auto;

@@ -5,36 +5,6 @@
   .section-47 {
     background: #ffffff;
     padding: 54px 0;
-    &.v2 {
-      background: #e7f2f0;
-      .c-wrapper {
-        .c-container-01 {
-          background: #ffffff;
-          .c-item-01 {
-            .c-item-01-A {
-              color: #0068c7;
-              margin-right: 0;
-              font-size: 32px;
-              font-weight: 600;
-              line-height: 44px;
-            }
-            .c-item-01-B {
-              color: #1a4359;
-            }
-          }
-        }
-      }
-    }
-    &.v3 {
-      .c-wrapper {
-        .c-container-01 {
-          background: #0068c7;
-          &.v2 {
-            background: #00bd99;
-          }
-        }
-      }
-    }
 
     .c-wrapper {
       display: flex;
@@ -47,10 +17,16 @@
         border-radius: 8px;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
         &.v2 {
           background: #9783fe;
         }
-
+        &.v3 {
+          background: #0068c7;
+        }
+        &.v4 {
+          background: #00bd99;
+        }
         .c-item-01 {
           display: flex;
           flex-direction: column;
@@ -65,6 +41,11 @@
           }
           .c-item-01-B {
             color: #ffffff;
+            li {
+              list-style: inside;
+              color: #fff;
+              text-align: left;
+            }
           }
         }
         .c-item-03 {
@@ -72,6 +53,7 @@
           img {
             width: 100%;
             height: 100%;
+            border-radius: 0px 8px 8px 0px;
           }
         }
         .c-item-02 {
@@ -87,33 +69,6 @@
   .section-47 {
     background: #ffffff;
     padding: 64px 0 58px 0;
-    &.v2 {
-      background: #e7f2f0;
-      .c-wrapper {
-        .c-container-01 {
-          background: #ffffff;
-          .c-item-01 {
-            .c-item-01-A {
-              color: #0068c7;
-              margin-right: 0;
-            }
-            .c-item-01-B {
-              color: #1a4359;
-            }
-          }
-        }
-      }
-    }
-    &.v3 {
-      .c-wrapper {
-        .c-container-01 {
-          background: #0068c7;
-          &.v2 {
-            background: #00bd99;
-          }
-        }
-      }
-    }
 
     .c-wrapper {
       display: flex;
@@ -125,8 +80,15 @@
         border-radius: 8px;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
         &.v2 {
           background: #9783fe;
+        }
+        &.v3 {
+          background: #0068c7;
+        }
+        &.v4 {
+          background: #00bd99;
         }
 
         .c-item-01 {
@@ -139,11 +101,16 @@
           .c-item-01-A {
             text-align: left;
             color: #ffffff;
-            margin-right: 180px;
+            margin-right: 60px;
           }
           .c-item-01-B {
             text-align: left;
             color: #ffffff;
+            margin-right: 84px;
+            li {
+              list-style: inside;
+              color: #fff;
+            }
           }
         }
         .c-item-02 {
