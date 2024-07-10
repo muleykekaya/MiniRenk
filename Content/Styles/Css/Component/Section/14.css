@@ -49,7 +49,9 @@
       display: flex;
       flex-direction: column;
       flex: 1;
-      margin: 108px 228px 108px 56px; }
+      margin: 0 228px 0 56px;
+      align-items: center;
+      justify-content: center; }
       .section-14 .c-container-01 .c-item-02 .c-item-02-A {
         font-size: 52px;
         line-height: 58px;
@@ -61,12 +63,13 @@
           font-weight: 500; }
       .section-14 .c-container-01 .c-item-02 .c-item-02-B.y,
       .section-14 .c-container-01 .c-item-02 .c-item-02-C.y {
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 32px;
+        color: #000;
         text-align: center;
-        color: #000000;
-        width: 680px; }
+        font-family: 'Neulis Alt';
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        margin-left: 56px; }
       .section-14 .c-container-01 .c-item-02 .c-item-02-B {
         margin: 26px 0 32px 0; }
     .section-14 .c-container-01 .c-item-01 .c-item-01-A {

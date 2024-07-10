@@ -9,16 +9,19 @@
       justify-content: center;
       align-items: center;
       padding: 56px 0 0 0;
-      overflow: hidden; }
+      overflow: hidden;
+      border-radius: 8px; }
       .section-27 .c-wrapper .c-item-01 img {
-        border-radius: 8px; }
+        border-radius: 8px 8px 0 0;
+        height: 100%;
+        width: 100%; }
       .section-27 .c-wrapper .c-item-02 {
         background: #ffffff;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 54px 0 30px 0;
+        padding: 54px 0 50px 0;
         margin-bottom: 152px;
         border-radius: 0 0 8px 8px;
         overflow: hidden; }
@@ -46,7 +49,7 @@
       .section-27 .c-wrapper .c-item-03 img {
         position: absolute;
         bottom: 0;
-        right: -230px; }
+        right: -210px; }
     .section-27.V1 {
       background: #ffb73e; }
       .section-27.V1 .c-wrapper .c-item-03 img {
@@ -71,6 +74,12 @@
         left: 5px; }
       .section-27.V4 .c-wrapper .c-item-02 {
         margin-bottom: 244px; } }
+@media all and (min-width: 420px) and (max-width: 767px) {
+  .section-27 .c-wrapper {
+    height: 100%; } }
+@media all and (min-width: 1024px) and (max-width: 1379px) {
+  .section-27 .c-wrapper {
+    height: 100%; } }
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .section-27 {
@@ -81,7 +90,9 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 68px 0; }
+      padding: 68px 0;
+      border-radius: 8px;
+      overflow: hidden; }
       .section-27 .c-wrapper .c-item-01 img {
         border-radius: 8px 8px 0px 0px;
         object-fit: cover; }
@@ -91,8 +102,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 92px 40px 48px 40px;
-        gap: 8px;
+        padding: 60px 40px;
+        gap: 16px;
         border-radius: 0 0 8px 8px;
         width: 100%; }
         .section-27 .c-wrapper .c-item-02 .c-item-02-B:not(:last-child) {

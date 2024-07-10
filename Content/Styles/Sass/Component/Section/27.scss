@@ -12,10 +12,13 @@
       align-items: center;
       padding: 56px 0 0 0;
       overflow: hidden;
+      border-radius: 8px;
 
       .c-item-01 {
         img {
-          border-radius: 8px;
+          border-radius: 8px 8px 0 0;
+          height: 100%;
+          width: 100%;
         }
       }
 
@@ -25,7 +28,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 54px 0 30px 0;
+        padding: 54px 0 50px 0;
         margin-bottom: 152px;
         border-radius: 0 0 8px 8px;
         overflow: hidden;
@@ -64,7 +67,7 @@
         img {
           position: absolute;
           bottom: 0;
-          right: -230px;
+          right: -210px;
         }
       }
     }
@@ -128,7 +131,17 @@
     }
   }
 }
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+  .section-27 .c-wrapper {
+    height: 100%;
+  }
+}
 
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+  .section-27 .c-wrapper {
+    height: 100%;
+  }
+}
 /* Common sm, md, lg */
 @media all and (min-width: #{$mq-sm1 + "px"}) {
   .section-27 {
@@ -141,6 +154,8 @@
       justify-content: center;
       align-items: center;
       padding: 68px 0;
+      border-radius: 8px;
+      overflow: hidden;
       .c-item-01 {
         img {
           border-radius: 8px 8px 0px 0px;
@@ -154,8 +169,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 92px 40px 48px 40px;
-        gap: 8px;
+        // padding: 92px 40px 48px 40px;
+        padding: 60px 40px;
+        gap: 16px;
         border-radius: 0 0 8px 8px;
         width: 100%;
         .c-item-02-B {

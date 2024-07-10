@@ -21,16 +21,14 @@
       line-height: 174.217%;
       /* 24.39px */ }
   .section-08 .c-wrapper .c-container-02 {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 16px;
     padding: 16px 0 80px 0; }
     .section-08 .c-wrapper .c-container-02 .c-item {
       overflow: hidden; }
+      .section-08 .c-wrapper .c-container-02 .c-item:not(:last-child) {
+        margin-bottom: 16px; }
       .section-08 .c-wrapper .c-container-02 .c-item .c-item-01 {
         width: 100%;
         height: 300px;
-        object-fit: cover;
         z-index: 1;
         display: block; }
       .section-08 .c-wrapper .c-container-02 .c-item .c-item-02 {
@@ -57,7 +55,21 @@
             font-size: 12px;
             font-weight: 500;
             line-height: 20px;
-            text-align: center; } }
+            text-align: center; }
+      .section-08 .c-wrapper .c-container-02 .c-item .c-item-03 {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 2; }
+        .section-08 .c-wrapper .c-container-02 .c-item .c-item-03 img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+      .section-08 .c-wrapper .c-container-02 .c-item.on .c-item-03,
+      .section-08 .c-wrapper .c-container-02 .c-item.on .c-item-02 {
+        display: none; } }
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .section-08 {
@@ -78,16 +90,16 @@
           width: 760px;
           margin: 20px 0 44px 0; }
       .section-08 .c-wrapper .c-container-02 {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
+        display: flex;
         gap: 28px; }
         .section-08 .c-wrapper .c-container-02 .c-item {
+          flex: 1;
           overflow: hidden;
-          border-radius: 8px; }
+          border-radius: 8px;
+          cursor: pointer; }
           .section-08 .c-wrapper .c-container-02 .c-item .c-item-01 {
             width: 100%;
             height: 498px;
-            object-fit: cover;
             z-index: 1; }
           .section-08 .c-wrapper .c-container-02 .c-item .c-item-02 {
             width: 100%;
@@ -109,6 +121,20 @@
                 font-size: 20px;
                 font-weight: 500;
                 line-height: 32px;
-                text-align: center; } }
+                text-align: center; }
+          .section-08 .c-wrapper .c-container-02 .c-item .c-item-03 {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 2; }
+            .section-08 .c-wrapper .c-container-02 .c-item .c-item-03 img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover; }
+          .section-08 .c-wrapper .c-container-02 .c-item.on .c-item-03,
+          .section-08 .c-wrapper .c-container-02 .c-item.on .c-item-02 {
+            display: none; } }
 
 /*# sourceMappingURL=08.css.map */

@@ -26,7 +26,7 @@
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .section-10 {
-    padding-bottom: 68px; }
+    padding-bottom: 110px; }
     .section-10 .c-wrapper .c-container-01 {
       display: flex;
       flex-direction: column;

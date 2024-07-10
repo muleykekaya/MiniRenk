@@ -171,6 +171,7 @@ a {
     line-height: 58px;
     text-align: center;
     color: #0068c7;
+    letter-spacing: -1.08px;
   }
   .header-03 {
     font-family: 'Neulis Alt';
@@ -212,9 +213,10 @@ a {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
-    line-height: 30px;
     text-align: center;
     color: #1a4359;
+    line-height: 192.383%; /* 30.781px */
+    letter-spacing: -0.05px;
   }
   .prg-05 {
     font-family: 'Neulis Alt';

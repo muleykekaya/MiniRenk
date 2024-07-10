@@ -2,7 +2,7 @@
 /* Common XS1 and XS2 */
 @media all and (max-width: 767px) {
   .section-57 {
-    background: #0068c7; }
+    background: linear-gradient(0deg, #0068c7 0%, #0068c7 100%), url(<path-to-image>) lightgray 50%/cover no-repeat; }
     .section-57 .c-container-01 {
       height: 362px;
       display: flex;
@@ -32,7 +32,7 @@
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .section-57 {
-    background: #0068c7; }
+    background: linear-gradient(0deg, #0068c7 0%, #0068c7 100%), url(<path-to-image>) lightgray 50%/cover no-repeat; }
     .section-57 .c-container-01 {
       height: 480px;
       display: flex;

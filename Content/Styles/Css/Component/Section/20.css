@@ -40,29 +40,32 @@
             color: #1a4359; }
           .section-20 .c-wrapper .c-container-01 .c-container-01-A .c-item-02 {
             margin: 28px 24px 28px 32px; }
-        .section-20 .c-wrapper .c-container-01 .c-container-01-B::after {
-          content: '';
-          position: absolute;
-          top: 0;
-          bottom: 0;
-          right: 0;
-          left: 0;
-          background-color: #00d559;
-          opacity: 0.7;
-          z-index: 2; }
-        .section-20 .c-wrapper .c-container-01 .c-container-01-B .c-item-01 {
-          object-fit: cover;
-          z-index: 1;
-          width: 100%;
-          height: 100%;
-          border-radius: 8px; }
-        .section-20 .c-wrapper .c-container-01 .c-container-01-B .c-item-02 {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          z-index: 3;
-          -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%); } }
+        .section-20 .c-wrapper .c-container-01 .c-container-01-B {
+          width: 100%; }
+          .section-20 .c-wrapper .c-container-01 .c-container-01-B::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background-color: #00d559;
+            opacity: 0.7;
+            z-index: 2;
+            height: 392px; }
+          .section-20 .c-wrapper .c-container-01 .c-container-01-B .c-item-01 {
+            object-fit: cover;
+            z-index: 1;
+            width: 100%;
+            height: 392px;
+            border-radius: 8px; }
+          .section-20 .c-wrapper .c-container-01 .c-container-01-B .c-item-02 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            z-index: 3;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); } }
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .section-20 {
@@ -89,6 +92,10 @@
             line-height: 38px;
             text-align: left;
             margin-right: 150px; }
+            .section-20 .c-wrapper .c-container-01 .c-container-01-A .c-item-01.w {
+              font-size: 36px;
+              font-style: normal;
+              font-weight: 400; }
           .section-20 .c-wrapper .c-container-01 .c-container-01-A .c-item-02 {
             font-family: 'Roboto';
             font-size: 16px;

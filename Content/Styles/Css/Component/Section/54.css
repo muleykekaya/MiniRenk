@@ -11,8 +11,8 @@
       border-radius: 8px;
       overflow: hidden; }
       .section-54 .c-container-01 .c-item-01 {
-        height: 100%;
-        width: 100%;
+        width: 430px;
+        height: 480px;
         object-fit: cover;
         z-index: 1;
         position: absolute;
@@ -60,7 +60,8 @@
       height: 506px;
       display: flex;
       align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      overflow: hidden; }
       .section-54 .c-container-01 .c-item-01 {
         height: 100%;
         width: 100%;

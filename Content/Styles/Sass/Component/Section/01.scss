@@ -112,6 +112,16 @@
   }
 }
 
+@media all and (min-width: #{$mq-sm1 + "px"}) and (max-width: #{($mq-sm2 - 1) + "px"}) {
+  .section-01 {
+    .container-01 {
+      width: 634px !important;
+      padding-left: 32px !important;
+      padding-right: 80px !important;
+    }
+  }
+}
+
 @media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
   .section-01 {
     .container-02 {
@@ -143,6 +153,8 @@
           color: #000;
           font-size: 64px;
           font-weight: 600;
+          font-family: 'Neulis Alt';
+          line-height: 64px;
         }
 
         .c-item-01-B {

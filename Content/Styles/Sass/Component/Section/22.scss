@@ -77,14 +77,16 @@
         display: flex;
         flex-direction: column;
         flex: 1;
-        margin: 158px 228px 60px 56px;
+        align-items: center;
+        justify-content: center;
+        // margin-left: 56px;
 
         .c-item-02-A {
           font-size: 52px;
           line-height: 58px;
-          text-align: left;
+          text-align: center;
           color: #0068c7;
-          margin-left: 222px;
+          margin-left: -228px;
 
           &.w1 {
             font-weight: 300;
@@ -98,9 +100,10 @@
           font-size: 20px;
           font-weight: 400;
           line-height: 32px;
-          text-align: left;
+          text-align: center;
           color: #000000;
-          margin: 26px 300px 60px 56px;
+          margin-top: 26px;
+          margin: 26px 226px 0 56px;
         }
 
         .c-item-02-B {

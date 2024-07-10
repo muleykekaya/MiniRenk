@@ -50,10 +50,12 @@
         }
         .c-item-03 {
           object-fit: cover;
+          width: 100%;
+          height: 100%;
           img {
             width: 100%;
             height: 100%;
-            border-radius: 0px 8px 8px 0px;
+            // border-radius: 8px 8px 0 0px;
           }
         }
         .c-item-02 {
@@ -61,6 +63,17 @@
         }
       }
     }
+  }
+}
+@media all and (min-width: #{$mq-xs2 + "px"}) and (max-width: #{($mq-sm1 - 1) + "px"}) {
+  .section-47 .c-wrapper .c-container-01 {
+    height: 100%;
+  }
+}
+
+@media all and (min-width: #{$mq-sm2 + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+  .section-47 .c-wrapper .c-container-01 {
+    height: 100%;
   }
 }
 
@@ -114,10 +127,11 @@
           }
         }
         .c-item-02 {
-          object-fit: cover;
           img {
             width: 100%;
             height: 100%;
+            border-radius: 8px 8px 0 0;
+            object-fit: cover;
           }
         }
         .c-item-03 {

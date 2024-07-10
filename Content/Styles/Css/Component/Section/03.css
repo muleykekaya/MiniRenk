@@ -74,7 +74,7 @@
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .section-03 {
-    padding: 160px 0; }
+    padding: 140px 0; }
     .section-03 .c-wrapper.v1 {
       width: 760px; }
     .section-03 .c-wrapper .c-container-01 {

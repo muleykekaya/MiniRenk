@@ -18,10 +18,13 @@
         border-radius: 8px;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
 
         .c-item-01 {
-          width: 100%;
-          overflow: hidden;
+          width: 400px;
+          height: 423px;
+          border-radius: 8px 8x 0 0;
+          object-fit: cover;
         }
 
         .c-item-02 {
@@ -83,7 +86,7 @@
             margin: 0 88px;
           }
           .c-item-02-B {
-            margin: 0 48px;
+            margin: 0 108px;
           }
 
           .c-item-03-B {

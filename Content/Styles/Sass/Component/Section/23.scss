@@ -132,7 +132,12 @@
             font-weight: 500;
             line-height: 40px;
             text-align: center;
-            padding: 0 10px;
+            color: #5968fe;
+            font-family: 'Neulis Alt';
+            font-style: normal;
+            &.m {
+              margin: 0 220px;
+            }
           }
 
           .c-item-01-B {
@@ -142,7 +147,10 @@
             line-height: 32px;
             text-align: center;
             color: #1a4359;
-            width: 720px;
+            margin: 0 80px;
+            &.w {
+              margin: 0 140px;
+            }
           }
 
           .c-item-01-C {

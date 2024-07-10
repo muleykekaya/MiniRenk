@@ -3,7 +3,7 @@
 /* Common XS1 and XS2 */
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
   .section-33 {
-    padding: 0 0 64px 0;
+    padding: 32px 0 64px 0;
     .c-wrapper {
       display: flex;
       flex-direction: column;
@@ -19,7 +19,7 @@
           display: flex;
           flex-direction: column;
 
-          gap: 20px;
+          gap: 8px;
           padding: 38px 24px 34px 24px;
 
           .c-item-02-B {
@@ -50,7 +50,7 @@
             display: flex;
             flex-direction: column;
             gap: 20px;
-            margin-top: 72px;
+            margin-top: 20px;
 
             .c-item-03-A {
               display: flex;
@@ -133,7 +133,7 @@
           display: flex;
           flex-direction: column;
           flex: 1;
-          gap: 50px;
+          gap: 32px;
           padding: 38px 0 34px 52px;
 
           .c-item-02-B {
@@ -143,7 +143,6 @@
             line-height: 18px;
             text-align: left;
             color: #ffffff;
-            margin-right: 160px;
           }
 
           .c-item-02 {
@@ -201,7 +200,7 @@
             height: 100%;
             z-index: 1;
             object-fit: cover;
-            border-radius: 8px;
+            border-radius: 0 8px 8px 0;
           }
         }
 

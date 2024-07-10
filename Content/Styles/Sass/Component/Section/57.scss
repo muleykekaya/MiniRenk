@@ -3,7 +3,8 @@
 /* Common XS1 and XS2 */
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
   .section-57 {
-    background: #0068c7;
+    background: linear-gradient(0deg, #0068c7 0%, #0068c7 100%),
+      url(<path-to-image>) lightgray 50% / cover no-repeat;
 
     .c-container-01 {
       height: 362px;
@@ -47,7 +48,8 @@
 /* Common sm, md, lg */
 @media all and (min-width: #{$mq-sm1 + "px"}) {
   .section-57 {
-    background: #0068c7;
+    background: linear-gradient(0deg, #0068c7 0%, #0068c7 100%),
+      url(<path-to-image>) lightgray 50% / cover no-repeat;
     .c-container-01 {
       height: 480px;
       display: flex;

@@ -2,18 +2,14 @@
 
 var Home = {
   Video: {
-    Props: {
-      youtubeVideoId: 'wyzcnJOYYwc',
-    },
-
     openYoutubeVideo: function (sender) {
       var w = '100%';
       var h = '100%';
 
-      player = new YT.Player('player', {
+      player = new YT.Player(sender.getAttribute('data-player-id'), {
         width: w,
         height: h,
-        videoId: Home.Video.Props.youtubeVideoId,
+        videoId: sender.getAttribute('data-youtube-id'),
         playerVars: {
           controls: 1,
           modestbranding: 0,

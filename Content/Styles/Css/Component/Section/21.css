@@ -49,7 +49,9 @@
       .section-21 .c-container-01 .c-item-01 {
         display: flex;
         flex-direction: column;
-        margin: 108px 52px 108px 230px;
+        align-items: center;
+        justify-content: center;
+        margin-right: 52px;
         flex: 1; }
         .section-21 .c-container-01 .c-item-01 .c-item-01-A {
           font-size: 52px;

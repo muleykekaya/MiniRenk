@@ -110,10 +110,17 @@
               .c-unit-02-C {
                 display: flex;
                 gap: 24px;
+                .c-unit-02-C-01,
+                .c-item-02-C-02 {
+                  color: #1a4359;
+                }
               }
 
               .c-unit-02-B-01 {
                 margin: 16px 0 8px 0;
+              }
+              .c-unit-02-B-02 {
+                color: #1a4359;
               }
             }
           }
@@ -337,6 +344,11 @@
               .c-unit-02-C {
                 display: flex;
                 gap: 24px;
+                color: #1a4359;
+                .c-unit-02-C-01,
+                .c-item-02-C-02 {
+                  color: #1a4359;
+                }
               }
 
               .c-unit-02-B-01 {
@@ -344,6 +356,7 @@
               }
               .c-unit-02-B-02 {
                 margin-top: 12px;
+                color: #1a4359;
               }
             }
           }

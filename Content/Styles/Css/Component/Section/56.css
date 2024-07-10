@@ -14,10 +14,13 @@
         background: #ffffff;
         border-radius: 8px;
         justify-content: center;
-        align-items: center; }
+        align-items: center;
+        overflow: hidden; }
         .section-56 .c-wrapper .c-container-01 .c-item-01 {
-          width: 100%;
-          overflow: hidden; }
+          width: 400px;
+          height: 423px;
+          border-radius: 8px 8x 0 0;
+          object-fit: cover; }
         .section-56 .c-wrapper .c-container-01 .c-item-02 {
           padding: 44px 0;
           display: flex;
@@ -60,7 +63,7 @@
           .section-56 .c-wrapper .c-container-01 .c-item-02 .c-item-02-A {
             margin: 0 88px; }
           .section-56 .c-wrapper .c-container-01 .c-item-02 .c-item-02-B {
-            margin: 0 48px; }
+            margin: 0 108px; }
           .section-56 .c-wrapper .c-container-01 .c-item-02 .c-item-03-B {
             margin: 20px 132px 0 132px;
             font-weight: 600; }

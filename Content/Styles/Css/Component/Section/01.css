@@ -83,6 +83,11 @@
 @media all and (min-width: 420px) and (max-width: 767px) {
   .section-01 .container-02 {
     height: 500px !important; } }
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .section-01 .container-01 {
+    width: 634px !important;
+    padding-left: 32px !important;
+    padding-right: 80px !important; } }
 @media all and (min-width: 1024px) and (max-width: 1379px) {
   .section-01 .container-02 {
     height: 900px !important; } }
@@ -103,7 +108,9 @@
       .section-01 .c-wrapper .container-01 .c-item-01-A {
         color: #000;
         font-size: 64px;
-        font-weight: 600; }
+        font-weight: 600;
+        font-family: 'Neulis Alt';
+        line-height: 64px; }
       .section-01 .c-wrapper .container-01 .c-item-01-B {
         color: #1a4359;
         font-size: 16px;

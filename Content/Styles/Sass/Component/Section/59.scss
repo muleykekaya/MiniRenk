@@ -12,10 +12,10 @@
         .c-unit-01 {
           background: #0068c7;
           .c-item-01 {
-            color: #ffff;
+            color: #fff;
             text-align: center;
             padding: 20px 90px;
-            font-size: 14px;
+            font-size: 17px;
             font-style: normal;
             font-weight: 400;
             line-height: 95.917%; /* 16.306px */
@@ -30,10 +30,15 @@
           justify-content: center;
           align-items: center;
           gap: 20px;
+          box-shadow: 0px 2px 3.9px -3px rgba(0, 0, 0, 0.5);
 
-          &:not(:last-child) {
-            border-bottom: 1px solid #dcdcdc;
+          &:last-child {
+            border-radius: 0px 0px 8px 8px;
           }
+          &:not(:last-child) {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+          }
+
           .c-unit-03 {
             .c-item-01 {
               text-align: center;
@@ -60,6 +65,7 @@
 @media all and (min-width: #{$mq-sm1 + "px"}) {
   .section-59 {
     padding: 92px 0 80px 0;
+
     .c-wrapper {
       width: 830px;
 
@@ -68,27 +74,39 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 1px solid #dcdcdc;
         border-radius: 12px;
-        overflow: hidden;
+
         .c-unit-01 {
           background: #0068c7;
           width: 100%;
           padding: 20px 0 20px 52px;
+          border-radius: 10px 10px 0px 0px;
+
           .c-item-01 {
-            color: #ffff;
+            color: #fff;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 95.917%;
           }
         }
 
         .c-unit-02 {
-          background: #ffffff;
+          background: #fff;
           display: flex;
           gap: 106px;
           padding: 34px 28px 32px 52px;
+          box-shadow: 0px 2px 3.9px -3px rgba(0, 0, 0, 0.5);
 
-          &:not(:last-child) {
-            border-bottom: 1px solid #dcdcdc;
+          &:last-child {
+            border-radius: 0px 0px 8px 8px;
           }
+          &:not(:last-child) {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+          }
+          // &:not(:last-child) {
+          //   border-bottom: 1px solid #dcdcdc;
+          // }
           .c-unit-03 {
             display: flex;
             flex-direction: column;

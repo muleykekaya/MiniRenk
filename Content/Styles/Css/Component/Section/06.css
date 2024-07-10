@@ -2,7 +2,7 @@
 @media all and (max-width: 767px) {
   .section-06 {
     padding: 57px 0;
-    background-color: #f5f5f3; }
+    background: #f5f5f3; }
     .section-06 .c-wrapper .c-container-01 .c-item-01-A {
       color: #0066c1;
       font-size: 35px;
@@ -25,7 +25,7 @@
 @media all and (min-width: 768px) {
   .section-06 {
     padding: 120px 0;
-    background-color: #f5f5f3; }
+    background: #f5f5f3; }
     .section-06 .c-wrapper .c-container-01 .c-item-01-A {
       color: #0066c1;
       font-size: 54px;

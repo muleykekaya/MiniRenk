@@ -68,7 +68,7 @@
       .c-container-02 {
         display: grid;
         grid-template-columns: auto auto auto auto;
-
+        row-gap: 100px;
         margin: 124px 0 170px 0;
 
         .c-container-02-A {
@@ -77,11 +77,11 @@
           align-items: center;
 
           .img-container {
-            height: 174px;
             display: flex;
             justify-content: center;
-            align-items: end;
+            align-items: center;
             margin-bottom: 16px;
+            height: 100%;
           }
 
           .c.item {
