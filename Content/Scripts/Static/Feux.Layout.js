@@ -96,7 +96,7 @@ var FormActions = {
       sender.disabled = false;
       return false;
     }
-
+    debugger;
     form.submit();
   },
 };

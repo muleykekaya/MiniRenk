@@ -179,13 +179,18 @@
                 <form
                   class="c-item-02"
                   id="career-form"
+                  action="https://usebasin.com/f/ad4607455655"
+                  method="post"
+                  enctype="multipart/form-data"
                 >
                   <div class="c-item-03-A">
                     <select
                       class="select-01"
-                      id="position"
-                      name="position"
+                      id="pozisyon"
+                      name="pozisyon"
                       data-rule-required="true"
+                      value=""
+                      onchange="this.setAttribute('value', this.value);"
                     >
                       <option value="">Lütfen Pozisyonunuzu Seçin</option>
                       <option value="anaokulu-ogretmeni">
@@ -200,12 +205,11 @@
                       <option value="destek-personeli">Destek Personeli</option>
                     </select>
                   </div>
-
                   <div class="c-item-03-A">
                     <input
-                      id="fullname"
+                      id="adiniz-soyadiniz"
                       type="text"
-                      name="fullname"
+                      name="adiniz-soyadiniz"
                       value=""
                       data-rule-required="true"
                       data-maskformat="alphabeticWgap"
@@ -215,7 +219,7 @@
                       onkeyup="this.setAttribute('value', this.value);"
                     />
                     <label
-                      for="fullname"
+                      for="adiniz-soyadiniz"
                       class="tb-placeholder-01"
                     >
                       Adınız Soyadınız
@@ -223,9 +227,9 @@
                   </div>
                   <div class="c-item-03-A">
                     <input
-                      id="email"
+                      id="a-posta"
                       type="text"
-                      name="email"
+                      name="a-posta"
                       value=""
                       data-rule-required="true"
                       data-rule-email="true"
@@ -235,7 +239,7 @@
                       onkeyup="this.setAttribute('value', this.value);"
                     />
                     <label
-                      for="email"
+                      for="a-posta"
                       class="tb-placeholder-01"
                     >
                       E-posta
@@ -243,9 +247,9 @@
                   </div>
                   <div class="c-item-03-A">
                     <input
-                      id="mobileNumber"
+                      id="numaraniz"
                       type="text"
-                      name="mobileNumber"
+                      name="numaraniz"
                       value=""
                       data-rule-minlength="15"
                       data-rule-required="true"
@@ -255,7 +259,7 @@
                       onkeyup="this.setAttribute('value', this.value);"
                     />
                     <label
-                      for="mobileNumber"
+                      for="numaraniz"
                       class="tb-placeholder-01"
                     >
                       Numaranız
@@ -263,22 +267,47 @@
                   </div>
                   <div class="c-item-03-A">
                     <textarea
-                      id="message"
+                      id="is-basvuru-mesajiniz"
                       type="text"
-                      name="message"
+                      name="is-basvuru-mesajiniz"
                       value=""
                       autocomplete="new-password"
                       class="ta-01"
                       onkeyup="this.setAttribute('value', this.value);"
                     ></textarea>
                     <label
-                      for="message"
+                      for="is-basvuru-mesajiniz"
                       class="tb-placeholder-01"
                     >
                       İş Başvuru Mesajınız
                     </label>
                   </div>
-
+                  <div class="input-file-container">
+                    <div
+                      class="file-hint"
+                      id="file-hint"
+                    >
+                      <span id="upload-text"> Özgeçmişinizi Yükleyin </span>
+                      <span id="file-name"> </span>
+                      <a
+                        id="delete-file-button"
+                        href="javascript:void(0);"
+                        onclick="deleteFile()"
+                      >
+                        Sil
+                      </a>
+                    </div>
+                    <label for="ozgecmis-dosyasi">
+                      <input
+                        id="ozgecmis-dosyasi"
+                        name="ozgecmis-dosyasi"
+                        type="file"
+                        accept="application/pdf"
+                        onchange="handleFile()"
+                      />
+                      Dosya Gözat
+                    </label>
+                  </div>
                   <div class="c-item-03-A">
                     <div class="chk-A">
                       <input
@@ -286,6 +315,7 @@
                         name="kvkk"
                         type="checkbox"
                         data-rule-required="true"
+                        value="true"
                       />
                       <label
                         class="chk-label-01"
@@ -294,9 +324,17 @@
                       >
                         <span>
                           Detaylı bilgi için
-                          <a href="javascript:void(0);">Aydınlatma Metnimizi</a>
+                          <a
+                            href="javascript:void(0);"
+                            target="_blank"
+                            >Aydınlatma Metnimizi</a
+                          >
                           ve
-                          <a href="javascript:void(0);">Çerez Politikamızı</a>
+                          <a
+                            href="javascript:void(0);"
+                            target="_blank"
+                            >Çerez Politikamızı</a
+                          >
                           inceleyiniz.
                         </span>
                       </label>
@@ -801,12 +839,27 @@
     <script src="Content/Scripts/Form/Feux.Form.Plugin.js"></script>
     <script src="Content/Scripts/Static/Feux.Layout.js"></script>
     <script>
-      var positionSelect = document.getElementById('position');
+      var positionSelect = document.getElementById('pozisyon');
       const queryString = window.location.search;
       const urlParams = new URLSearchParams(queryString);
       const positionValue = urlParams.get('position');
       if (positionValue) {
         positionSelect.value = positionValue;
+        positionSelect.setAttribute('value', positionValue);
+      }
+
+      const fileHint = document.getElementById('file-hint');
+      const fileName = document.getElementById('file-name');
+      const fileInput = document.getElementById('ozgecmis-dosyasi');
+
+      function deleteFile() {
+        fileHint.classList.remove('on');
+        fileName.innerText = '';
+        fileInput.value = '';
+      }
+      function handleFile() {
+        fileHint.classList.add('on');
+        fileName.innerText = fileInput.files[0].name;
       }
     </script>
   </body>

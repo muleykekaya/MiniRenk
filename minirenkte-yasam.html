@@ -445,101 +445,103 @@
                           arayalım
                         </p>
                         <form
-                          class="c-item-03"
-                          id="registiration-process-form"
-                        >
-                          <div class="c-item-03-A">
-                            <input
-                              id="fullname"
-                              type="text"
-                              name="fullname"
-                              value=""
-                              data-rule-required="true"
-                              data-maskformat="alphabeticWgap"
-                              maxlength="100"
-                              autocomplete="new-password"
-                              class="tb-01"
-                              onkeyup="this.setAttribute('value', this.value);"
-                            />
-                            <label
-                              for="fullname"
-                              class="tb-placeholder-01"
-                            >
-                              Adınız Soyadınız
-                            </label>
-                          </div>
-                          <div class="c-item-03-A">
-                            <input
-                              id="email"
-                              type="text"
-                              name="email"
-                              value=""
-                              data-rule-required="true"
-                              data-rule-email="true"
-                              maxlength="100"
-                              autocomplete="new-password"
-                              class="tb-01"
-                              onkeyup="this.setAttribute('value', this.value);"
-                            />
-                            <label
-                              for="email"
-                              class="tb-placeholder-01"
-                            >
-                              E-posta
-                            </label>
-                          </div>
-                          <div class="c-item-03-A">
-                            <input
-                              id="mobileNumber"
-                              type="text"
-                              name="mobileNumber"
-                              value=""
-                              data-rule-minlength="15"
-                              data-rule-required="true"
-                              data-maskformat="phone"
-                              autocomplete="new-password"
-                              class="tb-01"
-                              onkeyup="this.setAttribute('value', this.value);"
-                            />
-                            <label
-                              for="mobileNumber"
-                              class="tb-placeholder-01"
-                            >
-                              Numaranız
-                            </label>
-                          </div>
-                          <div class="c-item-03-A">
-                            <textarea
-                              id="message"
-                              type="text"
-                              name="message"
-                              value=""
-                              autocomplete="new-password"
-                              class="ta-01"
-                              onkeyup="this.setAttribute('value', this.value);"
-                            ></textarea>
-                            <label
-                              for="message"
-                              class="tb-placeholder-01"
-                            >
-                              Mesajınız
-                            </label>
-                          </div>
-                          <div class="c-item-03-B">
-                            <div
-                              class="g-recaptcha"
-                              id="registirationRecaptcha"
-                            ></div>
+                        action="https://usebasin.com/f/7eb39c1bd42c"
+                  method="POST"
+                        class="c-item-03"
+                        id="registiration-process-form"
+                      >
+                        <div class="c-item-03-A">
+                          <input
+                            id="adiniz-soyadiniz"
+                            type="text"
+                            name="adiniz-soyadiniz"
+                            value=""
+                            data-rule-required="true"
+                            data-maskformat="alphabeticWgap"
+                            maxlength="100"
+                            autocomplete="new-password"
+                            class="tb-01"
+                            onkeyup="this.setAttribute('value', this.value);"
+                          />
+                          <label
+                            for="adiniz-soyadiniz"
+                            class="tb-placeholder-01"
+                          >
+                            Adınız Soyadınız
+                          </label>
+                        </div>
+                        <div class="c-item-03-A">
+                          <input
+                            id="e-posta"
+                            type="text"
+                            name="e-posta"
+                            value=""
+                            data-rule-required="true"
+                            data-rule-email="true"
+                            maxlength="100"
+                            autocomplete="new-password"
+                            class="tb-01"
+                            onkeyup="this.setAttribute('value', this.value);"
+                          />
+                          <label
+                            for="e-posta"
+                            class="tb-placeholder-01"
+                          >
+                            E-posta
+                          </label>
+                        </div>
+                        <div class="c-item-03-A">
+                          <input
+                            id="numaraniz"
+                            type="text"
+                            name="numaraniz"
+                            value=""
+                            data-rule-minlength="15"
+                            data-rule-required="true"
+                            data-maskformat="phone"
+                            autocomplete="new-password"
+                            class="tb-01"
+                            onkeyup="this.setAttribute('value', this.value);"
+                          />
+                          <label
+                            for="numaraniz"
+                            class="tb-placeholder-01"
+                          >
+                            Numaranız
+                          </label>
+                        </div>
+                        <div class="c-item-03-A">
+                          <textarea
+                            id="mesajiniz"
+                            type="text"
+                            name="mesajiniz"
+                            value=""
+                            autocomplete="new-password"
+                            class="ta-01"
+                            onkeyup="this.setAttribute('value', this.value);"
+                          ></textarea>
+                          <label
+                            for="mesajiniz"
+                            class="tb-placeholder-01"
+                          >
+                            Mesajınız
+                          </label>
+                        </div>
+                        <div class="c-item-03-B">
+                          <div
+                            class="g-recaptcha"
+                            id="registirationRecaptcha"
+                          ></div>
 
-                            <button
-                              type="submit"
-                              class="btn-01"
-                              onclick="FormActions.checkValidationAndSubmitForm({ ev: event, sender: this });"
-                            >
-                              Gönder
-                            </button>
-                          </div>
-                        </form>
+                          <button
+                            type="submit"
+                            class="btn-01"
+                            onclick="FormActions.checkValidationAndSubmitForm({ ev: event, sender: this });"
+                          >
+                            Gönder
+                          </button>
+                        </div>
+                      </form>
 
                         <svg
                           class="c-item-05"

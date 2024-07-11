@@ -171,14 +171,16 @@
                   arayalım
                 </p>
                 <form
+                  action="https://usebasin.com/f/7eb39c1bd42c"
+                  method="POST"
                   class="c-item-03"
                   id="information-form"
                 >
                   <div class="c-item-03-A">
                     <input
-                      id="fullname"
+                      id="veli-adi-soyadi"
                       type="text"
-                      name="fullname"
+                      name="veli-adi-soyadi"
                       value=""
                       data-rule-required="true"
                       data-maskformat="alphabeticWgap"
@@ -188,7 +190,7 @@
                       onkeyup="this.setAttribute('value', this.value);"
                     />
                     <label
-                      for="fullname"
+                      for="veli-adi-soyadi"
                       class="tb-placeholder-01"
                     >
                       Veli Adı Soyadı
@@ -196,9 +198,9 @@
                   </div>
                   <div class="c-item-03-A">
                     <input
-                      id="email"
+                      id="e-posta"
                       type="text"
-                      name="email"
+                      name="e-posta"
                       value=""
                       data-rule-required="true"
                       data-rule-email="true"
@@ -208,7 +210,7 @@
                       onkeyup="this.setAttribute('value', this.value);"
                     />
                     <label
-                      for="email"
+                      for="e-posta"
                       class="tb-placeholder-01"
                     >
                       E-posta
@@ -216,9 +218,9 @@
                   </div>
                   <div class="c-item-03-A">
                     <input
-                      id="mobileNumber"
+                      id="telefon-numaraniz"
                       type="text"
-                      name="mobileNumber"
+                      name="telefon-numaraniz"
                       value=""
                       data-rule-minlength="15"
                       data-rule-required="true"
@@ -228,7 +230,7 @@
                       onkeyup="this.setAttribute('value', this.value);"
                     />
                     <label
-                      for="mobileNumber"
+                      for="telefon-numaraniz"
                       class="tb-placeholder-01"
                     >
                       Telefon Numaranız
@@ -236,9 +238,9 @@
                   </div>
                   <div class="c-item-03-A">
                     <input
-                      id="studentFullname"
+                      id="ogrenci-adi-soyadi"
                       type="text"
-                      name="studentFullname"
+                      name="ogrenci-adi-soyadi"
                       value=""
                       data-rule-required="true"
                       data-maskformat="alphabeticWgap"
@@ -248,7 +250,7 @@
                       onkeyup="this.setAttribute('value', this.value);"
                     />
                     <label
-                      for="studentFullname"
+                      for="ogrenci-adi-soyadi"
                       class="tb-placeholder-01"
                     >
                       Öğrenci Adı Soyadı
@@ -257,20 +259,45 @@
                   <div class="c-item-03-A">
                     <select
                       class="select-01"
-                      id="campus"
-                      name="campus"
+                      id="kampus"
+                      name="kampus"
                       data-rule-required="true"
+                      value=""
+                      onchange="this.setAttribute('value', this.value);"
                     >
                       <option value="">Kampüs Seçiniz</option>
+                      <option value="Maltepe Minirenk Anaokulu">
+                        Maltepe Minirenk Anaokulu
+                      </option>
+                      <option value="Dragos Minirenk Anaokulu">
+                        Dragos Minirenk Anaokulu
+                      </option>
+                      <option value="Şerifali Minirenk Anaokulu">
+                        Şerifali Minirenk Anaokulu
+                      </option>
+                      <option value="Minirenk Koleji İlkokulu">
+                        Minirenk Koleji İlkokulu
+                      </option>
+                      <option value="Erenköy İngiliz Kültür Derneği Anaokulu">
+                        Erenköy İngiliz Kültür Derneği Anaokulu
+                      </option>
+                      <option value="Minirenk Koleji Anaokulu">
+                        Minirenk Koleji Anaokulu
+                      </option>
+                      <option value="Ada Minirenk Anaokulu">
+                        Ada Minirenk Anaokulu
+                      </option>
                     </select>
                   </div>
 
                   <div class="c-item-03-A">
                     <select
                       class="select-01"
-                      id="birth"
-                      name="birth"
+                      id="dogum-tarihi"
+                      name="dogum-tarihi"
                       data-rule-required="true"
+                      value=""
+                      onchange="this.setAttribute('value', this.value);"
                     >
                       <option value="">Doğum Tarihi</option>
                     </select>
@@ -283,6 +310,7 @@
                         name="kvkk"
                         type="checkbox"
                         data-rule-required="true"
+                        value="true"
                       />
                       <label
                         class="chk-label-01"
@@ -291,7 +319,12 @@
                       >
                         <span
                           >Kişisel Verilerin Korunması ve İşlenmesi Hakkındaki
-                          Aydınlatma Metni”ni okudum ve onaylıyorum.</span
+                          <a
+                            href="javascript:void(0);"
+                            target="_blank"
+                            >Aydınlatma Metni'ni</a
+                          >
+                          okudum ve onaylıyorum.</span
                         >
                       </label>
                     </div>
@@ -1330,7 +1363,7 @@
     <script src="Content/Scripts/Static/Home.js"></script>
 
     <script>
-      var birthSelect = document.getElementById('birth');
+      var birthSelect = document.getElementById('dogum-tarihi');
       var year = new Date().getFullYear() - 1;
 
       for (let i = 0; i < 18; i++) {
