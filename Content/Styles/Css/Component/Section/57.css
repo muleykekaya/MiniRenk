@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Common xs1, xs2 */
 /* Common XS1 and XS2 */
 @media all and (max-width: 767px) {
@@ -9,10 +10,33 @@
       align-items: center;
       justify-content: center; }
       .section-57 .c-container-01 .c-item-01 {
-        z-index: 1;
-        position: absolute; }
-        .section-57 .c-container-01 .c-item-01 img {
-          object-fit: cover; }
+        position: absolute;
+        z-index: 3;
+        width: 295px;
+        height: 193px;
+        left: calc(50% - 147.5px);
+        top: calc(50% - 91.5px);
+        overflow: hidden;
+        /* Taşan içeriği gizleyin */ }
+        .section-57 .c-container-01 .c-item-01 .c-item-01-A {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: url("/Content/Files/Images/Home/minirenkte-yasam/1.png") no-repeat center center;
+          background-size: contain;
+          opacity: 0.52;
+          mix-blend-mode: multiply; }
+        .section-57 .c-container-01 .c-item-01 .c-item-01-B {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          mask-image: url("/Content/Files/Images/Home/minirenkte-yasam/1.png");
+          /* Yıldız şeklindeki maskeyi belirtin */
+          mask-size: contain;
+          mask-repeat: no-repeat;
+          mask-position: center; }
       .section-57 .c-container-01 .c-item-02 {
         display: flex;
         flex-direction: column;
@@ -39,12 +63,33 @@
       align-items: center;
       justify-content: center; }
       .section-57 .c-container-01 .c-item-01 {
-        z-index: 1;
-        position: absolute; }
-        .section-57 .c-container-01 .c-item-01 img {
-          height: 100%;
+        position: absolute;
+        z-index: 3;
+        width: 606px;
+        height: 396px;
+        left: calc(50% - 303px);
+        top: calc(50% - 198px);
+        overflow: hidden;
+        /* Taşan içeriği gizleyin */ }
+        .section-57 .c-container-01 .c-item-01 .c-item-01-A {
+          position: absolute;
+          top: 0;
+          left: 0;
           width: 100%;
-          object-fit: cover; }
+          height: 100%;
+          background: url("/Content/Files/Images/Home/kariyer/1.png") no-repeat center center;
+          background-size: contain;
+          opacity: 0.52;
+          mix-blend-mode: multiply; }
+        .section-57 .c-container-01 .c-item-01 .c-item-01-B {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          mask-image: url("/Content/Files/Images/Home/kariyer/1.png");
+          /* Yıldız şeklindeki maskeyi belirtin */
+          mask-size: contain;
+          mask-repeat: no-repeat;
+          mask-position: center; }
       .section-57 .c-container-01 .c-item-02 {
         display: flex;
         flex-direction: column;

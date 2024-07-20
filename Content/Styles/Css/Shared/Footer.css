@@ -87,14 +87,19 @@
       .footer-01 .c-container-03 .c-wrapper {
         display: flex;
         justify-content: center;
-        align-items: center; }
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 12px; }
         .footer-01 .c-container-03 .c-wrapper.font {
           font-size: 12px;
           font-weight: 400;
           line-height: 24px;
           color: #1a4359; }
         .footer-01 .c-container-03 .c-wrapper .c-item-02 {
-          display: none; }
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 24px;
+          color: #1a4359; }
     .footer-01 .c-container-04 {
       display: flex;
       justify-content: flex-end;
@@ -102,7 +107,7 @@
       width: 100%;
       gap: 16px;
       position: fixed;
-      bottom: 36px;
+      bottom: 0;
       z-index: 100;
       padding: 16px; }
       .footer-01 .c-container-04 .c-item.bg-01 {

@@ -25,10 +25,10 @@
         background: #ffffff;
         overflow: hidden;
         .c-item-01 {
+          border-radius: 8px 8px 0px 0px;
           width: 100%;
-          img {
-            border-radius: 8px 8px 0px 0px;
-          }
+          height: 100%;
+          object-fit: cover;
         }
 
         .c-item-02 {
@@ -76,10 +76,10 @@
         background: #ffffff;
         overflow: hidden;
         .c-item-01 {
+          border-radius: 8px 8px 0px 0px;
           width: 100%;
-          img {
-            border-radius: 8px 8px 0px 0px;
-          }
+          height: 100%;
+          object-fit: cover;
         }
 
         .c-item-02 {

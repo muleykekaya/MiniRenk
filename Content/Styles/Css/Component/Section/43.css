@@ -19,9 +19,10 @@
       background: #ffffff;
       overflow: hidden; }
       .section-43 .c-wrapper .c-container-01 .c-item-01 {
-        width: 100%; }
-        .section-43 .c-wrapper .c-container-01 .c-item-01 img {
-          border-radius: 8px 8px 0px 0px; }
+        border-radius: 8px 8px 0px 0px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
       .section-43 .c-wrapper .c-container-01 .c-item-02 {
         display: flex;
         flex-direction: column;
@@ -56,9 +57,10 @@
         background: #ffffff;
         overflow: hidden; }
         .section-43 .c-wrapper .c-container-01 .c-item-01 {
-          width: 100%; }
-          .section-43 .c-wrapper .c-container-01 .c-item-01 img {
-            border-radius: 8px 8px 0px 0px; }
+          border-radius: 8px 8px 0px 0px;
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
         .section-43 .c-wrapper .c-container-01 .c-item-02 {
           display: flex;
           flex-direction: column;

@@ -8,7 +8,7 @@
     .comp-header-01 .top-banner {
       display: none; }
     .comp-header-01 .bottom {
-      background: #FFF;
+      background: #fff;
       box-shadow: 0px 5px 3.9px -4px #00000040; }
       .comp-header-01 .bottom .c-wrapper {
         height: 98px;
@@ -40,7 +40,7 @@
     overflow-y: initial !important;
     height: calc(100% - 218px); }
     .menu-body .c-item-01 {
-      background: #0C3F6D;
+      background: #0c3f6d;
       padding: 0 24px;
       height: 78px;
       display: flex;
@@ -49,9 +49,9 @@
       font-weight: 600;
       line-height: 25px;
       letter-spacing: 0em;
-      color: #FFFFFF; }
+      color: #ffffff; }
     .menu-body .c-item-02 {
-      background: #0066C1;
+      background: #0066c1;
       height: calc(100% - 78px);
       display: flex;
       flex-direction: column; }
@@ -72,7 +72,7 @@
             font-weight: 400;
             line-height: 30px;
             letter-spacing: 0em;
-            color: #FFF; }
+            color: #fff; }
             .menu-body .c-item-02 .c-item-02-A li a img {
               width: 52px;
               height: 26px; }
@@ -84,7 +84,7 @@
           display: flex; }
 
   .menu-footer {
-    background: #FFF; }
+    background: #fff; }
     .menu-footer .c-wrapper {
       height: 120px;
       display: flex;
@@ -105,7 +105,7 @@
     width: 100%;
     z-index: 200; }
     .comp-header-01 .top-banner {
-      background: #DDF1C4; }
+      background: #ddf1c4; }
       .comp-header-01 .top-banner .c-wrapper {
         display: flex;
         justify-content: end;
@@ -135,14 +135,14 @@
             align-items: center;
             gap: 10px; }
             .comp-header-01 .top-banner .c-wrapper .c-item-01 .c-item-01-B::before {
-              content: "";
+              content: '';
               width: 1px;
               height: 24px;
               background: #000; }
         .comp-header-01 .top-banner .c-wrapper .c-item-02 {
           display: flex; }
     .comp-header-01 .bottom {
-      background: #FFF;
+      background: #fff;
       box-shadow: 0px 5px 3.9px -4px #00000040; }
       .comp-header-01 .bottom .c-wrapper {
         height: 98px;
@@ -169,8 +169,10 @@
           -webkit-transition: border-bottom 0.25s, color 0.25s;
           transition: border-bottom 0.25s, color 0.25s;
           border-bottom: 2px solid rgba(255, 255, 255, 0); }
+          .comp-header-01 #menu-primary ul li a:not(.btn-04).active {
+            color: #0068c7; }
           .comp-header-01 #menu-primary ul li a:not(.btn-04):after {
-            content: "";
+            content: '';
             position: absolute;
             left: 0;
             right: 0;

@@ -101,12 +101,11 @@
             }
           }
         }
-
-        .c-container-02-B {
-          display: none;
-        }
       }
     }
+  }
+  .fixed-contact-items {
+    display: none;
   }
 }
 
@@ -208,19 +207,18 @@
             }
           }
         }
-
-        .c-container-02-B {
-          position: -webkit-sticky; /* Safari */
-          position: sticky;
-          right: 0;
-          top: 200px;
-          height: fit-content;
-
-          .c-item {
-            display: block;
-          }
-        }
       }
+    }
+  }
+
+  .fixed-contact-items {
+    position: fixed;
+    right: calc(50% - 640px);
+    top: 200px;
+    height: fit-content;
+    z-index: 198;
+    .c-item {
+      display: block;
     }
   }
 }

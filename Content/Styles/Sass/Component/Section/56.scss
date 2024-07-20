@@ -21,9 +21,9 @@
         overflow: hidden;
 
         .c-item-01 {
-          width: 400px;
-          height: 423px;
-          border-radius: 8px 8x 0 0;
+          width: 100%;
+          height: auto;
+          border-radius: 8px 8px 0 0;
           object-fit: cover;
         }
 
@@ -83,7 +83,7 @@
           flex-direction: column;
           gap: 20px;
           .c-item-02-A {
-            margin: 0 88px;
+            margin: 0 24px;
           }
           .c-item-02-B {
             margin: 0 108px;

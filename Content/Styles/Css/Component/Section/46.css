@@ -37,7 +37,7 @@
         line-height: 88px;
         text-align: center; }
       .section-46 .c-container-01 .c-item-03 {
-        margin: 0 640px;
+        max-width: 640px;
         color: #ffffff; } }
 
 /*# sourceMappingURL=46.css.map */

@@ -46,14 +46,14 @@ var CaptchaCallback = function () {
   var informationRecaptcha = document.getElementById('informationRecaptcha');
   if (registirationRecaptcha) {
     nRecaptcha = grecaptcha.render('registirationRecaptcha', {
-      sitekey: '6LdIUT8pAAAAABJzNE012CTJHkZpXC1euIi4mtPu',
+      sitekey: '6LedOA8qAAAAAPDdvjJSFP29ww-VyZdKtF44b5o-',
       theme: 'light',
       callback: registirationRecaptchaCallback,
     });
   }
   if (informationRecaptcha) {
     nRecaptcha = grecaptcha.render('informationRecaptcha', {
-      sitekey: '6LdIUT8pAAAAABJzNE012CTJHkZpXC1euIi4mtPu',
+      sitekey: '6LedOA8qAAAAAPDdvjJSFP29ww-VyZdKtF44b5o-',
       theme: 'light',
       callback: informationRecaptchaCallback,
     });

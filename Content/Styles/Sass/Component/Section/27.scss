@@ -15,9 +15,10 @@
       border-radius: 8px;
 
       .c-item-01 {
+        width: 100%;
         img {
           border-radius: 8px 8px 0 0;
-          height: 100%;
+          height: auto;
           width: 100%;
         }
       }
@@ -67,7 +68,8 @@
         img {
           position: absolute;
           bottom: 0;
-          right: -210px;
+          right: -168px;
+          width: 336px;
         }
       }
     }
@@ -78,11 +80,13 @@
       .c-wrapper {
         .c-item-03 {
           img {
-            bottom: -50px;
+            bottom: -36px;
+            width: 328px;
+            height: 334px;
           }
         }
         .c-item-02 {
-          margin-bottom: 262px;
+          margin-bottom: 192px;
         }
       }
     }
@@ -95,6 +99,8 @@
           img {
             right: -100px;
             bottom: -2px;
+            width: 272px;
+            height: 118px;
           }
         }
       }
@@ -108,6 +114,8 @@
           img {
             left: -150px;
             bottom: -3px;
+            width: 314px;
+            height: 192px;
           }
         }
         .c-item-02 {
@@ -121,7 +129,9 @@
       .c-wrapper {
         .c-item-03 {
           img {
-            left: 5px;
+            left: -14px;
+            width: 180px;
+            height: 272px;
           }
         }
         .c-item-02 {
@@ -155,7 +165,6 @@
       align-items: center;
       padding: 68px 0;
       border-radius: 8px;
-      overflow: hidden;
       .c-item-01 {
         img {
           border-radius: 8px 8px 0px 0px;

@@ -28,9 +28,11 @@
         line-height: 95.917%;
         /* 55.681px */
         margin-bottom: 28px; }
-      .section-60 .c-container-01 .c-unit-01 .c-item-03 img {
-        width: 100%;
-        object-fit: cover; }
+      .section-60 .c-container-01 .c-unit-01 .c-item-03 {
+        width: 100%; }
+        .section-60 .c-container-01 .c-unit-01 .c-item-03 img {
+          width: 100%;
+          object-fit: cover; }
     .section-60 .c-container-01 .c-unit-02 {
       margin: 32px 0 12px 0; }
       .section-60 .c-container-01 .c-unit-02 .c-wrapper {

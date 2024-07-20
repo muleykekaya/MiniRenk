@@ -11,10 +11,12 @@
       padding: 56px 0 0 0;
       overflow: hidden;
       border-radius: 8px; }
-      .section-27 .c-wrapper .c-item-01 img {
-        border-radius: 8px 8px 0 0;
-        height: 100%;
+      .section-27 .c-wrapper .c-item-01 {
         width: 100%; }
+        .section-27 .c-wrapper .c-item-01 img {
+          border-radius: 8px 8px 0 0;
+          height: auto;
+          width: 100%; }
       .section-27 .c-wrapper .c-item-02 {
         background: #ffffff;
         display: flex;
@@ -49,29 +51,38 @@
       .section-27 .c-wrapper .c-item-03 img {
         position: absolute;
         bottom: 0;
-        right: -210px; }
+        right: -168px;
+        width: 336px; }
     .section-27.V1 {
       background: #ffb73e; }
       .section-27.V1 .c-wrapper .c-item-03 img {
-        bottom: -50px; }
+        bottom: -36px;
+        width: 328px;
+        height: 334px; }
       .section-27.V1 .c-wrapper .c-item-02 {
-        margin-bottom: 262px; }
+        margin-bottom: 192px; }
     .section-27.V2 {
       background: #8522d7; }
       .section-27.V2 .c-wrapper .c-item-03 img {
         right: -100px;
-        bottom: -2px; }
+        bottom: -2px;
+        width: 272px;
+        height: 118px; }
     .section-27.V3 {
       background: #00d559; }
       .section-27.V3 .c-wrapper .c-item-03 img {
         left: -150px;
-        bottom: -3px; }
+        bottom: -3px;
+        width: 314px;
+        height: 192px; }
       .section-27.V3 .c-wrapper .c-item-02 {
         margin-bottom: 164px; }
     .section-27.V4 {
       background: #ff6b32; }
       .section-27.V4 .c-wrapper .c-item-03 img {
-        left: 5px; }
+        left: -14px;
+        width: 180px;
+        height: 272px; }
       .section-27.V4 .c-wrapper .c-item-02 {
         margin-bottom: 244px; } }
 @media all and (min-width: 420px) and (max-width: 767px) {
@@ -91,8 +102,7 @@
       justify-content: center;
       align-items: center;
       padding: 68px 0;
-      border-radius: 8px;
-      overflow: hidden; }
+      border-radius: 8px; }
       .section-27 .c-wrapper .c-item-01 img {
         border-radius: 8px 8px 0px 0px;
         object-fit: cover; }
