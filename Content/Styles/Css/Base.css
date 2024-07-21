@@ -806,7 +806,6 @@ main {
       width: 760px;
       margin: 0 auto 48px auto; }
     .section-06 .c-wrapper .c-container-01 .c-item-01-C {
-      display: flex;
       width: 100%; } }
 /* Common xs1, xs2 */
 @media all and (max-width: 767px) {
