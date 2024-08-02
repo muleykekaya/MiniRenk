@@ -2,6 +2,7 @@
   .footer-01 {
     padding-top: 102px; }
     .footer-01 .c-container-01 {
+      display: flex;
       height: 240px;
       background-color: #0068c7;
       margin-bottom: 46px; }
@@ -141,6 +142,7 @@
 /* Common sm, md, lg */
 @media all and (min-width: 768px) {
   .footer-01 .c-container-01 {
+    display: flex;
     height: 90px;
     background-color: #0068c7; }
     .footer-01 .c-container-01 .c-wrapper {

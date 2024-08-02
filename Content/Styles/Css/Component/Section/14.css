@@ -10,7 +10,8 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin: 62px 0 48px 0; }
+      margin: 62px 0 48px 0;
+      padding: 0 20px; }
       .section-14 .c-container-01 .c-item-02 .c-item-02-A {
         font-size: 38px;
         line-height: 42px;
